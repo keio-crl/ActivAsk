@@ -1,0 +1,272 @@
+[
+  {
+    "study": "offline",
+    "scene_id": "scene_001",
+    "image_path": "data/scenes/offline/scene_001.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_002",
+    "image_path": "data/scenes/offline/scene_002.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_003",
+    "image_path": "data/scenes/offline/scene_003.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_004",
+    "image_path": "data/scenes/offline/scene_004.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_005",
+    "image_path": "data/scenes/offline/scene_005.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_006",
+    "image_path": "data/scenes/offline/scene_006.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_007",
+    "image_path": "data/scenes/offline/scene_007.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_008",
+    "image_path": "data/scenes/offline/scene_008.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_009",
+    "image_path": "data/scenes/offline/scene_009.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_010",
+    "image_path": "data/scenes/offline/scene_010.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_011",
+    "image_path": "data/scenes/offline/scene_011.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_012",
+    "image_path": "data/scenes/offline/scene_012.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_013",
+    "image_path": "data/scenes/offline/scene_013.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_014",
+    "image_path": "data/scenes/offline/scene_014.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_015",
+    "image_path": "data/scenes/offline/scene_015.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_016",
+    "image_path": "data/scenes/offline/scene_016.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_017",
+    "image_path": "data/scenes/offline/scene_017.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_018",
+    "image_path": "data/scenes/offline/scene_018.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_019",
+    "image_path": "data/scenes/offline/scene_019.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_020",
+    "image_path": "data/scenes/offline/scene_020.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_021",
+    "image_path": "data/scenes/offline/scene_021.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_022",
+    "image_path": "data/scenes/offline/scene_022.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_023",
+    "image_path": "data/scenes/offline/scene_023.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_024",
+    "image_path": "data/scenes/offline/scene_024.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_025",
+    "image_path": "data/scenes/offline/scene_025.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_026",
+    "image_path": "data/scenes/offline/scene_026.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_027",
+    "image_path": "data/scenes/offline/scene_027.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_028",
+    "image_path": "data/scenes/offline/scene_028.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_029",
+    "image_path": "data/scenes/offline/scene_029.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_030",
+    "image_path": "data/scenes/offline/scene_030.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_031",
+    "image_path": "data/scenes/offline/scene_031.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_032",
+    "image_path": "data/scenes/offline/scene_032.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_033",
+    "image_path": "data/scenes/offline/scene_033.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_034",
+    "image_path": "data/scenes/offline/scene_034.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_035",
+    "image_path": "data/scenes/offline/scene_035.jpg"
+  },
+  {
+    "study": "offline",
+    "scene_id": "scene_036",
+    "image_path": "data/scenes/offline/scene_036.jpg"
+  },
+  {
+    "study": "online",
+    "scene_id": "scene_01",
+    "image_path": "data/scenes/online/scene_01.jpg"
+  },
+  {
+    "study": "online",
+    "scene_id": "scene_02",
+    "image_path": "data/scenes/online/scene_02.jpg"
+  },
+  {
+    "study": "online",
+    "scene_id": "scene_03",
+    "image_path": "data/scenes/online/scene_03.jpg"
+  },
+  {
+    "study": "online",
+    "scene_id": "scene_04",
+    "image_path": "data/scenes/online/scene_04.jpg"
+  },
+  {
+    "study": "online",
+    "scene_id": "scene_06",
+    "image_path": "data/scenes/online/scene_06.jpg"
+  },
+  {
+    "study": "online",
+    "scene_id": "scene_07",
+    "image_path": "data/scenes/online/scene_07.jpg"
+  },
+  {
+    "study": "online",
+    "scene_id": "scene_08",
+    "image_path": "data/scenes/online/scene_08.jpg"
+  },
+  {
+    "study": "online",
+    "scene_id": "scene_09",
+    "image_path": "data/scenes/online/scene_09.jpg"
+  },
+  {
+    "study": "online",
+    "scene_id": "scene_10",
+    "image_path": "data/scenes/online/scene_10.jpg"
+  },
+  {
+    "study": "online",
+    "scene_id": "scene_11",
+    "image_path": "data/scenes/online/scene_11.jpg"
+  },
+  {
+    "study": "online",
+    "scene_id": "scene_12",
+    "image_path": "data/scenes/online/scene_12.jpg"
+  },
+  {
+    "study": "online",
+    "scene_id": "scene_13",
+    "image_path": "data/scenes/online/scene_13.jpg"
+  },
+  {
+    "study": "online",
+    "scene_id": "scene_14",
+    "image_path": "data/scenes/online/scene_14.jpg"
+  },
+  {
+    "study": "online",
+    "scene_id": "scene_15",
+    "image_path": "data/scenes/online/scene_15.jpg"
+  },
+  {
+    "study": "online",
+    "scene_id": "scene_16",
+    "image_path": "data/scenes/online/scene_16.jpg"
+  },
+  {
+    "study": "online",
+    "scene_id": "scene_17",
+    "image_path": "data/scenes/online/scene_17.jpg"
+  },
+  {
+    "study": "online",
+    "scene_id": "scene_18",
+    "image_path": "data/scenes/online/scene_18.jpg"
+  },
+  {
+    "study": "online",
+    "scene_id": "scene_19",
+    "image_path": "data/scenes/online/scene_19.jpg"
+  }
+]

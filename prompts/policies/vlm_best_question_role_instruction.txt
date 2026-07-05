@@ -1,0 +1,7 @@
+Policy: VLM self-selected question
+Method key: vlm_best_question
+
+Use the base clarification system prompt.
+
+Role instruction:
+Generate valid candidate-grounded yes/no clarification proposals and mark the proposal judged most useful by the VLM as Question id=1. Put alternate valid proposals in the remaining question slots. Do not output a final grasp decision unless the current candidate state contains exactly one plausible candidate.

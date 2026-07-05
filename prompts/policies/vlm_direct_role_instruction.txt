@@ -1,0 +1,7 @@
+Policy: Direct VLM decision
+Method key: vlm_direct
+
+Use the direct-decision prompt.
+
+Role instruction:
+Use the same observation and candidate metadata but output a direct target choice rather than a yes/no clarification partition. Do not propose clarification questions. Target.name must be a candidate_id from Candidates.

@@ -1,0 +1,2478 @@
+{
+  "scene_001": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the cup."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up blue cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up bottom cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up green cup."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up left most cup."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up most left cup."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up red cup."
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up the blue cup."
+      },
+      {
+        "index": 8,
+        "instruction_text": "Pick up the cup in the middle."
+      },
+      {
+        "index": 9,
+        "instruction_text": "Pick up the green cup."
+      },
+      {
+        "index": 10,
+        "instruction_text": "Pick up the left most cup."
+      },
+      {
+        "index": 11,
+        "instruction_text": "Pick up the most left cup."
+      },
+      {
+        "index": 12,
+        "instruction_text": "Pick up the red cup."
+      },
+      {
+        "index": 13,
+        "instruction_text": "Pick up the right most cup."
+      },
+      {
+        "index": 14,
+        "instruction_text": "Pick up the yellow cup."
+      },
+      {
+        "index": 15,
+        "instruction_text": "Pick up yellow cup."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up cup on the left half."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up green cup."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up most center cup."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up orange cup."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the bottom cup."
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up the cup on the bottom half."
+      },
+      {
+        "index": 8,
+        "instruction_text": "Pick up the cup on the right half."
+      },
+      {
+        "index": 9,
+        "instruction_text": "Pick up the cup."
+      },
+      {
+        "index": 10,
+        "instruction_text": "Pick up the left cup."
+      },
+      {
+        "index": 11,
+        "instruction_text": "Pick up the most left cup."
+      },
+      {
+        "index": 12,
+        "instruction_text": "Pick up the orange cup."
+      },
+      {
+        "index": 13,
+        "instruction_text": "Pick up the top cup."
+      }
+    ]
+  },
+  "scene_002": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my cup"
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up my cup."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up blue cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up green cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up metal cup."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up most left cup."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up most metal cup."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up right orange cup."
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up the blue cup."
+      },
+      {
+        "index": 8,
+        "instruction_text": "Pick up the green cup."
+      },
+      {
+        "index": 9,
+        "instruction_text": "Pick up the green mug."
+      },
+      {
+        "index": 10,
+        "instruction_text": "Pick up the left most mug."
+      },
+      {
+        "index": 11,
+        "instruction_text": "Pick up the left orange cup."
+      },
+      {
+        "index": 12,
+        "instruction_text": "Pick up the metal cup."
+      },
+      {
+        "index": 13,
+        "instruction_text": "Pick up the right orange cup."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up center cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up center orange cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up left cup."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up most center cup."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up plastic cup."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the cup near the orange cup."
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up the cup near the orange one."
+      },
+      {
+        "index": 8,
+        "instruction_text": "Pick up the cup on the left half."
+      },
+      {
+        "index": 9,
+        "instruction_text": "Pick up the cup on the left."
+      },
+      {
+        "index": 10,
+        "instruction_text": "Pick up the cup with lid."
+      },
+      {
+        "index": 11,
+        "instruction_text": "Pick up the mug."
+      },
+      {
+        "index": 12,
+        "instruction_text": "Pick up the orange cup."
+      },
+      {
+        "index": 13,
+        "instruction_text": "Pick up top half cup."
+      }
+    ]
+  },
+  "scene_003": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my cup."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up green cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up metal cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up most right cup."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up red cup."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up small red cup."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the center cup."
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up the green cup."
+      },
+      {
+        "index": 8,
+        "instruction_text": "Pick up the metal cup."
+      },
+      {
+        "index": 9,
+        "instruction_text": "Pick up the orange cup."
+      },
+      {
+        "index": 10,
+        "instruction_text": "Pick up the red cup."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up center cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up left cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up orange cup."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up plastic cup."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up right cup."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the center cup."
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up the left cup."
+      },
+      {
+        "index": 8,
+        "instruction_text": "Pick up the metal cup."
+      },
+      {
+        "index": 9,
+        "instruction_text": "Pick up the orange cup."
+      },
+      {
+        "index": 10,
+        "instruction_text": "Pick up the plastic cup."
+      },
+      {
+        "index": 11,
+        "instruction_text": "Pick up the red cup."
+      },
+      {
+        "index": 12,
+        "instruction_text": "Pick up the right cup."
+      },
+      {
+        "index": 13,
+        "instruction_text": "Pick up the small red cup."
+      }
+    ]
+  },
+  "scene_004": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my cup."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up green cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up left blue cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up left most cup."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the green cup."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the left blue cup."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the left most cup."
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up the orange cup."
+      },
+      {
+        "index": 8,
+        "instruction_text": "Pick up the red cup."
+      },
+      {
+        "index": 9,
+        "instruction_text": "Pick up the yellow cup."
+      },
+      {
+        "index": 10,
+        "instruction_text": "Pick up yellow cup."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up green cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up left blue cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up left cup."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up left most cup."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up most right cup."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up right cup."
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up right most blue cup."
+      },
+      {
+        "index": 8,
+        "instruction_text": "Pick up right most cup."
+      },
+      {
+        "index": 9,
+        "instruction_text": "Pick up second right cup."
+      },
+      {
+        "index": 10,
+        "instruction_text": "Pick up the blue cup."
+      },
+      {
+        "index": 11,
+        "instruction_text": "Pick up the center cup."
+      },
+      {
+        "index": 12,
+        "instruction_text": "Pick up the left cup."
+      },
+      {
+        "index": 13,
+        "instruction_text": "Pick up the most right cup."
+      },
+      {
+        "index": 14,
+        "instruction_text": "Pick up the right cup."
+      }
+    ]
+  },
+  "scene_005": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my cup."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up blue cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up bottom cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up brown cup."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up center cup."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up left most cup."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the blue cup."
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up the bottom cup."
+      },
+      {
+        "index": 8,
+        "instruction_text": "Pick up the center cup."
+      },
+      {
+        "index": 9,
+        "instruction_text": "Pick up the green cup."
+      },
+      {
+        "index": 10,
+        "instruction_text": "Pick up the left most cup."
+      },
+      {
+        "index": 11,
+        "instruction_text": "Pick up the orange cup."
+      },
+      {
+        "index": 12,
+        "instruction_text": "Pick up the second left cup."
+      },
+      {
+        "index": 13,
+        "instruction_text": "Pick up the white cup."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up green cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up left cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up left most cup."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up metal cup."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up right cup."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the bottom cup."
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up the brown cup."
+      },
+      {
+        "index": 8,
+        "instruction_text": "Pick up the center cup."
+      },
+      {
+        "index": 9,
+        "instruction_text": "Pick up the green cup."
+      },
+      {
+        "index": 10,
+        "instruction_text": "Pick up the left cup."
+      },
+      {
+        "index": 11,
+        "instruction_text": "Pick up the left most cup."
+      },
+      {
+        "index": 12,
+        "instruction_text": "Pick up the orange cup."
+      },
+      {
+        "index": 13,
+        "instruction_text": "Pick up the right cup."
+      },
+      {
+        "index": 14,
+        "instruction_text": "Pick up the top cup."
+      },
+      {
+        "index": 15,
+        "instruction_text": "Pick up the yellow cup."
+      }
+    ]
+  },
+  "scene_006": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my cup."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the blue cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the bottom cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the brown cup."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the cup with pattern."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the green cup."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the left most cup."
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up the most left cup."
+      },
+      {
+        "index": 8,
+        "instruction_text": "Pick up the pink cup."
+      },
+      {
+        "index": 9,
+        "instruction_text": "Pick up the red cup."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the blue cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the center cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the cup with cover."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the green cup."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the left cup."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the most left cup."
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up the red cup."
+      }
+    ]
+  },
+  "scene_007": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Picky up my cup."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Picky up the blue cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Picky up the brown cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Picky up the green cup."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Picky up the red cup."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Picky up the white cup."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Picky up the yellow cup."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Picky up the bottom cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Picky up the center cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Picky up the green cup."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Picky up the left cup."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Picky up the pink cup."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Picky up the right cup."
+      }
+    ]
+  },
+  "scene_008": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my cup"
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up my cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the my cup"
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the blue cup"
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the blue cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the brown cup"
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the brown cup."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the brwon cup"
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the left most cup"
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up the pink cup"
+      },
+      {
+        "index": 8,
+        "instruction_text": "Pick up the red cup"
+      },
+      {
+        "index": 9,
+        "instruction_text": "Pick up the red cup."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the left cup"
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the left cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the white cup"
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the white cup."
+      }
+    ]
+  },
+  "scene_009": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my cup."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the green cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the left most cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the leftmost cup."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the metal cup."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the white cup."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the green cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the right cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the yellow cup."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the yellow cups."
+      }
+    ]
+  },
+  "scene_010": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the my cup."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the bottom cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the left most cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the left red cup."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the left yellow cup."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the right red cup."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the right yellow cup."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the red cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the yellow cup."
+      }
+    ]
+  },
+  "scene_011": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my bottle."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the blue bottle."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the left bottle."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the red bottle."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the tall bottle."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up center bottle."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up right bottle."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the bottom bottle."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the center bottle."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the right bottle."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the tall bottle."
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up the top bottle."
+      }
+    ]
+  },
+  "scene_012": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my bottle."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the blue bottle."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the green bottle."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the left most bottle."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the red bottle."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the left bottle."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the right bottle."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the top bottle."
+      }
+    ]
+  },
+  "scene_013": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my bottle."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the blue bottle."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the bottom bottle."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the brown bottle."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the green bottle."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the red bottle."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the right bottle."
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up the top bottle."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up left bottle."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the blue bottle."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the green bottle."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the left bottle."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the right bottle."
+      }
+    ]
+  },
+  "scene_014": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my bottle."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the black bottle."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the bottom bottle."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the green bottle."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the left most bottle."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the red bottle."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the tall bottle."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the left bottle."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the right bottle."
+      }
+    ]
+  },
+  "scene_015": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my bottle."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the black bottle."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the blue bottle."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the bottom bottle."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the green bottle."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the left most bottle."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the red bottle."
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up the right most bottle."
+      },
+      {
+        "index": 8,
+        "instruction_text": "Pick up the tall bottle."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the left bottle."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the right bottle."
+      }
+    ]
+  },
+  "scene_016": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my fork."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up my spoon."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the blue fork."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the blue spoon."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the green fork."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the left fork."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the pink spoon."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the right folk."
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up the yellow fork."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the blue fork."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the left fork."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the red fork."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the red spoon."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the right fork."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the right spoon."
+      }
+    ]
+  },
+  "scene_017": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my folk."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up my fork."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up my spoon."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the my fork."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the my spoon."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the blue fork."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the blue spoon."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the bottom fork."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the green fork."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the left fork."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the left spoon."
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up the pink spoon."
+      },
+      {
+        "index": 8,
+        "instruction_text": "Pick up the right fork."
+      },
+      {
+        "index": 9,
+        "instruction_text": "Pick up the right spoon."
+      },
+      {
+        "index": 10,
+        "instruction_text": "Pick up the small red fork."
+      },
+      {
+        "index": 11,
+        "instruction_text": "Pick up the spoon."
+      },
+      {
+        "index": 12,
+        "instruction_text": "Pick up the yellow fork."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick the left fork."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick the right spoon."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the left fork."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the left spoon."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the right spoon."
+      }
+    ]
+  },
+  "scene_018": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my folk."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up my fork."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up my spoon."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the blue folk."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the blue fork."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the blue spoon."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the green folk."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the green fork."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the pink spoon."
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up the yellow folk."
+      },
+      {
+        "index": 8,
+        "instruction_text": "Pick up the yellow fork."
+      },
+      {
+        "index": 9,
+        "instruction_text": "Pick up yellow fork."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up left fork."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up right spoon."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the left spoon."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the right folk."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the right fork."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the right spoon."
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up the top left folk."
+      },
+      {
+        "index": 8,
+        "instruction_text": "Pick up the top spoon."
+      }
+    ]
+  },
+  "scene_019": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "pick up my fork."
+      },
+      {
+        "index": 2,
+        "instruction_text": "pick up my spoon."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "pick up the blue fork."
+      },
+      {
+        "index": 2,
+        "instruction_text": "pick up the blue spoon."
+      },
+      {
+        "index": 3,
+        "instruction_text": "pick up the bottom spoon."
+      },
+      {
+        "index": 4,
+        "instruction_text": "pick up the green fork."
+      },
+      {
+        "index": 5,
+        "instruction_text": "pick up the pink spoon."
+      },
+      {
+        "index": 6,
+        "instruction_text": "pick up the red spoon."
+      },
+      {
+        "index": 7,
+        "instruction_text": "pick up the right spoon."
+      },
+      {
+        "index": 8,
+        "instruction_text": "pick up the yellow fork."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "pick up the left fork."
+      },
+      {
+        "index": 2,
+        "instruction_text": "pick up the right fork."
+      }
+    ]
+  },
+  "scene_020": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "pick up my fork."
+      },
+      {
+        "index": 2,
+        "instruction_text": "pick up my spoon."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "pick up the blue spoon."
+      },
+      {
+        "index": 2,
+        "instruction_text": "pick up the green spoon."
+      },
+      {
+        "index": 3,
+        "instruction_text": "pick up the red fork."
+      },
+      {
+        "index": 4,
+        "instruction_text": "pick up the red spoon."
+      },
+      {
+        "index": 5,
+        "instruction_text": "pick up the right spoon."
+      },
+      {
+        "index": 6,
+        "instruction_text": "pick up the yellow fork."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "pick up left fork."
+      },
+      {
+        "index": 2,
+        "instruction_text": "pick up left spoon."
+      },
+      {
+        "index": 3,
+        "instruction_text": "pick up pink fork."
+      },
+      {
+        "index": 4,
+        "instruction_text": "pick up pink spoon."
+      },
+      {
+        "index": 5,
+        "instruction_text": "pick up the left spoon."
+      },
+      {
+        "index": 6,
+        "instruction_text": "pick up the pink spoon."
+      }
+    ]
+  },
+  "scene_021": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "pick up my fork."
+      },
+      {
+        "index": 2,
+        "instruction_text": "pick up my spoon."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "pick up the blue spoon."
+      },
+      {
+        "index": 2,
+        "instruction_text": "pick up the green spoon."
+      },
+      {
+        "index": 3,
+        "instruction_text": "pick up the left spoon."
+      },
+      {
+        "index": 4,
+        "instruction_text": "pick up the orange spoon."
+      },
+      {
+        "index": 5,
+        "instruction_text": "pick up the red fork."
+      },
+      {
+        "index": 6,
+        "instruction_text": "pick up the red spoon."
+      },
+      {
+        "index": 7,
+        "instruction_text": "pick up the right spoon."
+      },
+      {
+        "index": 8,
+        "instruction_text": "pick up the yellow fork."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "pick up left spoon."
+      },
+      {
+        "index": 2,
+        "instruction_text": "pick up pink spoon."
+      },
+      {
+        "index": 3,
+        "instruction_text": "pick up the left spoon."
+      },
+      {
+        "index": 4,
+        "instruction_text": "pick up the pink spoon."
+      }
+    ]
+  },
+  "scene_022": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my fork."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up my spoon."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the blue spoon."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the green spoon."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the red fork."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the red spoon."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the right spoon."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the yellow fork."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up left spoon."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up pink spoon."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the left spoon."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the right spoon."
+      }
+    ]
+  },
+  "scene_023": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my spoon."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the dark blue spoon."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the green spoon."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the orange spoon."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the pink spoon."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the red spoon."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the right spoon."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the bottom spoon."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the left spoon."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the right spoon."
+      }
+    ]
+  },
+  "scene_024": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my fork."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the blue fork."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the bottom fork."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the green fork."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the left fork."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the red fork."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the yellow fork."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the left fork."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the right fork."
+      }
+    ]
+  },
+  "scene_025": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "pick up my fork."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "pick up the blue fork."
+      },
+      {
+        "index": 2,
+        "instruction_text": "pick up the green fork."
+      },
+      {
+        "index": 3,
+        "instruction_text": "pick up the left fork."
+      },
+      {
+        "index": 4,
+        "instruction_text": "pick up the red fork."
+      },
+      {
+        "index": 5,
+        "instruction_text": "pick up the right fork."
+      },
+      {
+        "index": 6,
+        "instruction_text": "pick up the yellow fork."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "pick up the green fork."
+      },
+      {
+        "index": 2,
+        "instruction_text": "pick up the red fork."
+      }
+    ]
+  },
+  "scene_026": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "pick up my bottle."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "pick up the black bottle."
+      },
+      {
+        "index": 2,
+        "instruction_text": "pick up the blue bottle."
+      },
+      {
+        "index": 3,
+        "instruction_text": "pick up the green bottle."
+      },
+      {
+        "index": 4,
+        "instruction_text": "pick up the left bottle."
+      },
+      {
+        "index": 5,
+        "instruction_text": "pick up the red bottle."
+      },
+      {
+        "index": 6,
+        "instruction_text": "pick up the tall bottle."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "pick up the center bottle."
+      },
+      {
+        "index": 2,
+        "instruction_text": "pick up the right bottle."
+      }
+    ]
+  },
+  "scene_027": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "pick up my bottle."
+      },
+      {
+        "index": 2,
+        "instruction_text": "pick up my cup."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "pick up the black bottle."
+      },
+      {
+        "index": 2,
+        "instruction_text": "pick up the bottom bottle."
+      },
+      {
+        "index": 3,
+        "instruction_text": "pick up the brown cup."
+      },
+      {
+        "index": 4,
+        "instruction_text": "pick up the center cup."
+      },
+      {
+        "index": 5,
+        "instruction_text": "pick up the green bottle."
+      },
+      {
+        "index": 6,
+        "instruction_text": "pick up the left bottle."
+      },
+      {
+        "index": 7,
+        "instruction_text": "pick up the left cup."
+      },
+      {
+        "index": 8,
+        "instruction_text": "pick up the pink cup."
+      },
+      {
+        "index": 9,
+        "instruction_text": "pick up the red bottle."
+      },
+      {
+        "index": 10,
+        "instruction_text": "pick up the red cup."
+      },
+      {
+        "index": 11,
+        "instruction_text": "pick up the right cup."
+      },
+      {
+        "index": 12,
+        "instruction_text": "pick up the top bottle."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "pick up the center bottle."
+      },
+      {
+        "index": 2,
+        "instruction_text": "pick up the right bottle."
+      },
+      {
+        "index": 3,
+        "instruction_text": "pick up the top bottle."
+      },
+      {
+        "index": 4,
+        "instruction_text": "pick up the top cup."
+      }
+    ]
+  },
+  "scene_028": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my bottle."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up my cup."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the blue cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the green bottle."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the green cup."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the left cup."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the red bottle."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the right cup."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the center cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the pink cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the red cup."
+      }
+    ]
+  },
+  "scene_029": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up my fork."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the my cup."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the blue cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the blue fork."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the cyan spoon."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the green cup."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the green fork."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the left cup."
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up the red fork."
+      },
+      {
+        "index": 8,
+        "instruction_text": "Pick up the red spoon."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up center cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up right cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the center cup."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the red cup."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the right cup."
+      }
+    ]
+  },
+  "scene_030": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my botlle."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up my bottle."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up my fork."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the blue bottle."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the blue fork."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the center bottle."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the cyan spoon."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the green bottle."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the green fork."
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up the left spoon."
+      },
+      {
+        "index": 8,
+        "instruction_text": "Pick up the red bottle."
+      },
+      {
+        "index": 9,
+        "instruction_text": "Pick up the red fork."
+      },
+      {
+        "index": 10,
+        "instruction_text": "Pick up the right bottle."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the center bottle."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the left spoon."
+      }
+    ]
+  },
+  "scene_031": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my bottle."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up my cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up my fork."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up left cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up metal cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up right cup."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the blue fork."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the cyan spoon."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the green bottle."
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up the green fork."
+      },
+      {
+        "index": 8,
+        "instruction_text": "Pick up the red bottle."
+      },
+      {
+        "index": 9,
+        "instruction_text": "Pick up the red fork."
+      },
+      {
+        "index": 10,
+        "instruction_text": "Pick up the red spoon."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the center bottle."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the left spoon."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the right fork."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the right spoon."
+      }
+    ]
+  },
+  "scene_032": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up my fork."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the my fork."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the blue fork."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the cyan spoon."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the green bottle."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the green cup."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the green fork."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the left cup."
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up the metal cup."
+      },
+      {
+        "index": 8,
+        "instruction_text": "Pick up the red bottle."
+      },
+      {
+        "index": 9,
+        "instruction_text": "Pick up the red cup."
+      },
+      {
+        "index": 10,
+        "instruction_text": "Pick up the red fork."
+      },
+      {
+        "index": 11,
+        "instruction_text": "Pick up the right cup."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the left spoon."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the right fork."
+      }
+    ]
+  },
+  "scene_033": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my bottle."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up my cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up my fork."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the blue fork."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the center cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the green bottle."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the green cup."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the green fork."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the green spoon."
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up the metal cup."
+      },
+      {
+        "index": 8,
+        "instruction_text": "Pick up the red bottle."
+      },
+      {
+        "index": 9,
+        "instruction_text": "Pick up the red cup."
+      },
+      {
+        "index": 10,
+        "instruction_text": "Pick up the red fork."
+      },
+      {
+        "index": 11,
+        "instruction_text": "Pick up the red spoon."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the center bottle."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the center cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the left spoon."
+      }
+    ]
+  },
+  "scene_034": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my cup."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the center bottle."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the green bottle."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the green cup."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the left cup."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the metal cup."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the orange spoon."
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up the red bottle."
+      },
+      {
+        "index": 8,
+        "instruction_text": "Pick up the red cup."
+      },
+      {
+        "index": 9,
+        "instruction_text": "Pick up the right bottle."
+      },
+      {
+        "index": 10,
+        "instruction_text": "Pick up the right cup."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the center cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the right cup."
+      }
+    ]
+  },
+  "scene_035": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my cup."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my fork."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the green bottle."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the green cup."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the orange spoon."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the pink spoon."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the red bottle."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the left cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the red cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the right cup."
+      }
+    ]
+  },
+  "scene_036": {
+    "ambiguous": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up my cup."
+      }
+    ],
+    "clear": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the center bottle."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the green bottle."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the orange spoon."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the pink spoon."
+      },
+      {
+        "index": 5,
+        "instruction_text": "Pick up the red bottle."
+      },
+      {
+        "index": 6,
+        "instruction_text": "Pick up the right bottle."
+      },
+      {
+        "index": 7,
+        "instruction_text": "Pick up the right cup."
+      },
+      {
+        "index": 8,
+        "instruction_text": "Pick up the yellow fork."
+      }
+    ],
+    "partial": [
+      {
+        "index": 1,
+        "instruction_text": "Pick up the center cup."
+      },
+      {
+        "index": 2,
+        "instruction_text": "Pick up the left cup."
+      },
+      {
+        "index": 3,
+        "instruction_text": "Pick up the red cup."
+      },
+      {
+        "index": 4,
+        "instruction_text": "Pick up the right bottle."
+      }
+    ]
+  }
+}

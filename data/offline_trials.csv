@@ -1,0 +1,1513 @@
+trial_id,scene_id,scene_family,method,instruction_type,instruction_text,candidate_count,asked,question_count,latency,target_correct,failure_category
+1,scene_001,cup_only,top_score,ambiguous,Pick up my cup.,6,False,0,34.341923,False,ambiguity_not_solved
+2,scene_001,cup_only,top_score,ambiguous,Pick up the cup.,6,False,0,10.63569,False,ambiguity_not_solved
+3,scene_001,cup_only,top_score,partial,Pick up cup.,6,False,0,6.717966,False,wrong
+4,scene_001,cup_only,top_score,partial,Pick up the orange cup.,6,False,0,21.049183,False,ambiguity_not_solved
+5,scene_001,cup_only,top_score,partial,Pick up the orange cup.,6,False,0,5.794375,True,none
+6,scene_001,cup_only,top_score,clear,Pick up the yellow cup.,7,False,0,67.697782,False,ambiguity_not_solved
+7,scene_001,cup_only,proposed_efe,clear,Pick up the green cup.,1,False,0,8.440147,True,none
+8,scene_001,cup_only,top_score,clear,Pick up the green cup.,1,False,0,16.494172,False,ambiguity_not_solved
+9,scene_001,cup_only,top_score,clear,Pick up the right most cup.,1,False,0,5.866002,True,none
+10,scene_001,cup_only,top_score,partial,Pick up the orange cup.,1,False,0,10.041961,False,gd_missing_target_candidate
+11,scene_001,cup_only,random_candidate,ambiguous,Pick up my cup.,6,False,0,11.472606,False,ambiguity_not_solved
+12,scene_001,cup_only,random_candidate,ambiguous,Pick up the cup.,6,False,0,41.984157,False,ambiguity_not_solved
+13,scene_001,cup_only,random_candidate,partial,Pick up the cup.,6,False,0,7.410148,True,none
+14,scene_001,cup_only,random_candidate,partial,Pick up the orange cup.,1,False,0,9.831251,False,gd_missing_target_candidate
+15,scene_001,cup_only,random_candidate,partial,Pick up the orange cup.,1,False,0,6.708487,False,gd_missing_target_candidate
+16,scene_001,cup_only,random_candidate,partial,Pick up the top cup.,0,False,0,6.071844,False,gd_missing_target_candidate
+17,scene_001,cup_only,random_candidate,clear,Pick up the blue cup.,1,False,0,10.110392,True,none
+18,scene_001,cup_only,random_candidate,clear,Pick up the red cup.,1,False,0,170.193262,True,none
+19,scene_001,cup_only,random_candidate,clear,Pick up the left most cup.,1,False,0,4.658508,True,none
+20,scene_001,cup_only,vlm_direct,clear,Pick up the left most cup.,1,False,0,5.773003,True,none
+21,scene_001,cup_only,vlm_direct,clear,Pick up the green cup.,1,False,0,5.832372,True,none
+22,scene_001,cup_only,vlm_direct,clear,Pick up the blue cup.,1,False,0,10.524811,True,none
+23,scene_001,cup_only,vlm_direct,partial,Pick up the orange cup.,1,False,0,4.336403,False,gd_missing_target_candidate
+24,scene_001,cup_only,vlm_direct,partial,Pick up the cup on the bottom half.,0,False,0,5.299427,False,gd_missing_target_candidate
+25,scene_001,cup_only,vlm_direct,partial,Pick up the left cup.,1,False,0,6.539261,True,none
+26,scene_001,cup_only,vlm_direct,partial,Pick up the bottom cup.,1,False,0,3.155287,True,none
+27,scene_001,cup_only,vlm_direct,ambiguous,Pick up my cup.,6,False,0,9.462311,True,none
+28,scene_001,cup_only,vlm_direct,ambiguous,Pick up my cup.,6,False,0,6.894268,False,ambiguity_not_solved
+29,scene_001,cup_only,first_question,clear,Pick up green cup.,1,False,0,4.430354,True,none
+30,scene_001,cup_only,first_question,clear,Pick up red cup.,1,False,0,4.311344,True,none
+31,scene_001,cup_only,first_question,clear,Pick up left most cup.,0,False,0,15.629906,True,none
+32,scene_001,cup_only,first_question,clear,Pick up most left cup.,1,False,0,4.639959,True,none
+33,scene_001,cup_only,first_question,clear,Pick up blue cup.,1,False,0,3.333414,True,none
+34,scene_001,cup_only,first_question,partial,Pick up orange cup.,1,False,0,3.801911,False,gd_missing_target_candidate
+35,scene_001,cup_only,first_question,ambiguous,Pick up my cup.,6,True,5,273.968555,True,none
+36,scene_001,cup_only,first_question,ambiguous,Pick up my cup.,6,True,3,166.753165,True,none
+37,scene_001,cup_only,first_question,ambiguous,Pick up my cup.,6,True,5,280.650817,True,none
+38,scene_001,cup_only,random_question,clear,Pick up green cup.,1,False,0,5.393949,True,none
+39,scene_001,cup_only,random_question,clear,Pick up green cup.,1,False,0,3.972204,True,none
+40,scene_001,cup_only,random_question,clear,Pick up bottom cup.,1,False,0,4.076189,False,wrong_object_selected
+41,scene_001,cup_only,random_question,partial,Pick up cup on the left half.,1,False,0,16.463345,True,none
+42,scene_001,cup_only,random_question,partial,Pick up orange cup.,1,False,0,4.011668,True,none
+43,scene_001,cup_only,random_question,partial,Pick up the cup on the right half.,1,False,0,5.543648,True,none
+44,scene_001,cup_only,random_question,ambiguous,Pick up my cup.,6,True,3,140.937339,True,none
+45,scene_001,cup_only,random_question,ambiguous,Pick up my cup.,6,True,6,316.266742,True,none
+46,scene_001,cup_only,random_question,ambiguous,Pick up my cup.,6,True,2,83.867238,True,none
+47,scene_001,cup_only,vlm_best_question,partial,Pick up green cup.,1,False,0,9.334763,True,none
+48,scene_001,cup_only,vlm_best_question,clear,Pick up green cup.,1,False,0,3.31273,True,none
+49,scene_001,cup_only,vlm_best_question,clear,Pick up yellow cup.,1,False,0,11.068928,True,none
+50,scene_001,cup_only,vlm_best_question,clear,Pick up the cup in the middle.,1,False,0,18.623123,False,wrong_object_selected
+51,scene_001,cup_only,vlm_best_question,partial,Pick up the most left cup.,1,False,0,4.620884,True,none
+52,scene_001,cup_only,vlm_best_question,clear,Pick up the most left cup.,1,False,0,3.653377,True,none
+53,scene_001,cup_only,vlm_best_question,ambiguous,Pick up my cup.,6,True,6,425.967494,True,none
+54,scene_001,cup_only,vlm_best_question,ambiguous,Pick up my cup.,6,True,4,144.732291,True,none
+55,scene_001,cup_only,vlm_best_question,ambiguous,Pick up my cup.,6,True,4,255.202848,True,none
+56,scene_001,cup_only,proposed_efe,clear,Pick up green cup.,1,False,0,4.53449,True,none
+57,scene_001,cup_only,proposed_efe,clear,Pick up yellow cup.,1,False,0,17.645996,True,none
+58,scene_001,cup_only,proposed_efe,clear,Pick up most left cup.,1,False,0,7.318148,True,none
+59,scene_001,cup_only,proposed_efe,partial,Pick up orange cup.,1,False,0,4.096808,True,none
+60,scene_001,cup_only,proposed_efe,partial,Pick up most center cup.,1,False,0,9.394409,False,wrong_object_selected
+61,scene_001,cup_only,proposed_efe,ambiguous,Pick up my cup.,6,True,3,135.401839,True,none
+62,scene_001,cup_only,proposed_efe,ambiguous,Pick up my cup.,6,True,3,92.614301,True,none
+63,scene_002,cup_only,top_score,clear,Pick up the green cup.,1,False,0,5.80236,True,none
+64,scene_002,cup_only,top_score,clear,Pick up the blue cup.,1,False,0,10.680567,True,none
+65,scene_002,cup_only,top_score,clear,Pick up the metal cup.,1,False,0,5.559583,True,none
+66,scene_002,cup_only,top_score,partial,Pick up the orange cup.,1,False,0,7.890546,False,gd_missing_target_candidate
+67,scene_002,cup_only,top_score,partial,Pick up the cup on the left half.,1,False,0,7.873797,False,gd_missing_target_candidate
+68,scene_002,cup_only,top_score,partial,Pick up the cup near the orange one.,0,False,0,12.617942,False,gd_missing_target_candidate
+69,scene_002,cup_only,top_score,ambiguous,Pick up my cup.,6,False,0,7.667821,False,ambiguity_not_solved
+70,scene_002,cup_only,top_score,ambiguous,Pick up my cup.,6,False,0,3.066881,False,ambiguity_not_solved
+71,scene_002,cup_only,top_score,ambiguous,Pick up my cup.,6,False,0,2.541047,False,ambiguity_not_solved
+72,scene_002,cup_only,random_candidate,ambiguous,Pick up my cup.,6,False,0,4.228005,True,none
+73,scene_002,cup_only,random_candidate,ambiguous,Pick up my cup.,6,False,0,4.846076,False,ambiguity_not_solved
+74,scene_002,cup_only,random_candidate,ambiguous,Pick up my cup.,6,False,0,7.000682,False,ambiguity_not_solved
+75,scene_002,cup_only,random_candidate,partial,Pick up left cup.,1,False,0,4.12795,False,gd_missing_target_candidate
+76,scene_002,cup_only,random_candidate,partial,Pick up the cup near the orange cup.,0,False,0,7.832909,False,gd_missing_target_candidate
+77,scene_002,cup_only,random_candidate,partial,Pick up the mug.,6,False,0,4.841418,False,ambiguity_not_solved
+78,scene_002,cup_only,random_candidate,clear,Pick up the green mug.,1,False,0,3.284443,True,none
+79,scene_002,cup_only,random_candidate,clear,Pick up the green mug.,1,False,0,2.753905,True,none
+80,scene_002,cup_only,random_candidate,clear,Pick up the left most mug.,1,False,0,4.636697,True,none
+81,scene_002,cup_only,random_candidate,clear,Pick up the right orange cup.,1,False,0,6.882124,True,none
+82,scene_002,cup_only,vlm_direct,clear,Pick up the green cup.,1,False,0,6.025719,True,none
+83,scene_002,cup_only,vlm_direct,clear,Pick up the left orange cup.,1,False,0,4.22635,True,none
+84,scene_002,cup_only,vlm_direct,partial,Pick up the orange cup.,1,False,0,4.277363,False,gd_missing_target_candidate
+85,scene_002,cup_only,vlm_direct,partial,Pick up the cup with lid.,6,False,0,9.017625,False,wrong_object_selected
+86,scene_002,cup_only,vlm_direct,partial,Pick up the cup on the left.,6,False,0,5.670061,False,ambiguity_not_solved
+87,scene_002,cup_only,vlm_direct,partial,Pick up top half cup.,1,False,0,6.823325,False,gd_missing_target_candidate
+88,scene_002,cup_only,vlm_direct,ambiguous,Pick up my cup.,6,False,0,20.75725,False,ambiguity_not_solved
+89,scene_002,cup_only,vlm_direct,ambiguous,Pick up my cup.,6,False,0,7.084822,False,ambiguity_not_solved
+90,scene_002,cup_only,vlm_direct,ambiguous,Pick up my cup.,6,False,0,4.541513,False,ambiguity_not_solved
+91,scene_002,cup_only,first_question,clear,Pick up right orange cup.,1,False,0,5.958928,True,none
+92,scene_002,cup_only,first_question,clear,Pick up metal cup.,1,False,0,4.096875,True,none
+93,scene_002,cup_only,first_question,partial,Pick up center cup.,6,True,2,107.443346,True,none
+94,scene_002,cup_only,first_question,partial,Pick up left cup.,1,False,0,16.409783,True,none
+95,scene_002,cup_only,first_question,partial,Pick up plastic cup.,6,True,4,175.694044,True,none
+96,scene_002,cup_only,first_question,ambiguous,Pick up my cup.,6,True,5,513.36233,True,none
+97,scene_002,cup_only,first_question,ambiguous,Pick up my cup,6,True,1,73.696962,True,none
+98,scene_002,cup_only,first_question,ambiguous,Pick up my cup,6,True,5,278.043268,True,none
+99,scene_002,cup_only,random_question,ambiguous,Pick up my cup,6,True,4,236.152967,True,none
+100,scene_002,cup_only,random_question,ambiguous,Pick up my cup.,6,True,4,262.853043,True,none
+101,scene_002,cup_only,random_question,ambiguous,Pick up my cup.,6,True,2,93.008439,True,none
+102,scene_002,cup_only,random_question,clear,Pick up green cup.,1,False,0,5.998768,True,none
+103,scene_002,cup_only,random_question,clear,Pick up most left cup.,1,False,0,3.741898,True,none
+104,scene_002,cup_only,random_question,clear,Pick up metal cup.,1,False,0,14.946247,True,none
+105,scene_002,cup_only,random_question,partial,Pick up center cup.,6,True,1,266.39661,False,wrong_object_selected
+106,scene_002,cup_only,random_question,partial,Pick up left cup.,1,False,0,5.524074,True,none
+107,scene_002,cup_only,vlm_best_question,partial,Pick up center cup.,6,True,2,185.919697,True,none
+108,scene_002,cup_only,vlm_best_question,partial,Pick up center orange cup.,1,False,0,4.404628,True,none
+109,scene_002,cup_only,vlm_best_question,clear,Pick up green cup.,1,False,0,2.969459,True,none
+110,scene_002,cup_only,vlm_best_question,clear,Pick up blue cup.,1,False,0,2.682189,True,none
+111,scene_002,cup_only,vlm_best_question,clear,Pick up metal cup.,1,False,0,3.274429,True,none
+112,scene_002,cup_only,vlm_best_question,ambiguous,Pick up my cup.,6,True,5,289.596915,True,none
+113,scene_002,cup_only,vlm_best_question,ambiguous,Pick up my cup.,6,True,3,188.785297,True,none
+114,scene_002,cup_only,vlm_best_question,ambiguous,Pick up my cup.,6,True,4,191.766293,True,none
+115,scene_002,cup_only,proposed_efe,clear,Pick up green cup.,1,False,0,3.422075,True,none
+116,scene_002,cup_only,proposed_efe,clear,Pick up most metal cup.,1,False,0,5.95779,True,none
+117,scene_002,cup_only,proposed_efe,partial,Pick up most center cup.,1,False,0,27.045399,False,wrong
+118,scene_002,cup_only,proposed_efe,partial,Pick up center cup.,6,True,2,157.282587,True,none
+119,scene_002,cup_only,proposed_efe,ambiguous,Pick up my cup.,6,True,2,113.72074,True,none
+120,scene_002,cup_only,proposed_efe,ambiguous,Pick up my cup.,6,True,2,107.263172,True,none
+121,scene_002,cup_only,proposed_efe,ambiguous,Pick up my cup.,6,True,4,164.249324,True,none
+122,scene_003,cup_only,top_score,clear,Pick up the green cup.,1,False,0,6.425703,True,none
+123,scene_003,cup_only,top_score,clear,Pick up the orange cup.,1,False,0,3.397833,True,none
+124,scene_003,cup_only,top_score,clear,Pick up the metal cup.,1,False,0,5.751498,True,none
+125,scene_003,cup_only,top_score,partial,Pick up the center cup.,1,False,0,5.484616,True,none
+126,scene_003,cup_only,top_score,ambiguous,Pick up my cup.,6,False,0,3.514243,False,ambiguity_not_solved
+127,scene_003,cup_only,top_score,ambiguous,Pick up my cup.,6,False,0,2.850094,False,wrong
+128,scene_003,cup_only,random_candidate,ambiguous,Pick up my cup.,6,False,0,7.752831,False,wrong
+129,scene_003,cup_only,random_candidate,ambiguous,Pick up my cup.,6,False,0,6.779366,False,ambiguity_not_solved
+130,scene_003,cup_only,random_candidate,ambiguous,Pick up my cup.,6,False,0,3.162726,False,ambiguity_not_solved
+131,scene_003,cup_only,random_candidate,partial,Pick up center cup.,1,False,0,3.378711,True,none
+132,scene_003,cup_only,random_candidate,partial,Pick up plastic cup.,1,False,0,8.436582,False,gd_missing_target_candidate
+133,scene_003,cup_only,random_candidate,clear,Pick up metal cup.,1,False,0,3.876125,True,none
+134,scene_003,cup_only,random_candidate,partial,Pick up orange cup.,1,False,0,4.634008,True,none
+135,scene_003,cup_only,vlm_direct,clear,Pick up most right cup.,1,False,0,3.312626,True,none
+136,scene_003,cup_only,vlm_direct,clear,Pick up green cup.,1,False,0,3.230817,True,none
+137,scene_003,cup_only,vlm_direct,clear,Pick up metal cup.,1,False,0,5.612354,True,none
+138,scene_003,cup_only,vlm_direct,clear,Pick up the red cup.,1,False,0,13.626211,False,wrong
+139,scene_003,cup_only,vlm_direct,clear,Pick up the center cup.,1,False,0,3.141098,True,none
+140,scene_003,cup_only,vlm_direct,clear,Pick up small red cup.,1,False,0,6.98331,True,none
+141,scene_003,cup_only,vlm_direct,ambiguous,Pick up my cup.,6,False,0,63.039341,False,ambiguity_not_solved
+142,scene_003,cup_only,vlm_direct,ambiguous,Pick up my cup.,6,False,0,76.240851,False,ambiguity_not_solved
+143,scene_003,cup_only,first_question,clear,Pick up small red cup.,1,False,0,4.672301,True,none
+144,scene_003,cup_only,first_question,clear,Pick up metal cup.,1,False,0,3.284054,True,none
+145,scene_003,cup_only,first_question,partial,Pick up the left cup.,6,True,2,97.571024,True,none
+146,scene_003,cup_only,first_question,partial,Pick up the red cup.,1,False,0,5.327589,True,none
+147,scene_003,cup_only,first_question,partial,Pick up the plastic cup.,1,False,0,9.596575,False,gd_missing_target_candidate
+148,scene_003,cup_only,first_question,ambiguous,Pick up my cup.,6,True,4,247.139147,True,none
+149,scene_003,cup_only,first_question,ambiguous,Pick up my cup.,6,True,1,82.755538,True,none
+150,scene_003,cup_only,first_question,ambiguous,Pick up my cup.,6,True,3,237.105303,True,none
+151,scene_003,cup_only,random_question,clear,Pick up green cup.,1,False,0,2.827022,True,none
+152,scene_003,cup_only,random_question,clear,Pick up metal cup.,1,False,0,2.956875,True,none
+153,scene_003,cup_only,random_question,clear,Pick up red cup.,1,False,0,5.772357,True,none
+154,scene_003,cup_only,random_question,partial,Pick up right cup.,6,True,3,199.436825,True,none
+155,scene_003,cup_only,random_question,partial,Pick up plastic cup.,1,False,0,61.254825,True,none
+156,scene_003,cup_only,random_question,ambiguous,Pick up my cup.,6,True,4,358.316263,True,none
+157,scene_003,cup_only,random_question,ambiguous,Pick up my cup.,6,True,3,155.227285,True,none
+158,scene_003,cup_only,random_question,ambiguous,Pick up my cup.,6,True,4,301.078929,True,none
+159,scene_003,cup_only,vlm_best_question,ambiguous,Pick up my cup.,6,True,3,191.997023,True,none
+160,scene_003,cup_only,vlm_best_question,ambiguous,Pick up my cup.,6,True,3,180.347603,True,none
+161,scene_003,cup_only,vlm_best_question,ambiguous,Pick up my cup.,6,True,1,69.399564,True,none
+162,scene_003,cup_only,vlm_best_question,clear,Pick up green cup.,1,False,0,3.251172,True,none
+163,scene_003,cup_only,vlm_best_question,clear,Pick up small red cup.,1,False,0,3.794307,True,none
+164,scene_003,cup_only,vlm_best_question,partial,Pick up center cup.,1,False,0,2.848645,True,none
+165,scene_003,cup_only,vlm_best_question,partial,Pick up left cup.,6,False,0,154.088593,True,none
+166,scene_003,cup_only,proposed_efe,partial,Pick up the left cup.,6,True,2,166.224665,True,none
+167,scene_003,cup_only,proposed_efe,partial,Pick up the right cup.,6,True,3,295.807719,True,none
+168,scene_003,cup_only,proposed_efe,partial,Pick up the center cup.,1,False,0,2.643423,True,none
+169,scene_003,cup_only,proposed_efe,partial,Pick up the orange cup.,1,False,0,3.660134,True,none
+170,scene_003,cup_only,proposed_efe,partial,Pick up the metal cup.,1,False,0,5.727169,True,none
+171,scene_003,cup_only,proposed_efe,partial,Pick up the small red cup.,1,False,0,8.844692,True,none
+172,scene_003,cup_only,proposed_efe,ambiguous,Pick up my cup.,6,True,2,173.980524,True,none
+173,scene_003,cup_only,proposed_efe,ambiguous,Pick up my cup.,6,True,2,166.521505,True,none
+174,scene_003,cup_only,proposed_efe,ambiguous,Pick up my cup.,6,True,2,212.887559,True,none
+175,scene_004,cup_only,top_score,clear,Pick up the yellow cup.,1,False,0,23.043691,True,none
+176,scene_004,cup_only,top_score,clear,Pick up the left most cup.,6,False,0,4.690238,False,gd_label_error
+177,scene_004,cup_only,top_score,clear,Pick up the orange cup.,1,False,0,5.622058,True,none
+178,scene_004,cup_only,top_score,partial,Pick up the blue cup.,1,False,0,6.838116,False,gd_missing_target_candidate
+179,scene_004,cup_only,top_score,partial,Pick up the center cup.,1,False,0,7.784766,True,none
+180,scene_004,cup_only,top_score,partial,Pick up the left cup.,6,False,0,9.0057,False,ambiguity_not_solved
+181,scene_004,cup_only,top_score,ambiguous,Pick up my cup.,6,False,0,5.16916,False,ambiguity_not_solved
+182,scene_004,cup_only,top_score,ambiguous,Pick up my cup.,6,False,0,3.407107,False,ambiguity_not_solved
+183,scene_004,cup_only,top_score,ambiguous,Pick up my cup.,6,False,0,1.893994,False,ambiguity_not_solved
+184,scene_004,cup_only,random_candidate,ambiguous,Pick up my cup.,6,False,0,5.7402,True,none
+185,scene_004,cup_only,random_candidate,ambiguous,Pick up my cup.,6,False,0,7.984802,False,ambiguity_not_solved
+186,scene_004,cup_only,random_candidate,ambiguous,Pick up my cup.,6,False,0,5.205658,False,ambiguity_not_solved
+187,scene_004,cup_only,random_candidate,clear,Pick up the green cup.,1,False,0,2.814369,True,none
+188,scene_004,cup_only,random_candidate,clear,Pick up the red cup.,1,False,0,2.966231,True,none
+189,scene_004,cup_only,random_candidate,clear,Pick up the left blue cup.,6,False,0,7.346907,True,none
+190,scene_004,cup_only,proposed_efe,clear,Pick up the left blue cup.,1,False,0,4.01744,True,none
+191,scene_004,cup_only,random_candidate,clear,Pick up the left blue cup.,1,False,0,2.788029,True,none
+192,scene_004,cup_only,vlm_direct,clear,Pick up the left blue cup.,1,False,0,3.063957,True,none
+193,scene_004,cup_only,vlm_direct,clear,Pick up the green cup.,1,False,0,4.259048,True,none
+194,scene_004,cup_only,vlm_direct,partial,Pick up the center cup.,1,False,0,4.06868,True,none
+195,scene_004,cup_only,vlm_direct,partial,Pick up the blue cup.,1,False,0,3.429856,False,gd_missing_target_candidate
+196,scene_004,cup_only,vlm_direct,partial,Pick up the right cup.,1,False,0,6.878874,False,gd_missing_target_candidate
+197,scene_004,cup_only,vlm_direct,ambiguous,Pick up my cup.,6,False,0,47.13067,False,ambiguity_not_solved
+198,scene_004,cup_only,vlm_direct,ambiguous,Pick up my cup.,6,False,0,66.383851,True,none
+199,scene_004,cup_only,vlm_direct,ambiguous,Pick up my cup.,6,False,0,56.644291,False,ambiguity_not_solved
+200,scene_004,cup_only,first_question,ambiguous,Pick up my cup.,6,True,4,291.89188,True,none
+201,scene_004,cup_only,first_question,ambiguous,Pick up my cup.,6,True,4,179.69029,True,none
+202,scene_004,cup_only,first_question,clear,Pick up green cup.,1,False,0,2.048777,True,none
+203,scene_004,cup_only,first_question,clear,Pick up left blue cup.,1,False,0,7.946814,True,none
+204,scene_004,cup_only,first_question,clear,Pick up left most cup.,1,False,0,3.503547,True,none
+205,scene_004,cup_only,first_question,partial,Pick up right most cup.,1,False,0,7.571804,True,none
+206,scene_004,cup_only,first_question,partial,Pick up right most blue cup.,1,False,0,5.426207,True,none
+207,scene_004,cup_only,first_question,partial,Pick up second right cup.,1,False,0,12.20725,True,none
+208,scene_004,cup_only,first_question,partial,Pick up the center cup.,1,False,0,2.759343,True,none
+209,scene_004,cup_only,random_question,partial,Pick up the center cup.,1,False,0,2.089413,True,none
+210,scene_004,cup_only,random_question,partial,Pick up the right cup.,1,False,0,2.552319,True,none
+211,scene_004,cup_only,random_question,partial,Pick up the most right cup.,1,False,0,3.603159,True,none
+212,scene_004,cup_only,random_question,clear,Pick up the left blue cup.,1,False,0,2.821307,True,none
+213,scene_004,cup_only,random_question,clear,Pick up the red cup.,1,False,0,2.768351,True,none
+214,scene_004,cup_only,random_question,ambiguous,Pick up my cup.,6,True,1,64.536902,True,none
+215,scene_004,cup_only,random_question,ambiguous,Pick up my cup.,6,True,3,149.497427,True,none
+216,scene_004,cup_only,random_question,ambiguous,Pick up my cup.,6,True,4,278.788142,True,none
+217,scene_004,cup_only,vlm_best_question,ambiguous,Pick up my cup.,6,True,4,254.987654,True,none
+218,scene_004,cup_only,vlm_best_question,ambiguous,Pick up my cup.,6,True,4,211.589522,True,none
+219,scene_004,cup_only,vlm_best_question,ambiguous,Pick up my cup.,6,True,3,172.940541,True,none
+220,scene_004,cup_only,vlm_best_question,partial,Pick up green cup.,1,False,0,2.734168,True,none
+221,scene_004,cup_only,vlm_best_question,partial,Pick up left blue cup.,1,False,0,2.250685,True,none
+222,scene_004,cup_only,vlm_best_question,partial,Pick up left most cup.,1,False,0,31.253783,True,none
+223,scene_004,cup_only,vlm_best_question,partial,Pick up right most cup.,1,False,0,10.572846,True,none
+224,scene_004,cup_only,vlm_best_question,partial,Pick up left cup.,1,False,0,2.37941,True,none
+225,scene_004,cup_only,proposed_efe,partial,Pick up left cup.,1,False,0,1.664516,True,none
+226,scene_004,cup_only,proposed_efe,partial,Pick up most right cup.,1,False,0,4.009392,True,none
+227,scene_004,cup_only,proposed_efe,partial,Pick up right cup.,1,False,0,3.7974,True,none
+228,scene_004,cup_only,proposed_efe,clear,Pick up yellow cup.,1,False,0,6.281416,True,none
+229,scene_004,cup_only,proposed_efe,clear,Pick up left most cup.,1,False,0,2.597816,True,none
+230,scene_004,cup_only,proposed_efe,ambiguous,Pick up my cup.,6,True,2,182.138286,True,none
+231,scene_004,cup_only,proposed_efe,ambiguous,Pick up my cup.,6,True,2,130.711025,True,none
+232,scene_004,cup_only,proposed_efe,ambiguous,Pick up my cup.,6,True,4,497.514775,True,none
+233,scene_005,cup_only,proposed_efe,ambiguous,Pick up my cup.,6,True,3,163.578405,True,none
+234,scene_005,cup_only,top_score,ambiguous,Pick up my cup.,6,False,0,2.778282,False,ambiguity_not_solved
+235,scene_005,cup_only,top_score,ambiguous,Pick up my cup.,6,False,0,2.634958,False,ambiguity_not_solved
+236,scene_005,cup_only,top_score,ambiguous,Pick up my cup.,6,False,0,3.010809,False,ambiguity_not_solved
+237,scene_005,cup_only,top_score,partial,Pick up left most cup.,1,False,0,4.832101,True,none
+238,scene_005,cup_only,top_score,partial,Pick up the bottom cup.,1,False,0,3.563522,True,none
+239,scene_005,cup_only,top_score,partial,Pick up the yellow cup.,1,False,0,9.612828,True,none
+240,scene_005,cup_only,top_score,partial,Pick up the left most cup.,1,False,0,2.719057,True,none
+241,scene_005,cup_only,random_candidate,partial,Pick up the left most cup.,1,False,0,9.764897,True,none
+242,scene_005,cup_only,random_candidate,clear,Pick up the second left cup.,1,False,0,3.358339,True,none
+243,scene_005,cup_only,random_candidate,clear,Pick up the green cup.,2,False,0,22.924998,True,none
+244,scene_005,cup_only,random_candidate,clear,Pick up center cup.,1,False,0,3.56418,True,none
+245,scene_005,cup_only,random_candidate,partial,Pick up right cup.,6,False,0,8.257492,False,gd_missing_target_candidate
+246,scene_005,cup_only,random_candidate,partial,Pick up green cup.,2,False,0,7.782282,True,none
+247,scene_005,cup_only,random_candidate,ambiguous,Pick up my cup.,6,False,0,5.776909,False,ambiguity_not_solved
+248,scene_005,cup_only,random_candidate,ambiguous,Pick up my cup.,6,False,0,5.05187,False,wrong
+249,scene_005,cup_only,random_candidate,ambiguous,Pick up my cup.,6,False,0,3.374165,True,none
+250,scene_005,cup_only,vlm_direct,ambiguous,Pick up my cup.,6,False,0,48.322722,False,ambiguity_not_solved
+251,scene_005,cup_only,vlm_direct,ambiguous,Pick up my cup.,6,False,0,47.412278,False,ambiguity_not_solved
+252,scene_005,cup_only,vlm_direct,partial,Pick up left cup.,1,False,0,2.722289,False,gd_missing_target_candidate
+253,scene_005,cup_only,vlm_direct,partial,Pick up green cup.,2,False,0,50.770217,False,ambiguity_not_solved
+254,scene_005,cup_only,vlm_direct,partial,Pick up metal cup.,1,False,0,3.445335,False,wrong_object_selected
+255,scene_005,cup_only,vlm_direct,clear,Pick up brown cup.,1,False,0,2.850353,True,none
+256,scene_005,cup_only,vlm_direct,clear,Pick up blue cup.,1,False,0,2.740354,True,none
+257,scene_005,cup_only,vlm_direct,clear,Pick up bottom cup.,1,False,0,2.972425,True,none
+258,scene_005,cup_only,first_question,clear,Pick up bottom cup.,1,False,0,1.990423,True,none
+259,scene_005,cup_only,first_question,clear,Pick up left most cup.,1,False,0,28.999736,True,none
+260,scene_005,cup_only,first_question,clear,Pick up the center cup.,1,False,0,3.424356,True,none
+261,scene_005,cup_only,first_question,partial,Pick up the green cup.,2,True,1,134.90898,True,none
+262,scene_005,cup_only,first_question,partial,Pick up the top cup.,6,True,1,49.264096,True,none
+263,scene_005,cup_only,first_question,ambiguous,Pick up my cup.,6,True,4,186.894655,True,none
+264,scene_005,cup_only,first_question,ambiguous,Pick up my cup.,6,True,4,225.452519,True,none
+265,scene_005,cup_only,first_question,ambiguous,Pick up my cup.,6,True,3,235.026541,True,none
+266,scene_005,cup_only,random_question,ambiguous,Pick up my cup.,6,True,5,347.499107,True,none
+267,scene_005,cup_only,random_question,ambiguous,Pick up my cup.,6,True,2,89.444733,True,none
+268,scene_005,cup_only,random_question,ambiguous,Pick up my cup.,6,True,2,100.182934,True,none
+269,scene_005,cup_only,random_question,partial,Pick up the center cup.,1,False,0,3.873039,True,none
+270,scene_005,cup_only,random_question,partial,Pick up the left cup.,1,False,0,4.030751,True,none
+271,scene_005,cup_only,random_question,partial,Pick up the green cup.,2,True,1,113.559725,True,none
+272,scene_005,cup_only,random_question,partial,Pick up the orange cup.,1,False,0,2.481622,True,none
+273,scene_005,cup_only,random_question,partial,Pick up the brown cup.,1,False,0,3.693464,True,none
+274,scene_005,cup_only,random_question,clear,Pick up the left most cup.,1,False,0,3.467459,True,none
+275,scene_005,cup_only,vlm_best_question,clear,Pick up the left most cup.,1,False,0,2.646661,True,none
+276,scene_005,cup_only,vlm_best_question,clear,Pick up the blue cup.,1,False,0,11.441522,True,none
+277,scene_005,cup_only,vlm_best_question,clear,Pick up the white cup.,1,False,0,3.899451,True,none
+278,scene_005,cup_only,vlm_best_question,partial,Pick up the center cup.,1,False,0,2.324467,True,none
+279,scene_005,cup_only,vlm_best_question,partial,Pick up the green cup.,2,True,1,61.006278,True,none
+280,scene_005,cup_only,vlm_best_question,ambiguous,Pick up my cup.,6,True,5,255.389538,True,none
+281,scene_005,cup_only,vlm_best_question,ambiguous,Pick up my cup.,6,True,4,196.077066,True,none
+282,scene_005,cup_only,vlm_best_question,ambiguous,Pick up my cup.,6,True,5,317.398501,True,none
+283,scene_005,cup_only,proposed_efe,clear,Pick up the orange cup.,1,False,0,11.549727,True,none
+284,scene_005,cup_only,proposed_efe,clear,Pick up the second left cup.,1,False,0,4.017326,True,none
+285,scene_005,cup_only,proposed_efe,clear,Pick up the bottom cup.,1,False,0,2.91707,True,none
+286,scene_005,cup_only,proposed_efe,partial,Pick up the center cup.,1,False,0,3.094352,True,none
+287,scene_005,cup_only,proposed_efe,partial,Pick up the green cup.,2,True,1,75.25892,True,none
+288,scene_005,cup_only,proposed_efe,partial,Pick up the right cup.,6,True,2,165.393385,True,none
+289,scene_005,cup_only,proposed_efe,ambiguous,Pick up my cup.,6,True,5,200.838329,True,none
+290,scene_005,cup_only,proposed_efe,ambiguous,Pick up my cup.,6,True,5,225.023232,True,none
+291,scene_005,cup_only,proposed_efe,ambiguous,Pick up my cup.,6,True,1,48.784865,True,none
+292,scene_006,cup_only,top_score,ambiguous,Pick up my cup.,7,False,0,4.919039,False,ambiguity_not_solved
+293,scene_006,cup_only,top_score,ambiguous,Pick up my cup.,7,False,0,8.186159,False,ambiguity_not_solved
+294,scene_006,cup_only,top_score,ambiguous,Pick up my cup.,7,False,0,2.129136,False,wrong
+295,scene_006,cup_only,top_score,partial,Pick up the red cup.,1,False,0,20.675515,True,none
+296,scene_006,cup_only,top_score,partial,Pick up the center cup.,2,False,0,6.404781,True,none
+297,scene_006,cup_only,top_score,clear,Pick up the pink cup.,1,False,0,6.061885,False,wrong_object_selected
+298,scene_006,cup_only,top_score,clear,Pick up the green cup.,2,False,0,4.936518,True,none
+299,scene_006,cup_only,random_candidate,partial,Pick up the green cup.,2,False,0,6.831697,False,wrong
+300,scene_006,cup_only,random_candidate,clear,Pick up the brown cup.,1,False,0,2.322606,True,none
+301,scene_006,cup_only,random_candidate,clear,Pick up the cup with pattern.,1,False,0,5.450755,True,none
+302,scene_006,cup_only,random_candidate,partial,Pick up the blue cup.,1,False,0,4.089429,True,none
+303,scene_006,cup_only,random_candidate,partial,Pick up the center cup.,2,False,0,4.571325,False,ambiguity_not_solved
+304,scene_006,cup_only,random_candidate,partial,Pick up the cup with cover.,1,False,0,4.176939,False,gd_missing_target_candidate
+305,scene_006,cup_only,random_candidate,ambiguous,Pick up my cup.,7,False,0,9.972146,False,ambiguity_not_solved
+306,scene_006,cup_only,random_candidate,ambiguous,Pick up my cup.,7,False,0,6.221874,False,wrong
+307,scene_006,cup_only,random_candidate,ambiguous,Pick up my cup.,7,False,0,3.853795,False,ambiguity_not_solved
+308,scene_006,cup_only,vlm_direct,ambiguous,Pick up my cup.,7,False,0,89.312576,False,ambiguity_not_solved
+309,scene_006,cup_only,vlm_direct,ambiguous,Pick up my cup.,7,False,0,102.996855,False,ambiguity_not_solved
+310,scene_006,cup_only,vlm_direct,ambiguous,Pick up my cup.,7,False,0,95.025822,False,ambiguity_not_solved
+311,scene_006,cup_only,vlm_direct,partial,Pick up the center cup.,2,False,0,68.155683,False,ambiguity_not_solved
+312,scene_006,cup_only,vlm_direct,partial,Pick up the left cup.,1,False,0,4.976231,True,none
+313,scene_006,cup_only,vlm_direct,clear,Pick up the blue cup.,1,False,0,5.653136,True,none
+314,scene_006,cup_only,vlm_direct,clear,Pick up the red cup.,1,False,0,5.292359,True,none
+315,scene_006,cup_only,first_question,clear,Pick up the red cup.,1,False,0,2.155762,True,none
+316,scene_006,cup_only,first_question,clear,Pick up the blue cup.,1,False,0,3.940129,True,none
+317,scene_006,cup_only,first_question,clear,Pick up the most left cup.,2,True,1,102.760753,True,none
+318,scene_006,cup_only,first_question,partial,Pick up the green cup.,2,True,1,125.049579,True,none
+319,scene_006,cup_only,first_question,partial,Pick up the red cup.,1,False,0,2.905981,True,none
+320,scene_006,cup_only,first_question,ambiguous,Pick up my cup.,7,True,5,330.289362,True,none
+321,scene_006,cup_only,first_question,ambiguous,Pick up my cup.,7,True,6,342.239624,True,none
+322,scene_006,cup_only,first_question,ambiguous,Pick up my cup.,7,True,5,254.706697,True,none
+323,scene_006,cup_only,random_question,ambiguous,Pick up my cup.,7,True,4,261.665533,True,none
+324,scene_006,cup_only,random_question,ambiguous,Pick up my cup.,7,True,6,350.613988,True,none
+325,scene_006,cup_only,random_question,ambiguous,Pick up my cup.,7,True,5,233.438847,True,none
+326,scene_006,cup_only,random_question,partial,Pick up the center cup.,2,True,1,67.344439,False,wrong
+327,scene_006,cup_only,random_question,partial,Pick up the green cup.,2,True,1,82.202008,True,none
+328,scene_006,cup_only,random_question,partial,Pick up the red cup.,1,False,0,2.648951,True,none
+329,scene_006,cup_only,random_question,clear,Pick up the blue cup.,1,False,0,3.29517,True,none
+330,scene_006,cup_only,random_question,clear,Pick up the brown cup.,1,False,0,4.128551,True,none
+331,scene_006,cup_only,random_question,clear,Pick up the left most cup.,2,True,1,75.530092,True,none
+332,scene_006,cup_only,vlm_best_question,clear,Pick up the blue cup.,1,False,0,3.879515,True,none
+333,scene_006,cup_only,vlm_best_question,clear,Pick up the bottom cup.,1,False,0,24.413203,True,none
+334,scene_006,cup_only,vlm_best_question,partial,Pick up the red cup.,1,False,0,11.113528,True,none
+335,scene_006,cup_only,vlm_best_question,partial,Pick up the green cup.,2,True,1,97.576332,True,none
+336,scene_006,cup_only,vlm_best_question,partial,Pick up the center cup.,2,True,1,105.589686,True,none
+337,scene_006,cup_only,vlm_best_question,ambiguous,Pick up my cup.,7,True,4,371.789871,True,none
+338,scene_006,cup_only,vlm_best_question,ambiguous,Pick up my cup.,7,True,6,457.48481,True,none
+339,scene_006,cup_only,vlm_best_question,ambiguous,Pick up my cup.,7,True,5,435.86064,True,none
+340,scene_006,cup_only,proposed_efe,clear,Pick up the blue cup.,1,False,0,2.266331,True,none
+341,scene_006,cup_only,proposed_efe,clear,Pick up the red cup.,1,False,0,15.723063,True,none
+342,scene_006,cup_only,proposed_efe,clear,Pick up the bottom cup.,1,False,0,15.402943,True,none
+343,scene_006,cup_only,proposed_efe,partial,Pick up the green cup.,2,True,1,68.788046,True,none
+344,scene_006,cup_only,proposed_efe,partial,Pick up the center cup.,2,True,1,61.015889,True,none
+345,scene_006,cup_only,proposed_efe,partial,Pick up the most left cup.,2,True,1,86.356264,True,none
+346,scene_006,cup_only,proposed_efe,ambiguous,Pick up my cup.,7,True,4,207.263402,True,none
+347,scene_006,cup_only,proposed_efe,ambiguous,Pick up my cup.,7,True,1,67.071527,True,none
+348,scene_007,cup_only,top_score,clear,Picky up the green cup.,1,False,0,4.913272,True,none
+349,scene_007,cup_only,top_score,clear,Picky up the red cup.,1,False,0,5.072999,True,none
+350,scene_007,cup_only,top_score,partial,Picky up the pink cup.,1,False,0,4.702231,False,wrong_object_selected
+351,scene_007,cup_only,top_score,partial,Picky up the center cup.,1,False,0,5.205851,False,wrong_object_selected
+352,scene_007,cup_only,top_score,partial,Picky up the right cup.,1,False,0,5.210686,True,none
+353,scene_007,cup_only,top_score,ambiguous,Picky up my cup.,7,False,0,6.285935,False,ambiguity_not_solved
+354,scene_007,cup_only,top_score,ambiguous,Picky up my cup.,7,False,0,3.387148,False,ambiguity_not_solved
+355,scene_007,cup_only,random_candidate,ambiguous,Picky up my cup.,7,False,0,4.68496,False,ambiguity_not_solved
+356,scene_007,cup_only,random_candidate,ambiguous,Picky up my cup.,7,False,0,7.308588,False,ambiguity_not_solved
+357,scene_007,cup_only,random_candidate,clear,Picky up the yellow cup.,1,False,0,4.662236,True,none
+358,scene_007,cup_only,random_candidate,clear,Picky up the blue cup.,1,False,0,3.844196,True,none
+359,scene_007,cup_only,random_candidate,partial,Picky up the center cup.,1,False,0,5.426709,False,wrong_object_selected
+360,scene_007,cup_only,random_candidate,partial,Picky up the left cup.,2,False,0,6.862416,False,wrong_object_selected
+361,scene_007,cup_only,vlm_direct,partial,Picky up the left cup.,2,False,0,81.321446,False,ambiguity_not_solved
+362,scene_007,cup_only,vlm_direct,partial,Picky up the right cup.,1,False,0,6.067077,False,gd_missing_target_candidate
+363,scene_007,cup_only,vlm_direct,clear,Picky up the white cup.,8,False,0,84.525623,True,none
+364,scene_007,cup_only,vlm_direct,clear,Picky up the brown cup.,1,False,0,4.031921,True,none
+365,scene_007,cup_only,vlm_direct,ambiguous,Picky up my cup.,7,False,0,62.384712,False,ambiguity_not_solved
+366,scene_007,cup_only,vlm_direct,ambiguous,Picky up my cup.,7,False,0,60.760588,False,ambiguity_not_solved
+367,scene_007,cup_only,first_question,partial,Picky up the green cup.,1,False,0,4.126374,True,none
+368,scene_007,cup_only,first_question,clear,Picky up the blue cup.,1,False,0,4.714961,True,none
+369,scene_007,cup_only,first_question,partial,Picky up the left cup.,2,True,1,66.143101,True,none
+370,scene_007,cup_only,first_question,partial,Picky up the bottom cup.,1,False,0,3.869678,True,none
+371,scene_007,cup_only,first_question,ambiguous,Picky up my cup.,7,True,5,377.479649,True,none
+372,scene_007,cup_only,first_question,ambiguous,Picky up my cup.,7,True,3,284.419909,True,none
+373,scene_007,cup_only,random_question,clear,Picky up the yellow cup.,1,False,0,4.40423,True,none
+374,scene_007,cup_only,random_question,clear,Picky up the blue cup.,1,False,0,6.275753,True,none
+375,scene_007,cup_only,random_question,partial,Picky up the left cup.,2,True,2,152.667557,True,none
+376,scene_007,cup_only,random_question,partial,Picky up the bottom cup.,1,False,0,4.135434,True,none
+377,scene_007,cup_only,random_question,ambiguous,Picky up my cup.,7,True,1,135.941439,True,none
+378,scene_007,cup_only,random_question,ambiguous,Picky up my cup.,7,True,6,372.978914,True,none
+379,scene_007,cup_only,vlm_best_question,clear,Picky up the green cup.,1,False,0,17.347439,True,none
+380,scene_007,cup_only,vlm_best_question,clear,Picky up the yellow cup.,1,False,0,3.35836,True,none
+381,scene_007,cup_only,vlm_best_question,partial,Picky up the left cup.,2,True,1,69.848254,True,none
+382,scene_007,cup_only,vlm_best_question,partial,Picky up the bottom cup.,1,False,0,2.673112,True,none
+383,scene_007,cup_only,vlm_best_question,ambiguous,Picky up my cup.,7,True,5,311.046423,True,none
+384,scene_007,cup_only,vlm_best_question,ambiguous,Picky up my cup.,7,True,3,210.343749,True,none
+385,scene_007,cup_only,proposed_efe,clear,Picky up the green cup.,1,False,0,2.609165,True,none
+386,scene_007,cup_only,proposed_efe,clear,Picky up the blue cup.,1,False,0,4.873185,True,none
+387,scene_007,cup_only,proposed_efe,partial,Picky up the bottom cup.,1,False,0,2.79913,True,none
+388,scene_007,cup_only,proposed_efe,partial,Picky up the left cup.,2,True,1,58.289017,True,none
+389,scene_007,cup_only,proposed_efe,ambiguous,Picky up my cup.,7,True,1,64.199348,True,none
+390,scene_008,cup_only,top_score,clear,Pick up the blue cup,1,False,0,5.558733,True,none
+391,scene_008,cup_only,top_score,clear,Pick up the red cup,1,False,0,3.34053,True,none
+392,scene_008,cup_only,top_score,clear,Pick up the left most cup,1,False,0,4.227445,True,none
+393,scene_008,cup_only,top_score,partial,Pick up the left cup,2,False,0,3.564374,False,ambiguity_not_solved
+394,scene_008,cup_only,top_score,partial,Pick up the white cup,2,False,0,5.918303,False,ambiguity_not_solved
+395,scene_008,cup_only,top_score,ambiguous,Pick up my cup,7,False,0,4.996936,False,ambiguity_not_solved
+396,scene_008,cup_only,top_score,ambiguous,Pick up my cup,7,False,0,3.071403,False,ambiguity_not_solved
+397,scene_008,cup_only,random_candidate,ambiguous,Pick up my cup,7,False,0,2.923079,False,ambiguity_not_solved
+398,scene_008,cup_only,random_candidate,partial,Pick up the left cup,2,False,0,3.913454,True,none
+399,scene_008,cup_only,random_candidate,partial,Pick up the white cup,2,False,0,5.274734,False,ambiguity_not_solved
+400,scene_008,cup_only,random_candidate,clear,Pick up the pink cup,1,False,0,8.734053,True,none
+401,scene_008,cup_only,random_candidate,clear,Pick up the red cup,1,False,0,2.573907,True,none
+402,scene_008,cup_only,vlm_direct,clear,Pick up the red cup,1,False,0,3.810721,True,none
+403,scene_008,cup_only,vlm_direct,clear,Pick up the brown cup,1,False,0,3.476835,True,none
+404,scene_008,cup_only,vlm_direct,partial,Pick up the white cup,2,False,0,121.160338,True,none
+405,scene_008,cup_only,vlm_direct,partial,Pick up the left cup,2,False,0,78.860728,False,wrong
+406,scene_008,cup_only,vlm_direct,ambiguous,Pick up the my cup,7,False,0,73.89337,False,ambiguity_not_solved
+407,scene_008,cup_only,vlm_direct,ambiguous,Pick up the my cup,7,False,0,157.756774,False,ambiguity_not_solved
+408,scene_008,cup_only,first_question,ambiguous,Pick up the my cup,7,True,5,759.053678,True,none
+409,scene_008,cup_only,first_question,partial,Pick up the white cup,2,True,1,89.451102,True,none
+410,scene_008,cup_only,first_question,partial,Pick up the left cup,2,True,1,61.993905,True,none
+411,scene_008,cup_only,first_question,clear,Pick up the blue cup,1,False,0,2.761432,True,none
+412,scene_008,cup_only,first_question,clear,Pick up the brwon cup,1,False,0,3.517926,True,none
+413,scene_008,cup_only,random_question,clear,Pick up the brwon cup,1,False,0,1.960294,True,none
+414,scene_008,cup_only,random_question,clear,Pick up the red cup,1,False,0,5.965906,True,none
+415,scene_008,cup_only,random_question,partial,Pick up the left cup.,2,True,2,163.421044,True,none
+416,scene_008,cup_only,random_question,ambiguous,Pick up my cup.,7,True,3,269.73796,True,none
+417,scene_008,cup_only,random_question,ambiguous,Pick up my cup.,7,True,6,442.816443,True,none
+418,scene_008,cup_only,vlm_best_question,clear,Pick up the blue cup.,1,False,0,5.781011,True,none
+419,scene_008,cup_only,vlm_best_question,clear,Pick up the brown cup.,1,False,0,2.559696,True,none
+420,scene_008,cup_only,vlm_best_question,partial,Pick up the left cup.,2,True,1,122.248811,True,none
+421,scene_008,cup_only,vlm_best_question,partial,Pick up the white cup.,2,True,1,46.713416,True,none
+422,scene_008,cup_only,vlm_best_question,ambiguous,Pick up my cup.,7,True,4,291.630746,True,none
+423,scene_008,cup_only,vlm_best_question,ambiguous,Pick up my cup.,7,True,5,302.487402,True,none
+424,scene_008,cup_only,proposed_efe,ambiguous,Pick up my cup.,7,True,3,250.624518,True,none
+425,scene_008,cup_only,proposed_efe,ambiguous,Pick up my cup.,7,True,2,153.110508,True,none
+426,scene_008,cup_only,proposed_efe,partial,Pick up the left cup.,2,True,1,82.406869,True,none
+427,scene_008,cup_only,proposed_efe,partial,Pick up the white cup.,2,True,1,69.01857,True,none
+428,scene_008,cup_only,proposed_efe,clear,Pick up the blue cup.,1,False,0,2.974867,True,none
+429,scene_008,cup_only,proposed_efe,clear,Pick up the red cup.,1,False,0,2.824761,True,none
+430,scene_009,cup_only,top_score,clear,Pick up the metal cup.,1,False,0,4.396284,True,none
+431,scene_009,cup_only,top_score,clear,Pick up the left most cup.,1,False,0,4.133214,True,none
+432,scene_009,cup_only,top_score,partial,Pick up the yellow cup.,1,False,0,3.442478,False,gd_missing_target_candidate
+433,scene_009,cup_only,top_score,partial,Pick up the yellow cup.,1,False,0,4.742751,False,gd_missing_target_candidate
+434,scene_009,cup_only,top_score,partial,Pick up the green cup.,1,False,0,22.754084,False,wrong_object_selected
+435,scene_009,cup_only,top_score,ambiguous,Pick up my cup.,7,False,0,6.808539,False,ambiguity_not_solved
+436,scene_009,cup_only,random_candidate,ambiguous,Pick up my cup.,7,False,0,2.97943,False,ambiguity_not_solved
+437,scene_009,cup_only,random_candidate,ambiguous,Pick up my cup.,7,False,0,8.371566,False,ambiguity_not_solved
+438,scene_009,cup_only,random_candidate,partial,Pick up the yellow cups.,7,False,0,6.748541,False,gd_missing_target_candidate
+439,scene_028,mixed,random_candidate,partial,Pick up the center cup.,2,False,0,6.729479,True,none
+440,scene_009,cup_only,random_candidate,clear,Pick up the metal cup.,1,False,0,2.87679,True,none
+441,scene_009,cup_only,random_candidate,clear,Pick up the white cup.,1,False,0,4.15488,True,none
+442,scene_009,cup_only,vlm_direct,clear,Pick up the white cup.,1,False,0,1.767816,True,none
+443,scene_009,cup_only,vlm_direct,clear,Pick up the green cup.,1,False,0,4.934708,True,none
+444,scene_009,cup_only,vlm_direct,partial,Pick up the green cup.,1,False,0,2.713474,False,gd_missing_target_candidate
+445,scene_009,cup_only,vlm_direct,partial,Pick up the right cup.,1,False,0,4.121251,False,gd_missing_target_candidate
+446,scene_009,cup_only,vlm_direct,ambiguous,Pick up my cup.,7,False,0,76.975894,False,ambiguity_not_solved
+447,scene_009,cup_only,vlm_direct,ambiguous,Pick up my cup.,7,False,0,130.936943,False,ambiguity_not_solved
+448,scene_009,cup_only,vlm_direct,ambiguous,Pick up my cup.,7,False,0,61.387926,False,ambiguity_not_solved
+449,scene_009,cup_only,first_question,clear,Pick up the metal cup.,1,False,0,1.606835,True,none
+450,scene_009,cup_only,first_question,clear,Pick up the left most cup.,1,False,0,4.282048,True,none
+451,scene_009,cup_only,first_question,partial,Pick up the yellow cup.,7,True,1,396.481628,True,none
+452,scene_009,cup_only,first_question,partial,Pick up the green cup.,7,True,3,947.326585,True,none
+453,scene_009,cup_only,first_question,ambiguous,Pick up my cup.,7,True,4,451.953866,True,none
+454,scene_009,cup_only,random_question,ambiguous,Pick up my cup.,7,True,3,466.739213,True,none
+455,scene_009,cup_only,first_question,ambiguous,Pick up my cup.,7,True,4,554.325138,True,none
+456,scene_009,cup_only,random_question,ambiguous,Pick up my cup.,7,True,5,806.721526,True,none
+457,scene_009,cup_only,random_question,partial,Pick up the green cup.,7,True,2,277.94478,True,none
+458,scene_009,cup_only,random_question,partial,Pick up the yellow cup.,7,True,3,444.569578,False,gd_missing_target_candidate
+459,scene_009,cup_only,random_question,clear,Pick up the metal cup.,1,False,0,2.834199,True,none
+460,scene_009,cup_only,random_question,clear,Pick up the leftmost cup.,1,False,0,2.167917,True,none
+461,scene_009,cup_only,vlm_best_question,clear,Pick up the leftmost cup.,1,False,0,1.646888,True,none
+462,scene_009,cup_only,vlm_best_question,clear,Pick up the metal cup.,1,False,0,3.996189,True,none
+463,scene_009,cup_only,vlm_best_question,partial,Pick up the yellow cup.,7,True,2,157.698775,False,gd_missing_target_candidate
+464,scene_009,cup_only,vlm_best_question,ambiguous,Pick up my cup.,7,True,3,133.209587,True,none
+465,scene_009,cup_only,vlm_best_question,ambiguous,Pick up my cup.,7,True,5,371.675965,True,none
+466,scene_009,cup_only,vlm_best_question,ambiguous,Pick up my cup.,7,True,1,52.487935,True,none
+467,scene_009,cup_only,proposed_efe,ambiguous,Pick up my cup.,7,True,3,203.364795,True,none
+468,scene_009,cup_only,proposed_efe,ambiguous,Pick up my cup.,7,True,3,392.90766,True,none
+469,scene_009,cup_only,proposed_efe,partial,Pick up the green cup.,7,True,3,228.847562,True,none
+470,scene_009,cup_only,proposed_efe,clear,Pick up the metal cup.,1,False,0,1.905417,True,none
+471,scene_010,cup_only,top_score,clear,Pick up the left most cup.,1,False,0,4.605626,True,none
+472,scene_010,cup_only,top_score,clear,Pick up the left red cup.,1,False,0,3.275411,True,none
+473,scene_010,cup_only,top_score,partial,Pick up the yellow cup.,1,False,0,3.050363,False,gd_missing_target_candidate
+474,scene_010,cup_only,top_score,partial,Pick up the red cup.,1,False,0,20.300522,True,none
+475,scene_010,cup_only,top_score,ambiguous,Pick up my cup.,8,False,0,3.013694,True,none
+476,scene_010,cup_only,top_score,ambiguous,Pick up my cup.,8,False,0,3.726626,True,none
+477,scene_010,cup_only,random_candidate,ambiguous,Pick up my cup.,8,False,0,4.495636,False,ambiguity_not_solved
+478,scene_010,cup_only,random_candidate,ambiguous,Pick up my cup.,8,False,0,3.152241,False,ambiguity_not_solved
+479,scene_010,cup_only,random_candidate,partial,Pick up the red cup.,1,False,0,2.603404,False,gd_missing_target_candidate
+480,scene_010,cup_only,random_candidate,partial,Pick up the yellow cup.,1,False,0,2.209987,False,gd_missing_target_candidate
+481,scene_010,cup_only,random_candidate,clear,Pick up the right yellow cup.,1,False,0,5.060382,True,none
+482,scene_010,cup_only,random_candidate,clear,Pick up the right red cup.,1,False,0,5.487071,True,none
+483,scene_010,cup_only,vlm_direct,clear,Pick up the left red cup.,1,False,0,2.694007,True,none
+484,scene_010,cup_only,vlm_direct,clear,Pick up the bottom cup.,1,False,0,7.889694,True,none
+485,scene_010,cup_only,vlm_direct,partial,Pick up the red cup.,1,False,0,2.475622,False,gd_missing_target_candidate
+486,scene_010,cup_only,vlm_direct,partial,Pick up the yellow cup.,1,False,0,3.349106,False,gd_missing_target_candidate
+487,scene_010,cup_only,vlm_direct,ambiguous,Pick up my cup.,8,False,0,90.786031,False,ambiguity_not_solved
+488,scene_010,cup_only,first_question,ambiguous,Pick up my cup.,8,True,5,249.908267,True,none
+489,scene_010,cup_only,first_question,ambiguous,Pick up my cup.,8,True,3,152.36559,True,none
+490,scene_010,cup_only,first_question,partial,Pick up the yellow cup.,8,True,2,265.068618,True,none
+491,scene_010,cup_only,first_question,partial,Pick up the red cup.,8,True,3,158.649603,True,none
+492,scene_010,cup_only,first_question,clear,Pick up the left red cup.,1,False,0,3.089171,True,none
+493,scene_010,cup_only,first_question,clear,Pick up the left yellow cup.,1,False,0,3.804971,True,none
+494,scene_010,cup_only,random_question,clear,Pick up the left yellow cup.,1,False,0,1.991711,True,none
+495,scene_010,cup_only,random_question,clear,Pick up the left red cup.,1,False,0,12.704874,True,none
+496,scene_010,cup_only,random_question,partial,Pick up the red cup.,8,True,3,287.715289,True,none
+497,scene_010,cup_only,random_question,partial,Pick up the yellow cup.,8,True,2,167.644526,False,vlm_error
+498,scene_010,cup_only,random_question,ambiguous,Pick up my cup.,8,True,3,254.407155,True,none
+499,scene_010,cup_only,random_question,ambiguous,Pick up my cup.,8,True,5,447.850279,True,none
+500,scene_010,cup_only,vlm_best_question,partial,Pick up the yellow cup.,8,True,3,509.903224,False,vlm_error
+501,scene_010,cup_only,vlm_best_question,partial,Pick up the red cup.,8,True,3,108.759488,True,none
+502,scene_010,cup_only,vlm_best_question,clear,Pick up the left red cup.,1,False,0,14.485272,True,none
+503,scene_010,cup_only,vlm_best_question,clear,Pick up the left yellow cup.,1,False,0,4.102498,True,none
+504,scene_010,cup_only,proposed_efe,clear,Pick up the left yellow cup.,1,False,0,2.313575,True,none
+505,scene_010,cup_only,proposed_efe,clear,Pick up the left red cup.,1,False,0,14.594925,True,none
+506,scene_010,cup_only,proposed_efe,partial,Pick up the red cup.,8,True,3,365.135211,True,none
+507,scene_010,cup_only,proposed_efe,partial,Pick up the yellow cup.,8,True,3,426.386398,True,none
+508,scene_010,cup_only,proposed_efe,ambiguous,Pick up the my cup.,8,True,3,145.591319,True,none
+509,scene_010,cup_only,proposed_efe,ambiguous,Pick up the my cup.,8,True,3,140.238053,True,none
+510,scene_011,bottle_only,top_score,clear,Pick up the red bottle.,1,False,0,4.781584,True,none
+511,scene_011,bottle_only,top_score,clear,Pick up the left bottle.,1,False,0,8.908417,True,none
+512,scene_011,bottle_only,top_score,partial,Pick up the top bottle.,1,False,0,3.40091,False,wrong_object_selected
+513,scene_011,bottle_only,top_score,ambiguous,Pick up my bottle.,4,False,0,5.893683,False,ambiguity_not_solved
+514,scene_011,bottle_only,top_score,ambiguous,Pick up my bottle.,4,False,0,2.812251,True,none
+515,scene_011,bottle_only,random_candidate,ambiguous,Pick up my bottle.,4,False,0,33.396925,False,ambiguity_not_solved
+516,scene_011,bottle_only,random_candidate,ambiguous,Pick up my bottle.,4,False,0,2.91647,True,none
+517,scene_011,bottle_only,random_candidate,partial,Pick up the center bottle.,1,False,0,3.556017,False,wrong_object_selected
+518,scene_011,bottle_only,random_candidate,clear,Pick up the red bottle.,1,False,0,2.498581,True,none
+519,scene_011,bottle_only,random_candidate,clear,Pick up the left bottle.,1,False,0,4.166322,True,none
+520,scene_011,bottle_only,vlm_direct,clear,Pick up the red bottle.,1,False,0,30.527821,True,none
+521,scene_011,bottle_only,vlm_direct,partial,Pick up center bottle.,1,False,0,2.229374,False,wrong_object_selected
+522,scene_011,bottle_only,vlm_direct,partial,Pick up right bottle.,1,False,0,2.879748,True,none
+523,scene_011,bottle_only,vlm_direct,ambiguous,Pick up my bottle.,4,False,0,95.159098,False,ambiguity_not_solved
+524,scene_011,bottle_only,vlm_direct,ambiguous,Pick up my bottle.,4,False,0,52.717629,False,ambiguity_not_solved
+525,scene_011,bottle_only,first_question,ambiguous,Pick up my bottle.,4,True,3,167.213837,True,none
+526,scene_011,bottle_only,first_question,ambiguous,Pick up my bottle.,4,True,3,103.169916,True,none
+527,scene_011,bottle_only,first_question,partial,Pick up the right bottle.,1,False,0,2.704586,True,none
+528,scene_011,bottle_only,first_question,clear,Pick up the left bottle.,1,False,0,2.210509,True,none
+529,scene_011,bottle_only,first_question,clear,Pick up the red bottle.,1,False,0,2.791091,True,none
+530,scene_011,bottle_only,random_question,clear,Pick up the red bottle.,1,False,0,2.952137,True,none
+531,scene_011,bottle_only,random_question,clear,Pick up the tall bottle.,1,False,0,2.960729,True,none
+532,scene_011,bottle_only,random_question,partial,Pick up the top bottle.,1,False,0,6.834425,True,none
+533,scene_011,bottle_only,random_question,partial,Pick up the right bottle.,1,False,0,2.482294,True,none
+534,scene_011,bottle_only,random_question,ambiguous,Pick up my bottle.,4,True,3,107.799351,True,none
+535,scene_011,bottle_only,random_question,ambiguous,Pick up my bottle.,4,True,3,126.594331,True,none
+536,scene_011,bottle_only,vlm_best_question,ambiguous,Pick up my bottle.,4,True,3,130.704419,True,none
+537,scene_011,bottle_only,vlm_best_question,partial,Pick up the right bottle.,1,False,0,4.025355,True,none
+538,scene_011,bottle_only,vlm_best_question,partial,Pick up the bottom bottle.,1,False,0,2.516981,True,none
+539,scene_011,bottle_only,vlm_best_question,clear,Pick up the red bottle.,1,False,0,1.843926,True,none
+540,scene_011,bottle_only,vlm_best_question,clear,Pick up the blue bottle.,1,False,0,1.511311,True,none
+541,scene_011,bottle_only,proposed_efe,clear,Pick up the blue bottle.,1,False,0,2.048855,True,none
+542,scene_011,bottle_only,proposed_efe,clear,Pick up the left bottle.,1,False,0,1.747549,True,none
+543,scene_011,bottle_only,proposed_efe,partial,Pick up the right bottle.,1,False,0,50.8517,True,none
+544,scene_011,bottle_only,proposed_efe,partial,Pick up the tall bottle.,1,True,1,76.499149,True,none
+545,scene_011,bottle_only,proposed_efe,ambiguous,Pick up my bottle.,4,True,3,225.951417,True,none
+546,scene_011,bottle_only,proposed_efe,ambiguous,Pick up my bottle.,4,True,3,153.425097,True,none
+547,scene_012,bottle_only,top_score,ambiguous,Pick up my bottle.,4,False,0,4.177642,False,ambiguity_not_solved
+548,scene_012,bottle_only,top_score,ambiguous,Pick up my bottle.,4,False,0,2.417407,False,ambiguity_not_solved
+549,scene_012,bottle_only,top_score,partial,Pick up the right bottle.,1,False,0,5.266498,False,wrong_object_selected
+550,scene_012,bottle_only,top_score,partial,Pick up the left bottle.,1,False,0,3.518865,False,wrong_object_selected
+551,scene_012,bottle_only,top_score,clear,Pick up the red bottle.,1,False,0,2.972963,True,none
+552,scene_012,bottle_only,top_score,clear,Pick up the green bottle.,1,False,0,3.637086,True,none
+553,scene_012,bottle_only,top_score,clear,Pick up the blue bottle.,1,False,0,2.544884,True,none
+554,scene_012,bottle_only,random_candidate,clear,Pick up the left most bottle.,1,False,0,7.091151,True,none
+555,scene_012,bottle_only,random_candidate,partial,Pick up the right bottle.,1,False,0,3.254776,False,wrong_object_selected
+556,scene_012,bottle_only,random_candidate,ambiguous,Pick up my bottle.,4,False,0,5.838783,False,ambiguity_not_solved
+557,scene_012,bottle_only,random_candidate,ambiguous,Pick up my bottle.,4,False,0,4.067394,False,ambiguity_not_solved
+558,scene_012,bottle_only,vlm_direct,ambiguous,Pick up my bottle.,4,False,0,72.872936,False,ambiguity_not_solved
+559,scene_012,bottle_only,first_question,ambiguous,Pick up my bottle.,4,True,1,50.864986,True,none
+560,scene_012,bottle_only,first_question,ambiguous,Pick up my bottle.,4,True,3,140.418168,True,none
+561,scene_012,bottle_only,first_question,partial,Pick up the left bottle.,1,False,0,49.025456,False,wrong_object_selected
+562,scene_012,bottle_only,first_question,partial,Pick up the right bottle.,1,False,0,49.782452,False,wrong_object_selected
+563,scene_012,bottle_only,first_question,clear,Pick up the red bottle.,1,False,0,3.447799,True,none
+564,scene_012,bottle_only,first_question,clear,Pick up the green bottle.,1,False,0,2.008665,True,none
+565,scene_012,bottle_only,random_question,clear,Pick up the green bottle.,1,False,0,2.121467,True,none
+566,scene_012,bottle_only,random_question,clear,Pick up the red bottle.,1,False,0,3.185258,True,none
+567,scene_012,bottle_only,random_question,partial,Pick up the right bottle.,1,True,1,79.448467,False,wrong_object_selected
+568,scene_012,bottle_only,random_question,partial,Pick up the top bottle.,1,True,1,70.153397,False,wrong_object_selected
+569,scene_012,bottle_only,random_question,ambiguous,Pick up my bottle.,4,True,2,112.328019,True,none
+570,scene_012,bottle_only,random_question,ambiguous,Pick up my bottle.,4,True,3,122.159631,True,none
+571,scene_012,bottle_only,vlm_best_question,ambiguous,Pick up my bottle.,4,True,2,136.237619,True,none
+572,scene_012,bottle_only,vlm_best_question,ambiguous,Pick up my bottle.,4,True,3,116.658553,True,none
+573,scene_012,bottle_only,vlm_best_question,partial,Pick up the left bottle.,1,False,0,44.756207,False,wrong_object_selected
+574,scene_012,bottle_only,vlm_best_question,partial,Pick up the right bottle.,1,True,1,80.570803,False,wrong_object_selected
+575,scene_012,bottle_only,vlm_best_question,clear,Pick up the red bottle.,1,False,0,2.865605,True,none
+576,scene_012,bottle_only,vlm_best_question,clear,Pick up the green bottle.,1,False,0,4.232498,True,none
+577,scene_012,bottle_only,proposed_efe,clear,Pick up the green bottle.,1,False,0,6.346237,True,none
+578,scene_012,bottle_only,proposed_efe,clear,Pick up the red bottle.,1,False,0,36.702086,True,none
+579,scene_012,bottle_only,proposed_efe,partial,Pick up the left bottle.,1,True,1,191.561454,False,wrong_object_selected
+580,scene_012,bottle_only,proposed_efe,partial,Pick up the right bottle.,1,False,0,196.473451,False,wrong_object_selected
+581,scene_012,bottle_only,proposed_efe,ambiguous,Pick up my bottle.,4,True,1,46.14317,True,none
+582,scene_012,bottle_only,proposed_efe,ambiguous,Pick up my bottle.,4,True,1,94.963449,True,none
+583,scene_013,bottle_only,top_score,clear,Pick up the red bottle.,1,False,0,4.914345,True,none
+584,scene_013,bottle_only,top_score,clear,Pick up the green bottle.,1,False,0,2.81055,True,none
+585,scene_013,bottle_only,top_score,clear,Pick up the blue bottle.,1,False,0,2.975762,True,none
+586,scene_013,bottle_only,top_score,clear,Pick up the brown bottle.,1,False,0,9.748384,True,none
+587,scene_013,bottle_only,top_score,clear,Pick up the right bottle.,1,False,0,4.589957,True,none
+588,scene_013,bottle_only,top_score,ambiguous,Pick up my bottle.,4,False,0,5.559652,False,ambiguity_not_solved
+589,scene_013,bottle_only,random_candidate,ambiguous,Pick up my bottle.,4,False,0,3.190517,True,none
+590,scene_013,bottle_only,random_candidate,ambiguous,Pick up my bottle.,4,False,0,3.38304,False,ambiguity_not_solved
+591,scene_013,bottle_only,random_candidate,partial,Pick up the left bottle.,1,False,0,3.793551,True,none
+592,scene_013,bottle_only,random_candidate,partial,Pick up the right bottle.,1,False,0,2.553203,True,none
+593,scene_013,bottle_only,random_candidate,partial,Pick up the blue bottle.,1,False,0,2.562925,True,none
+594,scene_013,bottle_only,random_candidate,partial,Pick up the green bottle.,1,False,0,2.564732,True,none
+595,scene_013,bottle_only,vlm_direct,clear,Pick up the green bottle.,1,False,0,1.775767,True,none
+596,scene_013,bottle_only,vlm_direct,clear,Pick up the bottom bottle.,1,False,0,3.135746,True,none
+597,scene_013,bottle_only,vlm_direct,partial,Pick up the right bottle.,1,False,0,4.930463,True,none
+598,scene_013,bottle_only,vlm_direct,partial,Pick up the left bottle.,1,False,0,3.710589,True,none
+599,scene_013,bottle_only,vlm_direct,ambiguous,Pick up my bottle.,4,False,0,75.449076,False,wrong_object_selected
+600,scene_013,bottle_only,vlm_direct,ambiguous,Pick up my bottle.,4,False,0,85.246957,True,none
+601,scene_013,bottle_only,first_question,ambiguous,Pick up my bottle.,4,True,1,78.282048,True,none
+602,scene_013,bottle_only,first_question,ambiguous,Pick up my bottle.,4,True,3,135.520843,True,none
+603,scene_013,bottle_only,first_question,partial,Pick up the left bottle.,1,False,0,59.766588,True,none
+604,scene_013,bottle_only,first_question,partial,Pick up the right bottle.,1,True,1,69.550375,True,none
+605,scene_013,bottle_only,first_question,clear,Pick up the green bottle.,1,False,0,2.716504,True,none
+606,scene_013,bottle_only,first_question,clear,Pick up the top bottle.,1,False,0,2.899194,True,none
+607,scene_013,bottle_only,random_question,clear,Pick up the green bottle.,1,False,0,4.053228,True,none
+608,scene_013,bottle_only,random_question,partial,Pick up the left bottle.,1,False,0,138.725435,True,none
+609,scene_013,bottle_only,random_question,partial,Pick up the right bottle.,1,True,1,54.861679,True,none
+610,scene_013,bottle_only,random_question,ambiguous,Pick up my bottle.,4,True,3,159.25809,True,none
+611,scene_013,bottle_only,random_question,ambiguous,Pick up my bottle.,4,True,2,101.643424,True,none
+612,scene_013,bottle_only,vlm_best_question,ambiguous,Pick up my bottle.,4,True,2,83.305913,True,none
+613,scene_013,bottle_only,vlm_best_question,ambiguous,Pick up my bottle.,4,True,3,78.612879,True,none
+614,scene_013,bottle_only,vlm_best_question,partial,Pick up left bottle.,1,True,1,70.875421,True,none
+615,scene_013,bottle_only,vlm_best_question,partial,Pick up the right bottle.,1,False,0,18.355843,True,none
+616,scene_013,bottle_only,vlm_best_question,clear,Pick up the green bottle.,1,False,0,2.352787,True,none
+617,scene_013,bottle_only,vlm_best_question,clear,Pick up the blue bottle.,1,False,0,1.683652,True,none
+618,scene_013,bottle_only,proposed_efe,clear,Pick up the blue bottle.,1,False,0,8.421828,True,none
+619,scene_013,bottle_only,proposed_efe,clear,Pick up the green bottle.,1,False,0,1.817176,True,none
+620,scene_013,bottle_only,proposed_efe,partial,Pick up the left bottle.,1,True,1,82.070597,True,none
+621,scene_013,bottle_only,proposed_efe,partial,Pick up the right bottle.,1,True,1,116.267926,True,none
+622,scene_013,bottle_only,proposed_efe,ambiguous,Pick up my bottle.,4,True,1,65.619169,True,none
+623,scene_013,bottle_only,proposed_efe,ambiguous,Pick up my bottle.,4,True,3,144.48624,True,none
+624,scene_014,bottle_only,top_score,clear,Pick up the green bottle.,1,False,0,3.88062,True,none
+625,scene_014,bottle_only,top_score,clear,Pick up the red bottle.,1,False,0,2.959975,True,none
+626,scene_014,bottle_only,top_score,partial,Pick up the left bottle.,2,False,0,4.611601,False,ambiguity_not_solved
+627,scene_014,bottle_only,top_score,ambiguous,Pick up my bottle.,4,False,0,1.988444,True,none
+628,scene_014,bottle_only,top_score,ambiguous,Pick up my bottle.,4,False,0,2.27662,False,ambiguity_not_solved
+629,scene_014,bottle_only,random_candidate,ambiguous,Pick up my bottle.,4,False,0,3.739274,False,ambiguity_not_solved
+630,scene_014,bottle_only,random_candidate,ambiguous,Pick up my bottle.,4,False,0,3.192617,False,ambiguity_not_solved
+631,scene_014,bottle_only,random_candidate,partial,Pick up the left bottle.,2,False,0,5.502528,True,none
+632,scene_014,bottle_only,random_candidate,partial,Pick up the right bottle.,1,False,0,2.402767,True,none
+633,scene_014,bottle_only,random_candidate,clear,Pick up the black bottle.,1,False,0,4.17577,True,none
+634,scene_014,bottle_only,random_candidate,clear,Pick up the tall bottle.,1,False,0,4.418862,True,none
+635,scene_014,bottle_only,vlm_direct,clear,Pick up the tall bottle.,1,False,0,1.947774,True,none
+636,scene_014,bottle_only,vlm_direct,clear,Pick up the red bottle.,1,False,0,2.607082,True,none
+637,scene_014,bottle_only,vlm_direct,partial,Pick up the right bottle.,1,False,0,5.059553,True,none
+638,scene_014,bottle_only,vlm_direct,partial,Pick up the left bottle.,2,False,0,69.802446,True,none
+639,scene_014,bottle_only,vlm_direct,ambiguous,Pick up my bottle.,4,False,0,49.984152,False,ambiguity_not_solved
+640,scene_014,bottle_only,vlm_direct,ambiguous,Pick up my bottle.,4,False,0,79.177874,False,ambiguity_not_solved
+641,scene_014,bottle_only,first_question,ambiguous,Pick up my bottle.,4,True,3,219.827857,True,none
+642,scene_014,bottle_only,first_question,ambiguous,Pick up my bottle.,4,True,1,34.273288,True,none
+643,scene_014,bottle_only,first_question,partial,Pick up the left bottle.,2,True,1,32.066868,True,none
+644,scene_014,bottle_only,first_question,partial,Pick up the right bottle.,1,False,0,29.265701,True,none
+645,scene_014,bottle_only,first_question,clear,Pick up the red bottle.,1,False,0,2.375781,True,none
+646,scene_014,bottle_only,random_question,clear,Pick up the black bottle.,1,False,0,5.593486,True,none
+647,scene_014,bottle_only,random_question,clear,Pick up the bottom bottle.,1,False,0,3.263676,True,none
+648,scene_014,bottle_only,random_question,partial,Pick up the left bottle.,2,True,1,184.050692,True,none
+649,scene_014,bottle_only,random_question,ambiguous,Pick up my bottle.,4,True,3,173.128779,True,none
+650,scene_014,bottle_only,random_question,ambiguous,Pick up my bottle.,4,True,1,56.966728,True,none
+651,scene_014,bottle_only,vlm_best_question,ambiguous,Pick up my bottle.,4,True,2,120.092594,True,none
+652,scene_014,bottle_only,vlm_best_question,ambiguous,Pick up my bottle.,4,True,1,53.23302,True,none
+653,scene_014,bottle_only,vlm_best_question,partial,Pick up the left bottle.,2,True,1,26.302482,True,none
+654,scene_014,bottle_only,vlm_best_question,partial,Pick up the right bottle.,1,False,0,21.187912,True,none
+655,scene_014,bottle_only,vlm_best_question,clear,Pick up the tall bottle.,1,False,0,1.950389,True,none
+656,scene_014,bottle_only,vlm_best_question,clear,Pick up the green bottle.,1,False,0,1.520711,True,none
+657,scene_014,bottle_only,proposed_efe,clear,Pick up the green bottle.,1,False,0,1.503502,True,none
+658,scene_014,bottle_only,proposed_efe,clear,Pick up the left most bottle.,1,False,0,1.832331,True,none
+659,scene_014,bottle_only,proposed_efe,partial,Pick up the right bottle.,1,True,1,87.967693,True,none
+660,scene_014,bottle_only,proposed_efe,partial,Pick up the left bottle.,2,True,1,84.362885,True,none
+661,scene_014,bottle_only,proposed_efe,ambiguous,Pick up my bottle.,4,True,2,81.4753,True,none
+662,scene_014,bottle_only,proposed_efe,ambiguous,Pick up my bottle.,4,True,2,94.147606,True,none
+663,scene_015,bottle_only,top_score,ambiguous,Pick up my bottle.,4,False,0,5.402483,False,ambiguity_not_solved
+664,scene_015,bottle_only,top_score,ambiguous,Pick up my bottle.,4,False,0,4.546383,False,ambiguity_not_solved
+665,scene_015,bottle_only,top_score,partial,Pick up the left bottle.,1,False,0,5.144511,False,ambiguity_not_solved
+666,scene_015,bottle_only,top_score,partial,Pick up the right bottle.,1,False,0,2.269746,True,none
+667,scene_015,bottle_only,top_score,clear,Pick up the green bottle.,1,False,0,2.491001,True,none
+668,scene_015,bottle_only,top_score,clear,Pick up the red bottle.,1,False,0,2.428355,True,none
+669,scene_015,bottle_only,random_candidate,clear,Pick up the blue bottle.,1,False,0,2.583616,True,none
+670,scene_015,bottle_only,random_candidate,clear,Pick up the black bottle.,1,False,0,2.83332,True,none
+671,scene_015,bottle_only,vlm_direct,clear,Pick up the tall bottle.,1,False,0,2.170847,True,none
+672,scene_015,bottle_only,vlm_direct,clear,Pick up the bottom bottle.,1,False,0,4.134407,True,none
+673,scene_015,bottle_only,first_question,clear,Pick up the left most bottle.,1,False,0,2.896161,True,none
+674,scene_015,bottle_only,first_question,clear,Pick up the right most bottle.,1,False,0,1.752022,True,none
+675,scene_015,bottle_only,random_candidate,partial,Pick up the right bottle.,1,False,0,2.644823,True,none
+676,scene_015,bottle_only,random_candidate,partial,Pick up the left bottle.,1,False,0,2.692802,False,wrong_object_selected
+677,scene_015,bottle_only,random_candidate,ambiguous,Pick up my bottle.,4,False,0,8.77744,True,none
+678,scene_015,bottle_only,random_candidate,ambiguous,Pick up my bottle.,4,False,0,2.392146,False,ambiguity_not_solved
+679,scene_015,bottle_only,vlm_direct,ambiguous,Pick up my bottle.,4,False,0,119.947978,False,ambiguity_not_solved
+680,scene_015,bottle_only,vlm_direct,ambiguous,Pick up my bottle.,4,False,0,60.506362,False,ambiguity_not_solved
+681,scene_015,bottle_only,vlm_direct,partial,Pick up the left bottle.,1,False,0,6.702167,False,wrong_object_selected
+682,scene_015,bottle_only,vlm_direct,partial,Pick up the right bottle.,1,False,0,3.216277,True,none
+683,scene_015,bottle_only,first_question,partial,Pick up the right bottle.,1,False,0,60.03455,True,none
+684,scene_015,bottle_only,first_question,partial,Pick up the right bottle.,1,True,1,55.517709,True,none
+685,scene_015,bottle_only,first_question,partial,Pick up the left bottle.,1,False,0,150.805449,False,unresolved
+686,scene_015,bottle_only,first_question,ambiguous,Pick up my bottle.,4,True,2,107.974772,True,none
+687,scene_015,bottle_only,first_question,ambiguous,Pick up my bottle.,4,True,2,79.477029,True,none
+688,scene_015,bottle_only,random_question,ambiguous,Pick up my bottle.,4,True,3,152.934814,True,none
+689,scene_015,bottle_only,random_question,ambiguous,Pick up my bottle.,4,True,3,198.889934,True,none
+690,scene_015,bottle_only,random_question,partial,Pick up the left bottle.,1,True,1,59.701618,False,wrong_object_selected
+691,scene_015,bottle_only,random_question,partial,Pick up the right bottle.,1,True,1,78.962163,True,none
+692,scene_015,bottle_only,random_question,clear,Pick up the black bottle.,1,False,0,1.792142,True,none
+693,scene_015,bottle_only,random_question,clear,Pick up the red bottle.,1,False,0,3.493519,True,none
+694,scene_015,bottle_only,vlm_best_question,clear,Pick up the red bottle.,1,False,0,2.723393,True,none
+695,scene_015,bottle_only,vlm_best_question,clear,Pick up the tall bottle.,1,False,0,2.372311,True,none
+696,scene_015,bottle_only,vlm_best_question,partial,Pick up the right bottle.,1,False,0,25.197231,True,none
+697,scene_015,bottle_only,vlm_best_question,partial,Pick up the left bottle.,1,True,1,86.280988,False,wrong_object_selected
+698,scene_015,bottle_only,vlm_best_question,ambiguous,Pick up my bottle.,4,True,2,151.346309,True,none
+699,scene_015,bottle_only,vlm_best_question,ambiguous,Pick up my bottle.,4,True,2,304.080649,True,none
+700,scene_015,bottle_only,proposed_efe,ambiguous,Pick up my bottle.,4,True,1,119.045436,True,none
+701,scene_015,bottle_only,proposed_efe,ambiguous,Pick up my bottle.,4,True,2,117.929938,True,none
+702,scene_015,bottle_only,proposed_efe,partial,Pick up the left bottle.,1,False,0,146.221197,False,wrong_object_selected
+703,scene_015,bottle_only,proposed_efe,partial,Pick up the right bottle.,1,True,1,58.358098,True,none
+704,scene_015,bottle_only,proposed_efe,clear,Pick up the red bottle.,1,False,0,2.279753,True,none
+705,scene_015,bottle_only,proposed_efe,clear,Pick up the black bottle.,1,False,0,7.962525,True,none
+706,scene_016,utensil_only,top_score,clear,Pick up the blue fork.,1,False,0,5.196696,True,none
+707,scene_016,utensil_only,top_score,clear,Pick up the yellow fork.,1,False,0,2.902175,True,none
+708,scene_016,utensil_only,random_candidate,clear,Pick up the green fork.,1,False,0,4.764615,True,none
+709,scene_016,utensil_only,vlm_direct,clear,Pick up the right folk.,7,False,0,33.436382,True,none
+710,scene_016,utensil_only,first_question,clear,Pick up the blue spoon.,1,False,0,3.509836,True,none
+711,scene_016,utensil_only,top_score,partial,Pick up the red fork.,1,False,0,3.657488,False,wrong_object_selected
+712,scene_016,utensil_only,top_score,partial,Pick up the red spoon.,1,False,0,2.883212,True,none
+713,scene_016,utensil_only,top_score,ambiguous,Pick up my spoon.,3,False,0,8.201612,False,ambiguity_not_solved
+714,scene_016,utensil_only,random_question,clear,Pick up the blue fork.,1,False,0,2.849837,True,none
+715,scene_016,utensil_only,random_question,clear,Pick up the blue spoon.,1,False,0,3.161317,True,none
+716,scene_016,utensil_only,vlm_best_question,clear,Pick up the yellow fork.,1,False,0,3.130106,True,none
+717,scene_016,utensil_only,vlm_best_question,clear,Pick up the left fork.,1,False,0,3.738054,True,none
+718,scene_016,utensil_only,proposed_efe,clear,Pick up the left fork.,1,False,0,6.218477,True,none
+719,scene_016,utensil_only,proposed_efe,clear,Pick up the pink spoon.,1,False,0,23.933719,True,none
+720,scene_016,utensil_only,top_score,ambiguous,Pick up my fork.,4,False,0,8.728783,False,ambiguity_not_solved
+721,scene_016,utensil_only,random_candidate,ambiguous,Pick up my fork.,4,False,0,4.790353,True,none
+722,scene_016,utensil_only,random_candidate,partial,Pick up the right fork.,1,False,0,3.326589,True,none
+723,scene_016,utensil_only,random_candidate,partial,Pick up the blue fork.,1,False,0,3.395683,True,none
+724,scene_016,utensil_only,vlm_direct,partial,Pick up the blue fork.,1,False,0,3.570785,True,none
+725,scene_016,utensil_only,vlm_direct,partial,Pick up the right fork.,1,False,0,5.616395,True,none
+726,scene_016,utensil_only,vlm_direct,ambiguous,Pick up my fork.,4,False,0,64.182938,False,ambiguity_not_solved
+727,scene_016,utensil_only,vlm_direct,ambiguous,Pick up my fork.,4,False,0,57.697696,False,ambiguity_not_solved
+728,scene_016,utensil_only,first_question,ambiguous,Pick up my fork.,4,True,3,199.439898,True,none
+729,scene_016,utensil_only,first_question,ambiguous,Pick up my spoon.,3,True,2,83.125432,True,none
+730,scene_016,utensil_only,first_question,partial,Pick up the right spoon.,1,False,0,32.200545,False,gd_missing_target_candidate
+731,scene_016,utensil_only,first_question,partial,Pick up the right fork.,1,False,0,32.927998,True,none
+732,scene_016,utensil_only,first_question,clear,Pick up the green fork.,1,False,0,3.855386,True,none
+733,scene_016,utensil_only,random_question,partial,Pick up the right fork.,1,False,0,16.769646,True,none
+734,scene_016,utensil_only,random_question,partial,Pick up the left fork.,1,False,0,33.344006,True,none
+735,scene_016,utensil_only,random_question,ambiguous,Pick up my fork.,4,True,3,172.451942,True,none
+736,scene_016,utensil_only,random_question,ambiguous,Pick up my spoon.,3,True,2,172.065532,True,none
+737,scene_016,utensil_only,vlm_best_question,ambiguous,Pick up my spoon.,3,True,2,111.56609,True,none
+738,scene_016,utensil_only,vlm_best_question,ambiguous,Pick up my fork.,4,True,3,136.874558,True,none
+739,scene_016,utensil_only,vlm_best_question,partial,Pick up the left fork.,1,False,0,25.931115,True,none
+740,scene_016,utensil_only,vlm_best_question,partial,Pick up the right fork.,1,False,0,22.406211,True,none
+741,scene_016,utensil_only,proposed_efe,partial,Pick up the right fork.,1,False,0,24.851558,True,none
+742,scene_016,utensil_only,proposed_efe,partial,Pick up the left fork.,1,False,0,23.385863,True,none
+743,scene_016,utensil_only,proposed_efe,ambiguous,Pick up my spoon.,3,True,2,100.766723,False,ambiguity_not_solved
+744,scene_017,utensil_only,top_score,ambiguous,Pick up my spoon.,3,False,0,6.589205,True,none
+745,scene_017,utensil_only,top_score,ambiguous,Pick up my spoon.,3,False,0,2.235227,False,ambiguity_not_solved
+746,scene_017,utensil_only,top_score,clear,Pick up the blue spoon.,1,False,0,3.598445,True,none
+747,scene_017,utensil_only,random_candidate,clear,Pick up the pink spoon.,1,False,0,2.873959,True,none
+748,scene_017,utensil_only,random_candidate,clear,Pick up the yellow fork.,1,False,0,2.464653,True,none
+749,scene_017,utensil_only,vlm_direct,clear,Pick up the blue fork.,1,False,0,2.588955,True,none
+750,scene_017,utensil_only,vlm_direct,clear,Pick up the green fork.,1,False,0,4.909418,True,none
+751,scene_017,utensil_only,first_question,clear,Pick up the small red fork.,2,True,1,26.711228,True,none
+752,scene_017,utensil_only,first_question,clear,Pick up the bottom fork.,1,False,0,5.648345,True,none
+753,scene_017,utensil_only,random_question,clear,Pick up the right fork.,1,False,0,3.109696,True,none
+754,scene_017,utensil_only,random_question,clear,Pick up the right spoon.,1,False,0,2.761544,True,none
+755,scene_017,utensil_only,vlm_best_question,clear,Pick up the left spoon.,1,False,0,2.76851,True,none
+756,scene_017,utensil_only,vlm_best_question,clear,Pick up the left fork.,2,True,1,52.100996,True,none
+757,scene_017,utensil_only,proposed_efe,clear,Pick up the blue fork.,1,False,0,2.552566,True,none
+758,scene_017,utensil_only,proposed_efe,clear,Pick up the green fork.,1,False,0,4.809395,True,none
+759,scene_017,utensil_only,top_score,ambiguous,Pick up my fork.,1,False,0,8.797889,False,ambiguity_not_solved
+760,scene_017,utensil_only,top_score,ambiguous,Pick up my fork.,1,False,0,20.327798,False,ambiguity_not_solved
+761,scene_017,utensil_only,random_candidate,ambiguous,Pick up my fork.,1,False,0,2.693417,False,ambiguity_not_solved
+762,scene_017,utensil_only,random_candidate,partial,Pick up the left fork.,2,False,0,5.807012,True,none
+763,scene_017,utensil_only,random_candidate,partial,Pick up the right spoon.,1,False,0,7.417574,True,none
+764,scene_017,utensil_only,vlm_direct,partial,Pick up the right spoon.,1,False,0,2.148642,True,none
+765,scene_017,utensil_only,vlm_direct,partial,Pick up the left spoon.,1,False,0,3.632609,True,none
+766,scene_017,utensil_only,vlm_direct,ambiguous,Pick up the my fork.,1,False,0,4.210754,False,ambiguity_not_solved
+767,scene_017,utensil_only,vlm_direct,ambiguous,Pick up the my fork.,1,False,0,10.33584,True,none
+768,scene_017,utensil_only,vlm_direct,ambiguous,Pick up the my spoon.,3,False,0,75.635175,False,ambiguity_not_solved
+769,scene_017,utensil_only,first_question,partial,Pick the left fork.,2,True,1,37.111347,True,none
+770,scene_017,utensil_only,first_question,partial,Pick the right spoon.,15,False,0,496.879816,True,none
+771,scene_017,utensil_only,first_question,clear,Pick up the spoon.,4,True,3,158.13142,True,none
+772,scene_017,utensil_only,first_question,ambiguous,Pick up my fork.,1,False,0,11.521985,False,gd_missing_target_candidate
+773,scene_017,utensil_only,random_question,ambiguous,Pick up my fork.,1,False,0,4.321315,False,gd_missing_target_candidate
+774,scene_017,utensil_only,random_question,ambiguous,Pick up my spoon.,3,True,2,120.489499,True,none
+775,scene_017,utensil_only,random_question,partial,Pick up the right spoon.,1,False,0,4.087788,True,none
+776,scene_017,utensil_only,random_question,partial,Pick up the left fork.,2,True,1,44.549007,True,none
+777,scene_017,utensil_only,vlm_best_question,partial,Pick up the left fork.,2,True,1,55.488508,True,none
+778,scene_017,utensil_only,vlm_best_question,partial,Pick up the right spoon.,1,False,0,39.707985,True,none
+779,scene_017,utensil_only,vlm_best_question,ambiguous,Pick up my spoon.,3,True,2,190.921386,True,none
+780,scene_017,utensil_only,vlm_best_question,ambiguous,Pick up my folk.,5,True,4,225.135844,True,none
+781,scene_017,utensil_only,proposed_efe,ambiguous,Pick up my folk.,5,True,3,140.031676,True,none
+782,scene_017,utensil_only,proposed_efe,ambiguous,Pick up my spoon.,3,True,2,194.130404,True,none
+783,scene_018,utensil_only,top_score,clear,Pick up the blue folk.,1,False,0,6.2069,True,none
+784,scene_018,utensil_only,top_score,clear,Pick up the yellow folk.,7,False,0,8.067262,True,none
+785,scene_018,utensil_only,random_candidate,clear,Pick up the green folk.,7,False,0,9.488136,True,none
+786,scene_018,utensil_only,random_candidate,clear,Pick up the blue spoon.,1,False,0,3.599425,True,none
+787,scene_018,utensil_only,vlm_direct,clear,Pick up the pink spoon.,2,False,0,70.815691,True,none
+788,scene_018,utensil_only,top_score,partial,Pick up the right spoon.,1,False,0,5.454985,True,none
+789,scene_018,utensil_only,top_score,partial,Pick up the left spoon.,1,False,0,3.38851,True,none
+790,scene_018,utensil_only,top_score,ambiguous,Pick up my spoon.,2,False,0,9.505184,False,ambiguity_not_solved
+791,scene_018,utensil_only,top_score,ambiguous,Pick up my spoon.,2,False,0,2.61534,False,ambiguity_not_solved
+792,scene_018,utensil_only,random_candidate,ambiguous,Pick up my spoon.,2,False,0,8.632467,True,none
+793,scene_018,utensil_only,random_candidate,ambiguous,Pick up my spoon.,2,False,0,3.492351,False,ambiguity_not_solved
+794,scene_018,utensil_only,random_candidate,partial,Pick up the right spoon.,1,False,0,3.105246,True,none
+795,scene_018,utensil_only,random_candidate,partial,Pick up the top spoon.,1,False,0,2.906712,False,wrong_object_selected
+796,scene_018,utensil_only,vlm_direct,partial,Pick up the top spoon.,1,False,0,2.591797,False,wrong_object_selected
+797,scene_018,utensil_only,vlm_direct,partial,Pick up the right spoon.,1,False,0,2.946823,True,none
+798,scene_018,utensil_only,vlm_direct,ambiguous,Pick up my spoon.,2,False,0,74.873577,False,ambiguity_not_solved
+799,scene_018,utensil_only,vlm_direct,ambiguous,Pick up my fork.,1,False,0,10.028169,False,gd_missing_target_candidate
+800,scene_018,utensil_only,first_question,ambiguous,Pick up my fork.,1,False,0,2.745667,False,gd_missing_target_candidate
+801,scene_018,utensil_only,first_question,ambiguous,Pick up my spoon.,2,True,1,15.790379,True,none
+802,scene_018,utensil_only,first_question,partial,Pick up right spoon.,1,False,0,13.349791,True,none
+803,scene_018,utensil_only,first_question,partial,Pick up left fork.,1,False,0,19.897109,True,none
+804,scene_018,utensil_only,first_question,clear,Pick up yellow fork.,1,False,0,5.407041,True,none
+805,scene_018,utensil_only,first_question,clear,Pick up the green fork.,1,False,0,8.722776,True,none
+806,scene_018,utensil_only,random_question,clear,Pick up the green fork.,1,False,0,4.319711,True,none
+807,scene_018,utensil_only,random_question,clear,Pick up the blue fork.,1,False,0,2.665059,True,none
+808,scene_018,utensil_only,random_question,partial,Pick up the top left folk.,2,False,0,63.573793,True,none
+809,scene_018,utensil_only,random_question,ambiguous,Pick up my folk.,2,True,1,55.934518,True,none
+810,scene_018,utensil_only,random_question,ambiguous,Pick up my spoon.,2,False,0,54.8792,False,gd_missing_target_candidate
+811,scene_018,utensil_only,vlm_best_question,ambiguous,Pick up my spoon.,2,False,0,27.07251,False,wrong_object_selected
+812,scene_018,utensil_only,vlm_best_question,ambiguous,Pick up my folk.,2,False,0,23.154656,True,none
+813,scene_018,utensil_only,vlm_best_question,partial,Pick up the right spoon.,1,False,0,53.985779,True,none
+814,scene_018,utensil_only,vlm_best_question,partial,Pick up the right folk.,2,False,0,27.31837,True,none
+815,scene_018,utensil_only,vlm_best_question,clear,Pick up the green folk.,7,True,1,83.262435,True,none
+816,scene_018,utensil_only,vlm_best_question,clear,Pick up the blue fork.,1,False,0,3.069826,True,none
+817,scene_018,utensil_only,proposed_efe,clear,Pick up the blue fork.,1,False,0,2.389909,True,none
+818,scene_018,utensil_only,proposed_efe,clear,Pick up the yellow fork.,1,False,0,2.670457,True,none
+819,scene_018,utensil_only,proposed_efe,partial,Pick up the right fork.,1,False,0,31.029475,True,none
+820,scene_018,utensil_only,proposed_efe,partial,Pick up the right spoon.,1,False,0,37.835746,True,none
+821,scene_018,utensil_only,proposed_efe,ambiguous,Pick up my spoon.,2,True,1,60.676667,True,none
+822,scene_018,utensil_only,proposed_efe,ambiguous,Pick up my folk.,2,False,0,48.636134,True,none
+823,scene_018,utensil_only,proposed_efe,ambiguous,Pick up my fork.,1,False,0,59.222182,False,gd_missing_target_candidate
+824,scene_019,utensil_only,top_score,clear,pick up the yellow fork.,1,False,0,10.072968,True,none
+825,scene_019,utensil_only,top_score,clear,pick up the blue fork.,1,False,0,5.826832,True,none
+826,scene_019,utensil_only,random_candidate,clear,pick up the green fork.,1,False,0,3.01912,True,none
+827,scene_019,utensil_only,random_candidate,clear,pick up the red spoon.,1,False,0,4.474528,True,none
+828,scene_019,utensil_only,vlm_direct,clear,pick up the blue spoon.,1,False,0,4.791513,True,none
+829,scene_019,utensil_only,vlm_direct,clear,pick up the pink spoon.,2,False,0,125.547518,False,wrong_object_selected
+830,scene_019,utensil_only,first_question,clear,pick up the right spoon.,1,False,0,7.425184,True,none
+831,scene_019,utensil_only,first_question,clear,pick up the bottom spoon.,1,False,0,7.186878,True,none
+832,scene_019,utensil_only,random_question,clear,pick up the green fork.,1,False,0,7.062818,True,none
+833,scene_019,utensil_only,random_question,clear,pick up the blue fork.,1,False,0,3.839147,True,none
+834,scene_019,utensil_only,vlm_best_question,clear,pick up the yellow fork.,1,False,0,6.941288,True,none
+835,scene_019,utensil_only,vlm_best_question,clear,pick up the blue spoon.,1,False,0,3.826655,True,none
+836,scene_019,utensil_only,proposed_efe,clear,pick up the blue spoon.,1,False,0,1.984208,True,none
+837,scene_019,utensil_only,proposed_efe,clear,pick up the red spoon.,1,False,0,5.360156,True,none
+838,scene_019,utensil_only,top_score,partial,pick up the left fork.,1,False,0,3.504153,True,none
+839,scene_019,utensil_only,top_score,partial,pick up the right fork.,1,False,0,5.062104,True,none
+840,scene_019,utensil_only,top_score,ambiguous,pick up my fork.,1,False,0,4.786418,False,gd_missing_target_candidate
+841,scene_019,utensil_only,top_score,ambiguous,pick up my spoon.,3,False,0,8.023859,False,ambiguity_not_solved
+842,scene_019,utensil_only,random_candidate,ambiguous,pick up my spoon.,3,False,0,3.643981,False,ambiguity_not_solved
+843,scene_019,utensil_only,random_candidate,ambiguous,pick up my fork.,1,False,0,5.769665,False,gd_missing_target_candidate
+844,scene_019,utensil_only,random_candidate,partial,pick up the left fork.,1,False,0,3.365586,True,none
+845,scene_019,utensil_only,random_candidate,partial,pick up the right fork.,1,False,0,3.878889,True,none
+846,scene_019,utensil_only,vlm_direct,partial,pick up the right fork.,1,False,0,5.073007,True,none
+847,scene_019,utensil_only,vlm_direct,partial,pick up the left fork.,1,False,0,3.409946,True,none
+848,scene_019,utensil_only,first_question,ambiguous,pick up my spoon.,3,True,2,62.068435,True,none
+849,scene_019,utensil_only,first_question,ambiguous,pick up my fork.,1,False,0,6.677104,False,gd_missing_target_candidate
+850,scene_019,utensil_only,first_question,partial,pick up the left fork.,1,False,0,21.251161,True,none
+851,scene_019,utensil_only,first_question,partial,pick up the right fork.,1,False,0,27.796872,True,none
+852,scene_019,utensil_only,random_question,partial,pick up the right fork.,1,False,0,26.71918,True,none
+853,scene_019,utensil_only,random_question,partial,pick up the left fork.,1,False,0,20.487666,True,none
+854,scene_019,utensil_only,random_question,ambiguous,pick up my fork.,1,False,0,17.261701,False,ambiguity_not_solved
+855,scene_019,utensil_only,random_question,ambiguous,pick up my spoon.,3,True,2,112.967102,True,none
+856,scene_019,utensil_only,vlm_best_question,ambiguous,pick up my spoon.,3,True,2,87.636604,True,none
+857,scene_019,utensil_only,vlm_best_question,ambiguous,pick up my fork.,1,False,0,7.461019,False,gd_missing_target_candidate
+858,scene_019,utensil_only,vlm_best_question,partial,pick up the left fork.,1,False,0,28.591136,True,none
+859,scene_019,utensil_only,vlm_best_question,partial,pick up the right fork.,1,False,0,26.27154,True,none
+860,scene_019,utensil_only,proposed_efe,partial,pick up the right fork.,1,False,0,20.098934,True,none
+861,scene_019,utensil_only,proposed_efe,partial,pick up the left fork.,1,False,0,24.893831,True,none
+862,scene_019,utensil_only,proposed_efe,ambiguous,pick up my fork.,1,False,0,4.043211,False,ambiguity_not_solved
+863,scene_019,utensil_only,proposed_efe,ambiguous,pick up my spoon.,3,True,2,75.248433,True,none
+864,scene_020,utensil_only,top_score,clear,pick up the yellow fork.,1,False,0,4.233779,True,none
+865,scene_020,utensil_only,random_candidate,clear,pick up the red fork.,1,False,0,4.68349,True,none
+866,scene_020,utensil_only,vlm_direct,clear,pick up the blue spoon.,1,False,0,5.227998,True,none
+867,scene_020,utensil_only,vlm_direct,clear,pick up the right spoon.,1,False,0,3.386399,True,none
+868,scene_020,utensil_only,first_question,clear,pick up the right spoon.,1,False,0,2.758717,True,none
+869,scene_020,utensil_only,first_question,clear,pick up the green spoon.,1,False,0,1.685913,True,none
+870,scene_020,utensil_only,random_question,clear,pick up the green spoon.,1,False,0,2.902564,True,none
+871,scene_020,utensil_only,random_question,clear,pick up the red fork.,1,False,0,5.596229,True,none
+872,scene_020,utensil_only,vlm_best_question,clear,pick up the red fork.,1,False,0,3.038621,True,none
+873,scene_020,utensil_only,vlm_best_question,clear,pick up the blue spoon.,1,False,0,2.838125,True,none
+874,scene_020,utensil_only,proposed_efe,clear,pick up the blue spoon.,1,False,0,3.865479,True,none
+875,scene_020,utensil_only,proposed_efe,clear,pick up the red spoon.,1,False,0,4.822918,True,none
+876,scene_020,utensil_only,top_score,partial,pick up the left spoon.,2,False,0,9.526989,True,none
+877,scene_020,utensil_only,top_score,partial,pick up the pink spoon.,2,False,0,4.099292,False,ambiguity_not_solved
+878,scene_020,utensil_only,top_score,ambiguous,pick up my spoon.,6,False,0,17.827134,False,ambiguity_not_solved
+879,scene_020,utensil_only,top_score,ambiguous,pick up my fork.,1,False,0,6.238092,False,gd_missing_target_candidate
+880,scene_020,utensil_only,random_candidate,ambiguous,pick up my fork.,1,False,0,4.749538,False,gd_missing_target_candidate
+881,scene_020,utensil_only,random_candidate,ambiguous,pick up my spoon.,6,False,0,4.281687,False,ambiguity_not_solved
+882,scene_020,utensil_only,random_candidate,partial,pick up the pink spoon.,2,False,0,5.37137,False,ambiguity_not_solved
+883,scene_020,utensil_only,random_candidate,partial,pick up the left spoon.,2,False,0,9.510955,False,wrong
+884,scene_020,utensil_only,vlm_direct,partial,pick up the left spoon.,2,False,0,89.249486,True,none
+885,scene_020,utensil_only,vlm_direct,partial,pick up the pink spoon.,2,False,0,104.981075,False,wrong
+886,scene_020,utensil_only,vlm_direct,ambiguous,pick up my spoon.,6,False,0,99.981683,False,wrong
+887,scene_020,utensil_only,vlm_direct,ambiguous,pick up my spoon.,6,False,0,92.808783,False,ambiguity_not_solved
+888,scene_020,utensil_only,first_question,ambiguous,pick up my spoon.,6,True,4,181.555589,True,none
+889,scene_020,utensil_only,first_question,ambiguous,pick up my fork.,1,False,0,3.738063,False,gd_missing_target_candidate
+890,scene_020,utensil_only,first_question,partial,pick up pink fork.,1,False,0,24.570711,True,none
+891,scene_020,utensil_only,first_question,partial,pick up left fork.,1,False,0,18.027554,True,none
+892,scene_020,utensil_only,random_question,partial,pick up left fork.,1,False,0,14.353858,True,none
+893,scene_020,utensil_only,vlm_best_question,partial,pick up pink spoon.,2,True,1,25.885984,True,none
+894,scene_020,utensil_only,vlm_best_question,partial,pick up left spoon.,2,True,1,44.603557,True,none
+895,scene_020,utensil_only,vlm_best_question,ambiguous,pick up my spoon.,6,True,4,144.312268,True,none
+896,scene_020,utensil_only,vlm_best_question,ambiguous,pick up my fork.,1,False,0,4.490983,False,gd_missing_target_candidate
+897,scene_020,utensil_only,proposed_efe,ambiguous,pick up my fork.,1,False,0,5.576805,False,gd_missing_target_candidate
+898,scene_020,utensil_only,proposed_efe,ambiguous,pick up my spoon.,6,True,4,520.902955,True,none
+899,scene_021,utensil_only,top_score,ambiguous,pick up my spoon.,6,False,0,8.103695,False,ambiguity_not_solved
+900,scene_021,utensil_only,top_score,ambiguous,pick up my fork.,1,False,0,4.304024,False,gd_missing_target_candidate
+901,scene_021,utensil_only,top_score,clear,pick up the red fork.,1,False,0,2.952781,True,none
+902,scene_021,utensil_only,top_score,clear,pick up the yellow fork.,1,False,0,3.823609,True,none
+903,scene_021,utensil_only,random_candidate,clear,pick up the right spoon.,1,False,0,3.759564,True,none
+904,scene_021,utensil_only,random_candidate,clear,pick up the left spoon.,2,False,0,16.44974,True,none
+905,scene_021,utensil_only,random_candidate,clear,pick up the green spoon.,1,False,0,3.189415,False,wrong_object_selected
+906,scene_021,utensil_only,vlm_direct,clear,pick up the red spoon.,1,False,0,5.252121,True,none
+907,scene_021,utensil_only,vlm_direct,clear,pick up the blue spoon.,1,False,0,3.644042,True,none
+908,scene_021,utensil_only,first_question,clear,pick up the red fork.,1,False,0,4.851507,True,none
+909,scene_021,utensil_only,first_question,clear,pick up the yellow fork.,1,False,0,2.954076,True,none
+910,scene_021,utensil_only,random_question,clear,pick up the yellow fork.,1,False,0,2.14061,True,none
+911,scene_021,utensil_only,random_question,clear,pick up the red fork.,1,False,0,6.678282,True,none
+912,scene_021,utensil_only,random_question,clear,pick up the yellow fork.,1,False,0,6.061706,True,none
+913,scene_021,utensil_only,vlm_best_question,clear,pick up the yellow fork.,1,False,0,10.972431,True,none
+914,scene_021,utensil_only,vlm_best_question,clear,pick up the red fork.,1,False,0,2.694944,True,none
+915,scene_021,utensil_only,proposed_efe,clear,pick up the red fork.,1,False,0,1.939763,True,none
+916,scene_021,utensil_only,proposed_efe,clear,pick up the orange spoon.,1,False,0,4.493691,False,wrong_object_selected
+917,scene_021,utensil_only,proposed_efe,partial,pick up pink spoon.,2,True,1,51.836522,True,none
+918,scene_021,utensil_only,top_score,partial,pick up pink spoon.,2,False,0,3.956305,True,none
+919,scene_021,utensil_only,top_score,partial,pick up left spoon.,2,False,0,4.263526,False,ambiguity_not_solved
+920,scene_021,utensil_only,top_score,ambiguous,pick up my spoon.,6,False,0,3.670768,False,ambiguity_not_solved
+921,scene_021,utensil_only,top_score,ambiguous,pick up my fork.,1,False,0,5.646762,False,gd_missing_target_candidate
+922,scene_021,utensil_only,random_candidate,ambiguous,pick up my fork.,1,False,0,5.658182,False,gd_missing_target_candidate
+923,scene_021,utensil_only,random_candidate,ambiguous,pick up my spoon.,6,False,0,11.77356,False,ambiguity_not_solved
+924,scene_021,utensil_only,random_candidate,partial,pick up the pink spoon.,2,False,0,11.550899,True,none
+925,scene_021,utensil_only,vlm_direct,partial,pick up the pink spoon.,2,False,0,47.221434,True,none
+926,scene_021,utensil_only,vlm_direct,partial,pick up the left spoon.,2,False,0,26.447891,False,ambiguity_not_solved
+927,scene_021,utensil_only,vlm_direct,ambiguous,pick up my spoon.,6,False,0,88.738605,False,ambiguity_not_solved
+928,scene_021,utensil_only,vlm_direct,ambiguous,pick up my fork.,1,False,0,11.456719,False,gd_missing_target_candidate
+929,scene_021,utensil_only,first_question,ambiguous,pick up my fork.,1,False,0,3.457277,False,gd_missing_target_candidate
+930,scene_021,utensil_only,first_question,ambiguous,pick up my spoon.,6,True,4,201.697669,True,none
+931,scene_021,utensil_only,first_question,partial,pick up the pink spoon.,2,True,1,52.451394,True,none
+932,scene_021,utensil_only,first_question,partial,pick up the left spoon.,2,True,1,29.830674,True,none
+933,scene_021,utensil_only,random_question,partial,pick up the left spoon.,2,True,1,224.329165,True,none
+934,scene_021,utensil_only,random_question,partial,pick up the pink spoon.,2,True,1,121.889488,True,none
+935,scene_021,utensil_only,random_question,ambiguous,pick up my spoon.,6,True,4,279.238138,True,none
+936,scene_021,utensil_only,random_question,ambiguous,pick up my fork.,1,False,0,4.055697,False,gd_missing_target_candidate
+937,scene_021,utensil_only,vlm_best_question,ambiguous,pick up my fork.,1,False,0,2.414388,False,gd_missing_target_candidate
+938,scene_021,utensil_only,vlm_best_question,ambiguous,pick up my spoon.,6,True,5,318.112852,True,none
+939,scene_021,utensil_only,vlm_best_question,partial,pick up the left spoon.,2,True,1,37.352157,True,none
+940,scene_021,utensil_only,vlm_best_question,partial,pick up the pink spoon.,2,True,1,37.961764,True,none
+941,scene_021,utensil_only,proposed_efe,partial,pick up the pink spoon.,2,True,1,42.549373,True,none
+942,scene_021,utensil_only,proposed_efe,partial,pick up the pink spoon.,2,True,1,55.59217,True,none
+943,scene_021,utensil_only,proposed_efe,ambiguous,pick up my spoon.,6,True,4,249.949083,True,none
+944,scene_021,utensil_only,proposed_efe,ambiguous,pick up my fork.,1,False,0,6.11645,False,gd_missing_target_candidate
+945,scene_022,utensil_only,top_score,clear,Pick up the yellow fork.,1,False,0,2.958684,True,none
+946,scene_022,utensil_only,top_score,clear,Pick up the red fork.,1,False,0,4.998947,True,none
+947,scene_022,utensil_only,random_candidate,clear,Pick up the red spoon.,1,False,0,3.823141,True,none
+948,scene_022,utensil_only,random_candidate,clear,Pick up the blue spoon.,1,False,0,3.07566,True,none
+949,scene_022,utensil_only,vlm_direct,clear,Pick up the green spoon.,2,False,0,119.003307,False,ambiguity_not_solved
+950,scene_022,utensil_only,vlm_direct,clear,Pick up the right spoon.,2,False,0,68.279258,True,none
+951,scene_022,utensil_only,first_question,clear,Pick up the red fork.,1,False,0,1.886251,True,none
+952,scene_022,utensil_only,random_question,clear,Pick up the yellow fork.,1,False,0,3.187921,True,none
+953,scene_022,utensil_only,random_question,clear,Pick up the red fork.,1,False,0,1.731735,True,none
+954,scene_022,utensil_only,vlm_best_question,clear,Pick up the red fork.,1,False,0,3.7722,True,none
+955,scene_022,utensil_only,vlm_best_question,clear,Pick up the yellow fork.,1,False,0,3.555377,True,none
+956,scene_022,utensil_only,proposed_efe,clear,Pick up the yellow fork.,1,False,0,1.703685,True,none
+957,scene_022,utensil_only,proposed_efe,clear,Pick up the yellow fork.,1,False,0,3.155791,True,none
+958,scene_022,utensil_only,top_score,partial,Pick up pink spoon.,1,False,0,5.318033,False,wrong_object_selected
+959,scene_022,utensil_only,top_score,partial,Pick up left spoon.,2,False,0,5.043543,False,ambiguity_not_solved
+960,scene_022,utensil_only,top_score,ambiguous,Pick up my spoon.,5,False,0,4.994943,False,ambiguity_not_solved
+961,scene_022,utensil_only,random_candidate,ambiguous,Pick up my fork.,1,False,0,2.776891,False,gd_missing_target_candidate
+962,scene_022,utensil_only,random_candidate,ambiguous,Pick up my spoon.,5,False,0,3.274859,False,ambiguity_not_solved
+963,scene_022,utensil_only,random_candidate,partial,Pick up the left spoon.,2,False,0,4.065205,True,none
+964,scene_022,utensil_only,random_candidate,partial,Pick up the right spoon.,2,False,0,3.743219,True,none
+965,scene_022,utensil_only,vlm_direct,partial,Pick up the right spoon.,2,False,0,74.656465,False,ambiguity_not_solved
+966,scene_022,utensil_only,vlm_direct,partial,Pick up the left spoon.,2,False,0,38.986573,False,ambiguity_not_solved
+967,scene_022,utensil_only,vlm_direct,ambiguous,Pick up my spoon.,5,False,0,42.511748,False,ambiguity_not_solved
+968,scene_022,utensil_only,vlm_direct,ambiguous,Pick up my fork.,1,False,0,3.757574,False,gd_missing_target_candidate
+969,scene_022,utensil_only,first_question,ambiguous,Pick up my spoon.,5,True,4,202.428874,True,none
+970,scene_022,utensil_only,first_question,partial,Pick up the left spoon.,2,True,1,55.56513,True,none
+971,scene_022,utensil_only,first_question,partial,Pick up the right spoon.,5,True,1,38.716773,True,none
+972,scene_022,utensil_only,random_question,partial,Pick up the right spoon.,5,True,1,79.195564,True,none
+973,scene_022,utensil_only,random_question,ambiguous,Pick up my spoon.,5,True,4,233.619133,True,none
+974,scene_022,utensil_only,random_question,ambiguous,Pick up my fork.,1,False,0,3.825998,False,gd_missing_target_candidate
+975,scene_022,utensil_only,vlm_best_question,ambiguous,Pick up my fork.,1,False,0,3.176384,False,gd_missing_target_candidate
+976,scene_022,utensil_only,vlm_best_question,ambiguous,Pick up my spoon.,5,True,2,130.042892,True,none
+977,scene_022,utensil_only,vlm_best_question,partial,Pick up the left spoon.,2,True,1,73.617302,True,none
+978,scene_022,utensil_only,vlm_best_question,partial,Pick up the right spoon.,5,True,1,80.886177,True,none
+979,scene_022,utensil_only,proposed_efe,partial,Pick up the right spoon.,5,True,1,50.500551,True,none
+980,scene_022,utensil_only,proposed_efe,partial,Pick up the left spoon.,2,True,1,112.311918,True,none
+981,scene_022,utensil_only,proposed_efe,ambiguous,Pick up my spoon.,5,True,3,132.353448,True,none
+982,scene_022,utensil_only,proposed_efe,ambiguous,Pick up my fork.,1,False,0,4.147802,False,gd_missing_target_candidate
+983,scene_023,utensil_only,top_score,clear,Pick up the green spoon.,1,False,0,4.810409,True,none
+984,scene_023,utensil_only,random_candidate,partial,Pick up the bottom spoon.,1,False,0,12.692883,False,wrong_object_selected
+985,scene_023,utensil_only,random_candidate,clear,Pick up the red spoon.,1,False,0,2.948122,True,none
+986,scene_023,utensil_only,vlm_direct,clear,Pick up the green spoon.,1,False,0,3.094851,True,none
+987,scene_023,utensil_only,vlm_direct,clear,Pick up the orange spoon.,1,False,0,3.332119,False,wrong_object_selected
+988,scene_023,utensil_only,first_question,clear,Pick up the pink spoon.,1,False,0,2.760725,False,wrong_object_selected
+989,scene_023,utensil_only,random_question,clear,Pick up the dark blue spoon.,1,False,0,3.706279,True,none
+990,scene_023,utensil_only,random_question,clear,Pick up the red spoon.,1,False,0,7.096425,True,none
+991,scene_023,utensil_only,vlm_best_question,clear,Pick up the green spoon.,1,False,0,4.044507,True,none
+992,scene_023,utensil_only,vlm_best_question,clear,Pick up the orange spoon.,1,False,0,5.163594,True,none
+993,scene_023,utensil_only,proposed_efe,clear,Pick up the right spoon.,1,False,0,3.502741,True,none
+994,scene_023,utensil_only,top_score,partial,Pick up the left spoon.,2,False,0,4.956003,True,none
+995,scene_023,utensil_only,top_score,partial,Pick up the right spoon.,1,False,0,4.363127,True,none
+996,scene_023,utensil_only,top_score,ambiguous,Pick up my spoon.,6,False,0,5.010585,False,ambiguity_not_solved
+997,scene_023,utensil_only,top_score,ambiguous,Pick up my spoon.,6,False,0,8.369639,False,ambiguity_not_solved
+998,scene_023,utensil_only,random_candidate,ambiguous,Pick up my spoon.,6,False,0,4.020648,False,ambiguity_not_solved
+999,scene_023,utensil_only,random_candidate,ambiguous,Pick up my spoon.,6,False,0,2.794337,False,ambiguity_not_solved
+1000,scene_023,utensil_only,random_candidate,partial,Pick up the left spoon.,2,False,0,62.077026,False,ambiguity_not_solved
+1001,scene_023,utensil_only,random_candidate,partial,Pick up the right spoon.,1,False,0,3.231282,True,none
+1002,scene_023,utensil_only,vlm_direct,partial,Pick up the right spoon.,1,False,0,2.310042,True,none
+1003,scene_023,utensil_only,vlm_direct,partial,Pick up the left spoon.,2,False,0,62.627703,False,ambiguity_not_solved
+1004,scene_023,utensil_only,vlm_direct,ambiguous,Pick up my spoon.,6,False,0,63.453348,False,ambiguity_not_solved
+1005,scene_023,utensil_only,vlm_direct,ambiguous,Pick up my spoon.,6,False,0,252.559451,False,ambiguity_not_solved
+1006,scene_023,utensil_only,first_question,ambiguous,Pick up my spoon.,6,True,5,219.686434,True,none
+1007,scene_023,utensil_only,random_question,partial,Pick up the right spoon.,6,True,3,164.280411,True,none
+1008,scene_023,utensil_only,random_question,partial,Pick up the left spoon.,2,True,1,71.706752,True,none
+1009,scene_023,utensil_only,random_question,ambiguous,Pick up my spoon.,6,True,4,578.827015,True,none
+1010,scene_023,utensil_only,vlm_best_question,ambiguous,Pick up my spoon.,6,True,3,123.959382,True,none
+1011,scene_023,utensil_only,random_question,ambiguous,Pick up my spoon.,6,True,3,168.697701,True,none
+1012,scene_023,utensil_only,vlm_best_question,ambiguous,Pick up my spoon.,6,True,2,77.082444,True,none
+1013,scene_023,utensil_only,vlm_best_question,partial,Pick up the left spoon.,2,True,1,24.956078,True,none
+1014,scene_023,utensil_only,vlm_best_question,partial,Pick up the right spoon.,6,True,1,41.62093,True,none
+1015,scene_023,utensil_only,proposed_efe,partial,Pick up the right spoon.,6,True,1,78.346772,True,none
+1016,scene_023,utensil_only,proposed_efe,partial,Pick up the left spoon.,2,True,1,51.362099,True,none
+1017,scene_023,utensil_only,proposed_efe,ambiguous,Pick up my spoon.,6,True,3,502.703516,True,none
+1018,scene_024,utensil_only,top_score,clear,Pick up the blue fork.,1,False,0,4.276229,True,none
+1019,scene_024,utensil_only,random_candidate,clear,Pick up the yellow fork.,1,False,0,4.660703,True,none
+1020,scene_024,utensil_only,vlm_direct,clear,Pick up the left fork.,2,False,0,85.597292,True,none
+1021,scene_024,utensil_only,first_question,clear,Pick up the bottom fork.,1,False,0,3.870196,True,none
+1022,scene_024,utensil_only,first_question,clear,Pick up the red fork.,1,False,0,5.622076,True,none
+1023,scene_024,utensil_only,random_question,clear,Pick up the green fork.,1,False,0,3.615121,True,none
+1024,scene_024,utensil_only,random_question,clear,Pick up the yellow fork.,1,False,0,4.463901,True,none
+1025,scene_024,utensil_only,vlm_best_question,clear,Pick up the blue fork.,1,False,0,6.35474,True,none
+1026,scene_024,utensil_only,vlm_best_question,clear,Pick up the red fork.,1,False,0,3.695444,True,none
+1027,scene_024,utensil_only,proposed_efe,clear,Pick up the red fork.,1,False,0,3.662896,True,none
+1028,scene_024,utensil_only,proposed_efe,clear,Pick up the red fork.,1,False,0,2.639215,True,none
+1029,scene_024,utensil_only,top_score,partial,Pick up the right fork.,1,False,0,3.868338,False,ambiguity_not_solved
+1030,scene_024,utensil_only,top_score,ambiguous,Pick up my fork.,4,False,0,11.838341,False,wrong
+1031,scene_024,utensil_only,top_score,ambiguous,Pick up my fork.,4,False,0,3.762795,True,none
+1032,scene_024,utensil_only,proposed_efe,ambiguous,Pick up my fork.,4,True,2,143.074537,True,none
+1033,scene_024,utensil_only,random_candidate,ambiguous,Pick up my fork.,4,False,0,5.286841,False,ambiguity_not_solved
+1034,scene_024,utensil_only,random_candidate,ambiguous,Pick up my fork.,4,False,0,4.245424,False,ambiguity_not_solved
+1035,scene_024,utensil_only,random_candidate,partial,Pick up the left fork.,2,False,0,3.336879,False,ambiguity_not_solved
+1036,scene_024,utensil_only,random_candidate,partial,Pick up the right fork.,1,False,0,4.17304,False,wrong_object_selected
+1037,scene_024,utensil_only,vlm_direct,partial,Pick up the right fork.,1,False,0,4.620196,False,ambiguity_not_solved
+1038,scene_024,utensil_only,vlm_direct,partial,Pick up the left fork.,2,False,0,109.837568,True,none
+1039,scene_024,utensil_only,vlm_direct,ambiguous,Pick up my fork.,4,False,0,278.716992,False,ambiguity_not_solved
+1040,scene_024,utensil_only,vlm_direct,ambiguous,Pick up my fork.,4,False,0,94.861592,False,ambiguity_not_solved
+1041,scene_024,utensil_only,first_question,ambiguous,Pick up my fork.,4,True,2,127.951923,True,none
+1042,scene_024,utensil_only,first_question,ambiguous,Pick up my fork.,4,True,3,162.38051,True,none
+1043,scene_024,utensil_only,first_question,partial,Pick up the left fork.,2,True,1,64.876623,True,none
+1044,scene_024,utensil_only,first_question,partial,Pick up the right fork.,1,False,0,103.547447,False,wrong_object_selected
+1045,scene_024,utensil_only,random_question,partial,Pick up the right fork.,1,False,0,32.197282,False,wrong_object_selected
+1046,scene_024,utensil_only,random_question,partial,Pick up the left fork.,2,True,1,59.094419,True,none
+1047,scene_024,utensil_only,random_question,ambiguous,Pick up my fork.,4,True,3,136.154398,True,none
+1048,scene_024,utensil_only,random_question,ambiguous,Pick up my fork.,4,True,2,91.876575,True,none
+1049,scene_024,utensil_only,vlm_best_question,ambiguous,Pick up my fork.,4,True,1,35.179858,True,none
+1050,scene_024,utensil_only,vlm_best_question,ambiguous,Pick up my fork.,4,True,3,123.691877,True,none
+1051,scene_024,utensil_only,vlm_best_question,partial,Pick up the left fork.,2,True,1,56.682577,True,none
+1052,scene_024,utensil_only,vlm_best_question,partial,Pick up the right fork.,1,False,0,15.569165,False,wrong_object_selected
+1053,scene_024,utensil_only,proposed_efe,partial,Pick up the right fork.,1,False,0,17.526161,False,wrong_object_selected
+1054,scene_024,utensil_only,proposed_efe,partial,Pick up the left fork.,2,True,1,68.00527,True,none
+1055,scene_024,utensil_only,proposed_efe,ambiguous,Pick up my fork.,4,True,2,132.484789,True,none
+1056,scene_025,utensil_only,top_score,clear,pick up the yellow fork.,1,False,0,7.700092,True,none
+1057,scene_025,utensil_only,top_score,clear,pick up the green fork.,2,False,0,7.046907,False,ambiguity_not_solved
+1058,scene_025,utensil_only,random_candidate,clear,pick up the blue fork.,1,False,0,2.542227,True,none
+1059,scene_025,utensil_only,random_candidate,clear,pick up the red fork.,2,False,0,5.067523,False,wrong
+1060,scene_025,utensil_only,vlm_direct,clear,pick up the left fork.,1,False,0,3.569098,True,none
+1061,scene_025,utensil_only,vlm_direct,clear,pick up the right fork.,1,False,0,3.227381,False,ambiguity_not_solved
+1062,scene_025,utensil_only,random_question,clear,pick up the yellow fork.,1,False,0,3.749478,True,none
+1063,scene_025,utensil_only,random_question,clear,pick up the left fork.,1,False,0,2.606981,True,none
+1064,scene_025,utensil_only,vlm_best_question,clear,pick up the blue fork.,1,False,0,3.828653,True,none
+1065,scene_025,utensil_only,vlm_best_question,clear,pick up the yellow fork.,1,False,0,1.911787,True,none
+1066,scene_025,utensil_only,proposed_efe,clear,pick up the yellow fork.,1,False,0,2.318351,True,none
+1067,scene_025,utensil_only,proposed_efe,clear,pick up the blue fork.,1,False,0,2.686532,True,none
+1068,scene_025,utensil_only,top_score,partial,pick up the red fork.,2,False,0,3.967192,False,ambiguity_not_solved
+1069,scene_025,utensil_only,top_score,partial,pick up the green fork.,2,False,0,3.662593,False,ambiguity_not_solved
+1070,scene_025,utensil_only,top_score,ambiguous,pick up my fork.,4,False,0,3.920774,True,none
+1071,scene_025,utensil_only,random_candidate,ambiguous,pick up my fork.,4,False,0,2.790806,True,none
+1072,scene_025,utensil_only,random_candidate,ambiguous,pick up my fork.,4,False,0,3.641577,True,none
+1073,scene_025,utensil_only,random_candidate,partial,pick up the red fork.,2,False,0,3.723396,False,ambiguity_not_solved
+1074,scene_025,utensil_only,random_candidate,partial,pick up the green fork.,2,False,0,3.55759,False,ambiguity_not_solved
+1075,scene_025,utensil_only,vlm_direct,partial,pick up the green fork.,2,False,0,109.175704,False,ambiguity_not_solved
+1076,scene_025,utensil_only,vlm_direct,partial,pick up the red fork.,2,False,0,59.130505,False,ambiguity_not_solved
+1077,scene_025,utensil_only,vlm_direct,ambiguous,pick up my fork.,4,False,0,62.450615,True,none
+1078,scene_025,utensil_only,vlm_direct,ambiguous,pick up my fork.,4,False,0,70.096088,False,ambiguity_not_solved
+1079,scene_025,utensil_only,first_question,ambiguous,pick up my fork.,4,True,1,55.863269,True,none
+1080,scene_025,utensil_only,first_question,ambiguous,pick up my fork.,4,True,3,226.505396,True,none
+1081,scene_025,utensil_only,first_question,partial,pick up the red fork.,2,True,1,47.008212,True,none
+1082,scene_025,utensil_only,first_question,partial,pick up the green fork.,2,True,1,26.658578,True,none
+1083,scene_025,utensil_only,random_question,partial,pick up the green fork.,2,True,1,64.125869,True,none
+1084,scene_025,utensil_only,random_question,partial,pick up the red fork.,2,True,1,76.679956,True,none
+1085,scene_025,utensil_only,random_question,ambiguous,pick up my fork.,4,True,2,107.507069,True,none
+1086,scene_025,utensil_only,random_question,ambiguous,pick up my fork.,4,True,3,154.534617,True,none
+1087,scene_025,utensil_only,vlm_best_question,ambiguous,pick up my fork.,4,True,1,34.120267,True,none
+1088,scene_025,utensil_only,vlm_best_question,ambiguous,pick up my fork.,4,True,3,142.344142,True,none
+1089,scene_025,utensil_only,vlm_best_question,partial,pick up the red fork.,2,True,1,34.014886,True,none
+1090,scene_025,utensil_only,proposed_efe,partial,pick up the green fork.,2,True,1,54.354319,True,none
+1091,scene_025,utensil_only,proposed_efe,partial,pick up the red fork.,2,True,1,50.604781,True,none
+1092,scene_025,utensil_only,proposed_efe,ambiguous,pick up my fork.,4,True,2,110.909863,True,none
+1093,scene_025,utensil_only,proposed_efe,ambiguous,pick up my fork.,4,True,2,128.482295,True,none
+1094,scene_026,bottle_only,top_score,clear,pick up the red bottle.,1,False,0,4.173616,True,none
+1095,scene_026,bottle_only,top_score,clear,pick up the green bottle.,1,False,0,3.209395,True,none
+1096,scene_026,bottle_only,random_candidate,clear,pick up the blue bottle.,1,False,0,3.407835,True,none
+1097,scene_026,bottle_only,random_candidate,clear,pick up the black bottle.,1,False,0,4.35696,False,wrong_object_selected
+1098,scene_026,bottle_only,vlm_direct,clear,pick up the left bottle.,1,False,0,3.26825,True,none
+1099,scene_026,bottle_only,vlm_direct,clear,pick up the tall bottle.,1,False,0,3.904889,True,none
+1100,scene_026,bottle_only,first_question,clear,pick up the green bottle.,1,False,0,2.79668,True,none
+1101,scene_026,bottle_only,first_question,clear,pick up the red bottle.,1,False,0,2.762695,True,none
+1102,scene_026,bottle_only,random_question,clear,pick up the green bottle.,1,False,0,3.069784,True,none
+1103,scene_026,bottle_only,random_question,clear,pick up the green bottle.,1,False,0,1.62489,True,none
+1104,scene_026,bottle_only,random_question,clear,pick up the blue bottle.,1,False,0,2.401426,True,none
+1105,scene_026,bottle_only,proposed_efe,clear,pick up the blue bottle.,1,False,0,1.525201,True,none
+1106,scene_026,bottle_only,proposed_efe,clear,pick up the red bottle.,1,False,0,1.718602,True,none
+1107,scene_026,bottle_only,top_score,partial,pick up the right bottle.,1,False,0,6.924395,True,none
+1108,scene_026,bottle_only,top_score,partial,pick up the center bottle.,1,False,0,2.643126,False,wrong_object_selected
+1109,scene_026,bottle_only,top_score,ambiguous,pick up my bottle.,4,False,0,5.425933,False,ambiguity_not_solved
+1110,scene_026,bottle_only,top_score,ambiguous,pick up my bottle.,4,False,0,2.18273,False,ambiguity_not_solved
+1111,scene_026,bottle_only,random_candidate,ambiguous,pick up my bottle.,4,False,0,5.284699,True,none
+1112,scene_026,bottle_only,random_candidate,ambiguous,pick up my bottle.,4,False,0,3.654345,False,ambiguity_not_solved
+1113,scene_026,bottle_only,random_candidate,partial,pick up the right bottle.,1,False,0,2.395084,True,none
+1114,scene_026,bottle_only,random_candidate,partial,pick up the center bottle.,1,False,0,3.174212,False,wrong_object_selected
+1115,scene_026,bottle_only,vlm_direct,partial,pick up the center bottle.,1,False,0,1.90526,False,wrong_object_selected
+1116,scene_026,bottle_only,vlm_direct,ambiguous,pick up my bottle.,4,False,0,73.059294,False,ambiguity_not_solved
+1117,scene_026,bottle_only,vlm_direct,ambiguous,pick up my bottle.,4,False,0,63.817348,False,ambiguity_not_solved
+1118,scene_026,bottle_only,first_question,ambiguous,pick up my bottle.,4,True,3,91.77158,True,none
+1119,scene_026,bottle_only,first_question,ambiguous,pick up my bottle.,4,True,1,42.577337,True,none
+1120,scene_026,bottle_only,first_question,partial,pick up the right bottle.,1,False,0,16.353649,True,none
+1121,scene_026,bottle_only,first_question,partial,pick up the center bottle.,1,False,0,13.344864,False,wrong_object_selected
+1122,scene_026,bottle_only,random_question,partial,pick up the center bottle.,1,False,0,22.978482,False,wrong_object_selected
+1123,scene_026,bottle_only,random_question,partial,pick up the right bottle.,1,False,0,28.144993,True,none
+1124,scene_026,bottle_only,random_question,ambiguous,pick up my bottle.,4,True,3,138.194614,True,none
+1125,scene_026,bottle_only,random_question,ambiguous,pick up my bottle.,4,True,1,52.26499,True,none
+1126,scene_026,bottle_only,vlm_best_question,ambiguous,pick up my bottle.,4,True,3,92.621182,True,none
+1127,scene_026,bottle_only,vlm_best_question,partial,pick up the right bottle.,1,False,0,39.958724,True,none
+1128,scene_026,bottle_only,vlm_best_question,partial,pick up the center bottle.,1,False,0,25.884859,False,wrong_object_selected
+1129,scene_026,bottle_only,proposed_efe,partial,pick up the center bottle.,1,False,0,20.427685,False,wrong_object_selected
+1130,scene_026,bottle_only,proposed_efe,partial,pick up the right bottle.,1,False,0,18.579668,True,none
+1131,scene_026,bottle_only,proposed_efe,ambiguous,pick up my bottle.,4,True,1,55.750479,True,none
+1132,scene_026,bottle_only,proposed_efe,ambiguous,pick up my bottle.,4,True,3,132.251061,True,none
+1133,scene_027,mixed,top_score,clear,pick up the red bottle.,1,False,0,4.881864,True,none
+1134,scene_027,mixed,top_score,clear,pick up the red cup.,1,False,0,2.698447,True,none
+1135,scene_027,mixed,random_candidate,clear,pick up the pink cup.,1,False,0,7.815802,False,wrong_object_selected
+1136,scene_027,mixed,random_candidate,clear,pick up the brown cup.,1,False,0,2.490654,True,none
+1137,scene_027,mixed,vlm_direct,clear,pick up the green bottle.,1,False,0,20.288434,True,none
+1138,scene_027,mixed,vlm_direct,clear,pick up the black bottle.,6,False,0,36.814866,True,none
+1139,scene_027,mixed,first_question,clear,pick up the left cup.,1,False,0,2.907328,True,none
+1140,scene_027,mixed,first_question,clear,pick up the right cup.,1,False,0,2.6422,True,none
+1141,scene_027,mixed,random_question,clear,pick up the center cup.,1,False,0,2.641261,True,none
+1142,scene_027,mixed,random_question,clear,pick up the left bottle.,1,False,0,3.026029,True,none
+1143,scene_027,mixed,vlm_best_question,clear,pick up the bottom bottle.,1,False,0,3.396096,True,none
+1144,scene_027,mixed,vlm_best_question,clear,pick up the top bottle.,2,True,1,56.182558,True,none
+1145,scene_027,mixed,proposed_efe,clear,pick up the red cup.,1,False,0,1.814838,True,none
+1146,scene_027,mixed,top_score,partial,pick up the top bottle.,2,False,0,6.530229,False,ambiguity_not_solved
+1147,scene_027,mixed,top_score,partial,pick up the right bottle.,1,False,0,5.249684,False,ambiguity_not_solved
+1148,scene_027,mixed,top_score,ambiguous,pick up my bottle.,3,False,0,7.456029,False,ambiguity_not_solved
+1149,scene_027,mixed,top_score,ambiguous,pick up my cup.,3,False,0,9.443655,False,ambiguity_not_solved
+1150,scene_027,mixed,random_candidate,ambiguous,pick up my cup.,3,False,0,3.212024,True,none
+1151,scene_027,mixed,random_candidate,ambiguous,pick up my bottle.,3,False,0,4.545025,False,ambiguity_not_solved
+1152,scene_027,mixed,random_candidate,partial,pick up the top bottle.,2,False,0,3.916383,True,none
+1153,scene_027,mixed,random_candidate,partial,pick up the center bottle.,1,False,0,3.592572,False,wrong
+1154,scene_027,mixed,vlm_direct,partial,pick up the center bottle.,1,False,0,14.420351,False,wrong_object_selected
+1155,scene_027,mixed,vlm_direct,partial,pick up the top bottle.,2,False,0,26.00243,True,none
+1156,scene_027,mixed,vlm_direct,ambiguous,pick up my bottle.,3,False,0,86.55883,False,ambiguity_not_solved
+1157,scene_027,mixed,vlm_direct,ambiguous,pick up my cup.,3,False,0,51.923662,False,ambiguity_not_solved
+1158,scene_027,mixed,first_question,ambiguous,pick up my cup.,3,True,1,38.733858,True,none
+1159,scene_027,mixed,first_question,ambiguous,pick up my bottle.,3,True,2,57.883818,True,none
+1160,scene_027,mixed,first_question,partial,pick up the top bottle.,2,True,1,28.107289,True,none
+1161,scene_027,mixed,random_question,partial,pick up the top cup.,1,False,0,2.595657,True,none
+1162,scene_027,mixed,random_question,partial,pick up the top bottle.,2,True,1,66.518971,True,none
+1163,scene_027,mixed,random_question,ambiguous,pick up my bottle.,3,True,2,125.409135,True,none
+1164,scene_027,mixed,random_question,ambiguous,pick up my cup.,3,True,2,59.262204,True,none
+1165,scene_027,mixed,vlm_best_question,ambiguous,pick up my cup.,3,True,2,108.054055,True,none
+1166,scene_027,mixed,vlm_best_question,ambiguous,pick up my bottle.,3,True,2,77.823077,True,none
+1167,scene_027,mixed,vlm_best_question,partial,pick up the top bottle.,2,True,1,35.076923,True,none
+1168,scene_027,mixed,vlm_best_question,partial,pick up the top cup.,1,False,0,28.026045,True,none
+1169,scene_027,mixed,proposed_efe,partial,pick up the top cup.,1,False,0,42.369462,True,none
+1170,scene_027,mixed,proposed_efe,partial,pick up the top bottle.,2,True,1,44.851962,True,none
+1171,scene_027,mixed,proposed_efe,ambiguous,pick up my bottle.,3,True,1,108.034394,True,none
+1172,scene_028,mixed,top_score,clear,Pick up the blue cup.,1,False,0,7.66687,True,none
+1173,scene_028,mixed,top_score,clear,Pick up the green cup.,1,False,0,5.037866,True,none
+1174,scene_028,mixed,random_candidate,clear,Pick up the left cup.,1,False,0,17.382168,True,none
+1175,scene_028,mixed,random_candidate,clear,Pick up the right cup.,1,False,0,6.170133,True,none
+1176,scene_028,mixed,vlm_direct,clear,Pick up the green bottle.,1,False,0,5.883363,True,none
+1177,scene_028,mixed,vlm_direct,clear,Pick up the red bottle.,1,False,0,2.592213,True,none
+1178,scene_028,mixed,random_question,clear,Pick up the green bottle.,1,False,0,2.542287,True,none
+1179,scene_028,mixed,random_question,clear,Pick up the red bottle.,1,False,0,3.194352,True,none
+1180,scene_028,mixed,vlm_best_question,clear,Pick up the red bottle.,1,False,0,1.770483,True,none
+1181,scene_028,mixed,vlm_best_question,clear,Pick up the green bottle.,1,False,0,2.218377,True,none
+1182,scene_028,mixed,proposed_efe,clear,Pick up the green bottle.,1,False,0,7.152291,True,none
+1183,scene_028,mixed,proposed_efe,clear,Pick up the red bottle.,1,False,0,8.738857,True,none
+1184,scene_028,mixed,top_score,partial,Pick up the red cup.,1,False,0,4.427459,False,gd_missing_target_candidate
+1185,scene_028,mixed,top_score,partial,Pick up the pink cup.,1,False,0,7.595407,False,wrong_object_selected
+1186,scene_028,mixed,top_score,ambiguous,Pick up my cup.,5,False,0,8.091401,True,none
+1187,scene_028,mixed,random_candidate,ambiguous,Pick up my cup.,5,False,0,2.815584,False,wrong
+1188,scene_028,mixed,random_candidate,ambiguous,Pick up my cup.,5,False,0,3.608956,False,ambiguity_not_solved
+1189,scene_028,mixed,random_candidate,partial,Pick up the red cup.,1,False,0,3.398037,False,unresolved
+1190,scene_028,mixed,vlm_direct,partial,Pick up the red cup.,1,False,0,5.262517,False,wrong
+1191,scene_028,mixed,vlm_direct,partial,Pick up the center cup.,2,False,0,76.098127,False,ambiguity_not_solved
+1192,scene_028,mixed,vlm_direct,ambiguous,Pick up my cup.,5,False,0,92.966155,True,none
+1193,scene_028,mixed,vlm_direct,ambiguous,Pick up my bottle.,2,False,0,75.532259,True,none
+1194,scene_028,mixed,first_question,ambiguous,Pick up my bottle.,2,True,1,58.129,True,none
+1195,scene_028,mixed,first_question,partial,Pick up the center cup.,2,True,1,20.313168,True,none
+1196,scene_028,mixed,first_question,partial,Pick up the red cup.,1,False,0,44.613234,False,wrong_object_selected
+1197,scene_028,mixed,random_question,partial,Pick up the red cup.,1,False,0,18.314473,False,wrong_object_selected
+1198,scene_028,mixed,random_question,partial,Pick up the center cup.,2,True,1,57.069198,True,none
+1199,scene_028,mixed,random_question,ambiguous,Pick up my cup.,5,False,0,50.881183,False,vlm_error
+1200,scene_028,mixed,random_question,ambiguous,Pick up my cup.,5,True,4,199.831173,True,none
+1201,scene_028,mixed,random_question,ambiguous,Pick up my bottle.,2,True,1,65.95871,True,none
+1202,scene_028,mixed,vlm_best_question,ambiguous,Pick up my bottle.,2,True,1,44.414859,True,none
+1203,scene_028,mixed,vlm_best_question,ambiguous,Pick up my cup.,5,True,3,216.354973,True,none
+1204,scene_028,mixed,vlm_best_question,partial,Pick up the red cup.,1,False,0,13.52073,False,gd_missing_target_candidate
+1205,scene_028,mixed,vlm_best_question,partial,Pick up the center cup.,2,True,1,59.048159,True,none
+1206,scene_028,mixed,proposed_efe,partial,Pick up the center cup.,2,True,1,52.197971,True,none
+1207,scene_028,mixed,proposed_efe,partial,Pick up the red cup.,1,False,0,19.77891,False,gd_missing_target_candidate
+1208,scene_028,mixed,proposed_efe,ambiguous,Pick up my cup.,5,True,2,325.466575,True,none
+1209,scene_028,mixed,proposed_efe,ambiguous,Pick up my bottle.,2,True,1,91.54686,True,none
+1210,scene_029,mixed,top_score,clear,Pick up the green cup.,1,False,0,7.521125,True,none
+1211,scene_029,mixed,random_candidate,clear,Pick up the left cup.,1,False,0,8.086802,True,none
+1212,scene_029,mixed,random_candidate,clear,Pick up the green fork.,1,False,0,3.280415,True,none
+1213,scene_029,mixed,vlm_direct,clear,Pick up the blue fork.,2,False,0,61.178022,False,ambiguity_not_solved
+1214,scene_029,mixed,vlm_direct,clear,Pick up the red fork.,1,False,0,12.01953,True,none
+1215,scene_029,mixed,first_question,clear,Pick up the cyan spoon.,1,False,0,7.524961,True,none
+1216,scene_029,mixed,first_question,clear,Pick up the red spoon.,1,False,0,15.597287,True,none
+1217,scene_029,mixed,random_question,clear,Pick up the left cup.,1,False,0,2.866261,True,none
+1218,scene_029,mixed,random_question,clear,Pick up the blue cup.,1,False,0,4.096907,True,none
+1219,scene_029,mixed,vlm_best_question,clear,Pick up the blue cup.,1,False,0,12.228513,True,none
+1220,scene_029,mixed,vlm_best_question,clear,Pick up the green cup.,1,False,0,17.181032,True,none
+1221,scene_029,mixed,proposed_efe,clear,Pick up the green cup.,1,False,0,2.351331,True,none
+1222,scene_029,mixed,proposed_efe,clear,Pick up the green cup.,1,False,0,3.005786,True,none
+1223,scene_029,mixed,top_score,partial,Pick up center cup.,1,False,0,6.325898,False,wrong_object_selected
+1224,scene_029,mixed,top_score,partial,Pick up right cup.,1,False,0,2.881392,True,none
+1225,scene_029,mixed,top_score,ambiguous,Pick up my cup.,5,False,0,6.508289,False,wrong
+1226,scene_029,mixed,top_score,ambiguous,Pick up my fork.,3,False,0,15.313606,True,none
+1227,scene_029,mixed,random_candidate,ambiguous,Pick up my fork.,3,False,0,9.01141,False,ambiguity_not_solved
+1228,scene_029,mixed,random_candidate,ambiguous,Pick up my cup.,5,False,0,3.502196,False,wrong
+1229,scene_029,mixed,random_candidate,partial,Pick up the right cup.,1,False,0,4.046633,True,none
+1230,scene_029,mixed,random_candidate,partial,Pick up the center cup.,1,False,0,9.413737,False,wrong_object_selected
+1231,scene_029,mixed,vlm_direct,partial,Pick up the center cup.,1,False,0,8.722186,False,wrong_object_selected
+1232,scene_029,mixed,vlm_direct,partial,Pick up the right cup.,1,False,0,2.954818,True,none
+1233,scene_029,mixed,vlm_direct,ambiguous,Pick up the my cup.,5,False,0,90.64128,False,wrong
+1234,scene_029,mixed,vlm_direct,ambiguous,Pick up my fork.,3,False,0,110.812543,True,none
+1235,scene_029,mixed,first_question,ambiguous,Pick up my fork.,3,True,2,185.387,True,none
+1236,scene_029,mixed,first_question,ambiguous,Pick up my cup.,5,True,3,116.985028,True,none
+1237,scene_029,mixed,first_question,partial,Pick up the right cup.,1,False,0,22.509285,True,none
+1238,scene_029,mixed,first_question,partial,Pick up the red cup.,1,False,0,46.684588,False,gd_missing_target_candidate
+1239,scene_029,mixed,random_question,partial,Pick up the red cup.,1,False,0,33.818235,False,gd_missing_target_candidate
+1240,scene_029,mixed,random_question,ambiguous,Pick up my cup.,5,True,4,208.015735,True,none
+1241,scene_029,mixed,vlm_best_question,ambiguous,Pick up my cup.,5,True,2,117.727332,True,none
+1242,scene_029,mixed,vlm_best_question,ambiguous,Pick up my fork.,3,True,2,89.405875,True,none
+1243,scene_029,mixed,vlm_best_question,partial,Pick up the red cup.,1,False,0,25.207693,False,gd_missing_target_candidate
+1244,scene_029,mixed,vlm_best_question,partial,Pick up the right cup.,1,False,0,21.101815,True,none
+1245,scene_029,mixed,proposed_efe,partial,Pick up the right cup.,1,False,0,37.69154,True,none
+1246,scene_029,mixed,proposed_efe,partial,Pick up the red cup.,1,False,0,38.557633,False,gd_missing_target_candidate
+1247,scene_029,mixed,proposed_efe,ambiguous,Pick up my cup.,5,True,2,117.526776,True,none
+1248,scene_030,mixed,top_score,clear,Pick up the green bottle.,1,False,0,5.874584,True,none
+1249,scene_030,mixed,random_candidate,clear,Pick up the blue bottle.,1,False,0,6.012614,True,none
+1250,scene_030,mixed,random_candidate,clear,Pick up the blue fork.,1,False,0,3.7072,True,none
+1251,scene_030,mixed,vlm_direct,clear,Pick up the red fork.,1,False,0,3.252578,True,none
+1252,scene_030,mixed,vlm_direct,clear,Pick up the green fork.,1,False,0,3.301728,True,none
+1253,scene_030,mixed,first_question,clear,Pick up the cyan spoon.,1,False,0,3.360646,True,none
+1254,scene_030,mixed,random_question,clear,Pick up the left spoon.,2,True,1,37.42384,True,none
+1255,scene_030,mixed,vlm_best_question,clear,Pick up the right bottle.,1,False,0,5.092282,True,none
+1256,scene_030,mixed,vlm_best_question,clear,Pick up the center bottle.,2,True,1,55.154959,True,none
+1257,scene_030,mixed,proposed_efe,clear,Pick up the red bottle.,1,False,0,3.192953,True,none
+1258,scene_030,mixed,proposed_efe,clear,Pick up the green bottle.,1,False,0,3.614681,True,none
+1259,scene_030,mixed,top_score,partial,Pick up the center bottle.,2,False,0,5.99395,True,none
+1260,scene_030,mixed,top_score,partial,Pick up the left spoon.,2,False,0,26.764788,True,none
+1261,scene_030,mixed,top_score,ambiguous,Pick up my fork.,3,False,0,7.639989,False,ambiguity_not_solved
+1262,scene_030,mixed,top_score,ambiguous,Pick up my bottle.,3,False,0,21.66062,False,ambiguity_not_solved
+1263,scene_030,mixed,random_candidate,ambiguous,Pick up my bottle.,3,False,0,5.503836,False,ambiguity_not_solved
+1264,scene_030,mixed,random_candidate,ambiguous,Pick up my fork.,3,False,0,19.028759,False,ambiguity_not_solved
+1265,scene_030,mixed,random_candidate,partial,Pick up the left spoon.,2,False,0,6.027567,True,none
+1266,scene_030,mixed,random_candidate,partial,Pick up the center bottle.,2,False,0,6.380715,False,ambiguity_not_solved
+1267,scene_030,mixed,vlm_direct,partial,Pick up the center bottle.,2,False,0,72.629896,True,none
+1268,scene_030,mixed,vlm_direct,partial,Pick up the left spoon.,2,False,0,53.051058,True,none
+1269,scene_030,mixed,vlm_direct,ambiguous,Pick up my fork.,3,False,0,68.218379,False,ambiguity_not_solved
+1270,scene_030,mixed,vlm_direct,ambiguous,Pick up my botlle.,8,False,0,111.60795,True,none
+1271,scene_030,mixed,first_question,ambiguous,Pick up my bottle.,3,True,2,144.740848,True,none
+1272,scene_030,mixed,first_question,ambiguous,Pick up my fork.,3,True,1,25.142165,True,none
+1273,scene_030,mixed,first_question,partial,Pick up the left spoon.,2,True,1,23.308174,True,none
+1274,scene_030,mixed,first_question,partial,Pick up the center bottle.,2,True,1,28.666267,True,none
+1275,scene_030,mixed,random_question,partial,Pick up the center bottle.,2,True,1,54.122422,True,none
+1276,scene_030,mixed,random_question,partial,Pick up the left spoon.,2,True,1,58.715863,True,none
+1277,scene_030,mixed,random_question,ambiguous,Pick up my bottle.,3,True,2,85.877143,True,none
+1278,scene_030,mixed,random_question,ambiguous,Pick up my fork.,3,True,2,115.740359,True,none
+1279,scene_030,mixed,vlm_best_question,ambiguous,Pick up my fork.,3,True,1,97.812063,True,none
+1280,scene_030,mixed,vlm_best_question,ambiguous,Pick up my bottle.,3,True,2,72.23152,True,none
+1281,scene_030,mixed,vlm_best_question,partial,Pick up the center bottle.,2,True,1,43.588481,True,none
+1282,scene_030,mixed,vlm_best_question,partial,Pick up the left spoon.,2,True,1,22.040059,True,none
+1283,scene_030,mixed,proposed_efe,partial,Pick up the left spoon.,2,True,1,39.486435,True,none
+1284,scene_030,mixed,proposed_efe,partial,Pick up the center bottle.,2,True,1,45.915452,True,none
+1285,scene_030,mixed,proposed_efe,ambiguous,Pick up my bottle.,3,True,1,39.75094,True,none
+1286,scene_030,mixed,proposed_efe,ambiguous,Pick up my fork.,3,True,2,111.454919,True,none
+1287,scene_031,mixed,top_score,clear,Pick up metal cup.,1,False,0,3.231519,True,none
+1288,scene_031,mixed,top_score,clear,Pick up left cup.,1,False,0,6.620066,True,none
+1289,scene_031,mixed,random_candidate,clear,Pick up right cup.,1,False,0,6.540776,True,none
+1290,scene_031,mixed,random_candidate,clear,Pick up the red bottle.,1,False,0,3.351366,True,none
+1291,scene_031,mixed,vlm_direct,clear,Pick up the green bottle.,1,False,0,5.005268,True,none
+1292,scene_031,mixed,vlm_direct,clear,Pick up the green fork.,1,False,0,3.473883,True,none
+1293,scene_031,mixed,first_question,clear,Pick up the blue fork.,1,False,0,5.201455,True,none
+1294,scene_031,mixed,first_question,clear,Pick up the red fork.,1,False,0,4.834369,True,none
+1295,scene_031,mixed,random_question,clear,Pick up the red spoon.,1,False,0,6.83426,True,none
+1296,scene_031,mixed,random_question,clear,Pick up the cyan spoon.,1,False,0,6.535548,True,none
+1297,scene_031,mixed,vlm_best_question,clear,Pick up the cyan spoon.,1,False,0,1.690649,True,none
+1298,scene_031,mixed,vlm_best_question,clear,Pick up the cyan spoon.,1,False,0,2.115201,True,none
+1299,scene_031,mixed,proposed_efe,clear,Pick up the cyan spoon.,1,False,0,7.41667,True,none
+1300,scene_031,mixed,proposed_efe,clear,Pick up the cyan spoon.,1,False,0,13.239545,True,none
+1301,scene_031,mixed,top_score,partial,Pick up the center bottle.,1,False,0,3.348335,True,none
+1302,scene_031,mixed,top_score,partial,Pick up the left spoon.,1,False,0,15.472269,True,none
+1303,scene_031,mixed,top_score,ambiguous,Pick up my fork.,3,False,0,13.10437,True,none
+1304,scene_031,mixed,top_score,ambiguous,Pick up my cup.,3,False,0,7.876698,False,ambiguity_not_solved
+1305,scene_031,mixed,random_candidate,ambiguous,Pick up my cup.,3,False,0,32.078584,False,wrong_object_selected
+1306,scene_031,mixed,random_candidate,ambiguous,Pick up my fork.,3,False,0,18.435677,False,ambiguity_not_solved
+1307,scene_031,mixed,random_candidate,partial,Pick up the right fork.,1,False,0,5.716801,True,none
+1308,scene_031,mixed,random_candidate,partial,Pick up the left spoon.,1,False,0,7.773442,True,none
+1309,scene_031,mixed,vlm_direct,partial,Pick up the left spoon.,1,False,0,23.691537,True,none
+1310,scene_031,mixed,vlm_direct,partial,Pick up the right fork.,1,False,0,5.774023,True,none
+1311,scene_031,mixed,vlm_direct,ambiguous,Pick up my fork.,3,False,0,105.212085,True,none
+1312,scene_031,mixed,vlm_direct,ambiguous,Pick up my bottle.,2,False,0,66.457015,False,ambiguity_not_solved
+1313,scene_031,mixed,first_question,ambiguous,Pick up my cup.,3,True,2,75.70045,True,none
+1314,scene_031,mixed,first_question,ambiguous,Pick up my fork.,3,True,2,188.530118,True,none
+1315,scene_031,mixed,first_question,partial,Pick up the right fork.,1,False,0,2.837896,True,none
+1316,scene_031,mixed,first_question,partial,Pick up the left spoon.,1,False,0,20.819139,True,none
+1317,scene_031,mixed,random_question,partial,Pick up the left spoon.,1,False,0,30.216219,True,none
+1318,scene_031,mixed,random_question,ambiguous,Pick up my fork.,3,True,1,54.295197,True,none
+1319,scene_031,mixed,vlm_best_question,ambiguous,Pick up my fork.,3,True,2,109.726422,True,none
+1320,scene_031,mixed,vlm_best_question,ambiguous,Pick up my cup.,3,True,2,69.565315,True,none
+1321,scene_031,mixed,vlm_best_question,partial,Pick up the left spoon.,1,False,0,50.08196,True,none
+1322,scene_031,mixed,proposed_efe,partial,Pick up the right spoon.,1,False,0,28.757486,True,none
+1323,scene_031,mixed,proposed_efe,partial,Pick up the left spoon.,1,False,0,26.139662,True,none
+1324,scene_031,mixed,proposed_efe,ambiguous,Pick up my fork.,3,True,1,36.910702,True,none
+1325,scene_032,mixed,top_score,clear,Pick up the red cup.,1,False,0,3.97109,True,none
+1326,scene_032,mixed,top_score,clear,Pick up the green cup.,1,False,0,3.916111,True,none
+1327,scene_032,mixed,random_candidate,clear,Pick up the metal cup.,1,False,0,4.348078,True,none
+1328,scene_032,mixed,random_candidate,clear,Pick up the green bottle.,1,False,0,3.162762,True,none
+1329,scene_032,mixed,vlm_direct,clear,Pick up the red bottle.,1,False,0,3.656765,True,none
+1330,scene_032,mixed,vlm_direct,clear,Pick up the left cup.,1,False,0,3.509876,True,none
+1331,scene_032,mixed,first_question,clear,Pick up the right cup.,1,False,0,5.966477,True,none
+1332,scene_032,mixed,first_question,clear,Pick up the green fork.,1,False,0,3.061236,True,none
+1333,scene_032,mixed,random_question,clear,Pick up the blue fork.,1,False,0,7.982476,True,none
+1334,scene_032,mixed,vlm_best_question,clear,Pick up the red fork.,1,False,0,4.269058,True,none
+1335,scene_032,mixed,vlm_best_question,clear,Pick up the cyan spoon.,1,False,0,1.951263,True,none
+1336,scene_032,mixed,proposed_efe,clear,Pick up the cyan spoon.,1,False,0,2.342331,True,none
+1337,scene_032,mixed,top_score,partial,Pick up the left spoon.,1,False,0,3.312927,True,none
+1338,scene_032,mixed,top_score,partial,Pick up the right fork.,1,False,0,5.103131,True,none
+1339,scene_032,mixed,top_score,ambiguous,Pick up my fork.,3,False,0,10.288579,True,none
+1340,scene_032,mixed,top_score,ambiguous,Pick up my cup.,3,False,0,6.043108,False,ambiguity_not_solved
+1341,scene_032,mixed,random_candidate,ambiguous,Pick up my cup.,3,False,0,4.997545,False,ambiguity_not_solved
+1342,scene_032,mixed,random_candidate,ambiguous,Pick up my fork.,3,False,0,7.149669,False,ambiguity_not_solved
+1343,scene_032,mixed,random_candidate,partial,Pick up the right fork.,1,False,0,4.235011,True,none
+1344,scene_032,mixed,vlm_direct,partial,Pick up the left spoon.,1,False,0,17.406608,True,none
+1345,scene_032,mixed,vlm_direct,partial,Pick up the left spoon.,1,False,0,1.713124,True,none
+1346,scene_032,mixed,vlm_direct,ambiguous,Pick up my fork.,3,False,0,61.797758,True,none
+1347,scene_032,mixed,first_question,ambiguous,Pick up my cup.,3,True,2,79.305331,True,none
+1348,scene_032,mixed,first_question,ambiguous,Pick up my fork.,3,True,2,133.411519,True,none
+1349,scene_032,mixed,first_question,partial,Pick up the left spoon.,1,False,0,23.141102,True,none
+1350,scene_032,mixed,random_question,partial,Pick up the left spoon.,1,False,0,22.194323,True,none
+1351,scene_032,mixed,random_question,partial,Pick up the right fork.,1,False,0,29.634873,True,none
+1352,scene_032,mixed,random_question,ambiguous,Pick up the my fork.,3,True,2,100.42309,True,none
+1353,scene_032,mixed,random_question,ambiguous,Pick up my cup.,3,True,2,75.339855,True,none
+1354,scene_032,mixed,vlm_best_question,ambiguous,Pick up my cup.,3,True,2,148.608109,True,none
+1355,scene_032,mixed,vlm_best_question,ambiguous,Pick up my fork.,3,True,2,178.861125,True,none
+1356,scene_032,mixed,vlm_best_question,partial,Pick up the right fork.,1,False,0,33.212377,True,none
+1357,scene_032,mixed,proposed_efe,partial,Pick up the right fork.,1,False,0,38.290082,True,none
+1358,scene_032,mixed,proposed_efe,partial,Pick up the right fork.,1,False,0,48.092421,True,none
+1359,scene_032,mixed,proposed_efe,ambiguous,Pick up my fork.,3,True,2,125.94892,True,none
+1360,scene_032,mixed,proposed_efe,ambiguous,Pick up my cup.,3,True,2,111.992715,True,none
+1361,scene_033,mixed,top_score,clear,Pick up the red cup.,1,False,0,23.507881,True,none
+1362,scene_033,mixed,top_score,clear,Pick up the green cup.,1,False,0,43.919466,True,none
+1363,scene_033,mixed,random_candidate,clear,Pick up the center cup.,2,False,0,10.972819,False,ambiguity_not_solved
+1364,scene_033,mixed,random_candidate,clear,Pick up the metal cup.,1,False,0,4.439247,True,none
+1365,scene_033,mixed,vlm_direct,clear,Pick up the red cup.,1,False,0,4.269593,True,none
+1366,scene_033,mixed,vlm_direct,clear,Pick up the red bottle.,1,False,0,4.614181,True,none
+1367,scene_033,mixed,first_question,clear,Pick up the green bottle.,1,False,0,3.542105,True,none
+1368,scene_033,mixed,first_question,clear,Pick up the green fork.,1,False,0,5.060704,True,none
+1369,scene_033,mixed,first_question,clear,Pick up the blue fork.,1,False,0,8.68653,True,none
+1370,scene_033,mixed,first_question,clear,Pick up the red fork.,1,False,0,3.112458,True,none
+1371,scene_033,mixed,random_question,clear,Pick up the red spoon.,1,False,0,3.51912,True,none
+1372,scene_033,mixed,random_question,clear,Pick up the green spoon.,1,False,0,3.754392,True,none
+1373,scene_033,mixed,vlm_best_question,clear,Pick up the green spoon.,1,False,0,2.537056,True,none
+1374,scene_033,mixed,vlm_best_question,clear,Pick up the green spoon.,1,False,0,1.784398,True,none
+1375,scene_033,mixed,proposed_efe,clear,Pick up the green spoon.,1,False,0,2.121819,True,none
+1376,scene_033,mixed,proposed_efe,clear,Pick up the green spoon.,1,False,0,3.22637,True,none
+1377,scene_033,mixed,top_score,partial,Pick up the left spoon.,1,False,0,3.256529,True,none
+1378,scene_033,mixed,top_score,partial,Pick up the center cup.,2,False,0,7.236189,True,none
+1379,scene_033,mixed,top_score,ambiguous,Pick up my cup.,3,False,0,8.973302,False,ambiguity_not_solved
+1380,scene_033,mixed,random_candidate,ambiguous,Pick up my cup.,3,False,0,5.854856,False,ambiguity_not_solved
+1381,scene_033,mixed,vlm_direct,partial,Pick up the center cup.,2,False,0,128.333815,True,none
+1382,scene_033,mixed,vlm_direct,ambiguous,Pick up my cup.,3,False,0,51.328289,False,ambiguity_not_solved
+1383,scene_033,mixed,vlm_direct,ambiguous,Pick up my fork.,3,False,0,56.558021,True,none
+1384,scene_033,mixed,first_question,ambiguous,Pick up my fork.,3,True,2,442.352258,True,none
+1385,scene_033,mixed,first_question,ambiguous,Pick up my cup.,3,True,2,98.125563,True,none
+1386,scene_033,mixed,first_question,partial,Pick up the center cup.,2,True,1,158.868616,True,none
+1387,scene_033,mixed,first_question,partial,Pick up the left spoon.,1,False,0,63.368121,True,none
+1388,scene_033,mixed,random_question,partial,Pick up the left spoon.,1,False,0,67.356855,True,none
+1389,scene_033,mixed,random_question,partial,Pick up the center cup.,2,True,1,52.962141,True,none
+1390,scene_033,mixed,random_question,ambiguous,Pick up my cup.,3,True,2,878.397642,True,none
+1391,scene_033,mixed,random_question,ambiguous,Pick up my fork.,3,True,2,406.581759,True,none
+1392,scene_033,mixed,vlm_best_question,ambiguous,Pick up my fork.,3,True,2,497.197474,True,none
+1393,scene_033,mixed,vlm_best_question,partial,Pick up the center bottle.,1,False,0,544.987502,True,none
+1394,scene_033,mixed,vlm_best_question,partial,Pick up the center cup.,2,True,1,223.900539,True,none
+1395,scene_033,mixed,proposed_efe,partial,Pick up the center cup.,2,True,1,161.753225,True,none
+1396,scene_033,mixed,proposed_efe,partial,Pick up the center bottle.,1,False,0,117.753297,True,none
+1397,scene_033,mixed,proposed_efe,ambiguous,Pick up my bottle.,2,True,1,74.91746,True,none
+1398,scene_033,mixed,proposed_efe,ambiguous,Pick up my cup.,3,True,2,196.48174,True,none
+1399,scene_034,mixed,top_score,clear,Pick up the red cup.,1,False,0,3.579762,True,none
+1400,scene_034,mixed,top_score,clear,Pick up the green cup.,1,False,0,1.994538,True,none
+1401,scene_034,mixed,random_candidate,clear,Pick up the metal cup.,1,False,0,3.103977,True,none
+1402,scene_034,mixed,random_candidate,clear,Pick up the green bottle.,1,False,0,2.69108,True,none
+1403,scene_034,mixed,vlm_direct,clear,Pick up the red bottle.,1,False,0,4.610986,True,none
+1404,scene_034,mixed,vlm_direct,clear,Pick up the center bottle.,1,False,0,2.638866,True,none
+1405,scene_034,mixed,first_question,clear,Pick up the right bottle.,1,False,0,61.927254,True,none
+1406,scene_034,mixed,first_question,clear,Pick up the right cup.,1,False,0,4.799565,True,none
+1407,scene_034,mixed,random_question,clear,Pick up the left cup.,1,False,0,3.315803,True,none
+1408,scene_034,mixed,random_question,clear,Pick up the orange spoon.,1,False,0,4.716312,True,none
+1409,scene_034,mixed,vlm_best_question,clear,Pick up the orange spoon.,1,False,0,2.384437,True,none
+1410,scene_034,mixed,vlm_best_question,clear,Pick up the orange spoon.,1,False,0,2.134467,True,none
+1411,scene_034,mixed,proposed_efe,clear,Pick up the orange spoon.,1,False,0,2.076509,True,none
+1412,scene_034,mixed,proposed_efe,clear,Pick up the orange spoon.,1,False,0,1.708537,True,none
+1413,scene_034,mixed,top_score,partial,Pick up the center cup.,2,False,0,13.849017,True,none
+1414,scene_034,mixed,top_score,partial,Pick up the right cup.,1,False,0,3.515738,True,none
+1415,scene_034,mixed,top_score,ambiguous,Pick up my cup.,3,False,0,4.300993,True,none
+1416,scene_034,mixed,top_score,ambiguous,Pick up my cup.,3,False,0,2.996141,False,ambiguity_not_solved
+1417,scene_034,mixed,random_candidate,ambiguous,Pick up my cup.,3,False,0,4.892765,True,none
+1418,scene_034,mixed,random_candidate,ambiguous,Pick up my cup.,3,False,0,3.631124,False,ambiguity_not_solved
+1419,scene_034,mixed,random_candidate,partial,Pick up the center cup.,2,False,0,207.099051,False,ambiguity_not_solved
+1420,scene_034,mixed,random_candidate,partial,Pick up the right cup.,1,False,0,3.064506,True,none
+1421,scene_034,mixed,vlm_direct,partial,Pick up the right cup.,1,False,0,2.519093,True,none
+1422,scene_034,mixed,vlm_direct,partial,Pick up the center cup.,2,False,0,104.417113,True,none
+1423,scene_034,mixed,vlm_direct,ambiguous,Pick up my cup.,3,False,0,597.655598,True,none
+1424,scene_034,mixed,vlm_direct,ambiguous,Pick up my cup.,3,False,0,79.085075,False,ambiguity_not_solved
+1425,scene_034,mixed,first_question,ambiguous,Pick up my cup.,3,True,2,187.222188,True,none
+1426,scene_034,mixed,first_question,ambiguous,Pick up my cup.,3,True,2,98.7156,True,none
+1427,scene_034,mixed,first_question,partial,Pick up the center cup.,2,True,1,204.16245,False,ambiguity_not_solved
+1428,scene_034,mixed,first_question,partial,Pick up the right cup.,1,False,0,40.014842,True,none
+1429,scene_034,mixed,random_question,partial,Pick up the right cup.,1,False,0,93.469655,True,none
+1430,scene_034,mixed,random_question,partial,Pick up the center cup.,2,True,1,148.439758,True,none
+1431,scene_034,mixed,vlm_best_question,partial,Pick up the center cup.,2,True,1,38.357775,True,none
+1432,scene_034,mixed,vlm_best_question,partial,Pick up the right cup.,1,False,0,66.582098,True,none
+1433,scene_034,mixed,proposed_efe,ambiguous,Pick up my cup.,3,True,2,70.731697,True,none
+1434,scene_034,mixed,proposed_efe,ambiguous,Pick up my cup.,3,True,2,68.906988,True,none
+1435,scene_035,mixed,top_score,clear,Pick up the green cup.,1,False,0,4.485805,True,none
+1436,scene_035,mixed,top_score,clear,Pick up the red bottle.,1,False,0,7.01843,True,none
+1437,scene_035,mixed,random_candidate,clear,Pick up the green bottle.,1,False,0,6.896052,True,none
+1438,scene_035,mixed,random_candidate,clear,Pick up my fork.,1,False,0,3.100066,True,none
+1439,scene_035,mixed,vlm_direct,clear,Pick up the orange spoon.,1,False,0,1.984038,True,none
+1440,scene_035,mixed,vlm_direct,clear,Pick up the pink spoon.,1,False,0,8.800476,True,none
+1441,scene_035,mixed,first_question,clear,Pick up the pink spoon.,1,False,0,2.051543,True,none
+1442,scene_035,mixed,first_question,clear,Pick up the pink spoon.,1,False,0,1.601501,True,none
+1443,scene_035,mixed,random_question,clear,Pick up the pink spoon.,1,False,0,2.527996,True,none
+1444,scene_035,mixed,random_question,clear,Pick up the pink spoon.,1,False,0,1.396369,True,none
+1445,scene_035,mixed,vlm_best_question,clear,Pick up the pink spoon.,1,False,0,2.094352,True,none
+1446,scene_035,mixed,vlm_best_question,clear,Pick up the pink spoon.,1,False,0,2.802378,True,none
+1447,scene_035,mixed,proposed_efe,clear,Pick up the pink spoon.,1,False,0,7.521712,True,none
+1448,scene_035,mixed,proposed_efe,clear,Pick up the pink spoon.,1,False,0,1.75186,True,none
+1449,scene_035,mixed,top_score,partial,Pick up the left cup.,1,False,0,3.082119,True,none
+1450,scene_035,mixed,top_score,partial,Pick up the right cup.,1,False,0,16.641985,True,none
+1451,scene_035,mixed,top_score,ambiguous,Pick up my cup.,4,False,0,3.719756,False,ambiguity_not_solved
+1452,scene_035,mixed,random_candidate,ambiguous,Pick up my cup.,4,False,0,54.907718,False,ambiguity_not_solved
+1453,scene_035,mixed,random_candidate,ambiguous,Pick up my cup.,4,False,0,4.020868,False,ambiguity_not_solved
+1454,scene_035,mixed,random_candidate,partial,Pick up the right cup.,1,False,0,4.435801,True,none
+1455,scene_035,mixed,vlm_direct,partial,Pick up the right cup.,1,False,0,1.745516,True,none
+1456,scene_035,mixed,vlm_direct,partial,Pick up the red cup.,1,False,0,8.069176,False,gd_missing_target_candidate
+1457,scene_035,mixed,vlm_direct,ambiguous,Pick up my cup.,4,False,0,62.914819,False,ambiguity_not_solved
+1458,scene_035,mixed,vlm_direct,ambiguous,Pick up my cup.,4,False,0,84.3237,False,ambiguity_not_solved
+1459,scene_035,mixed,first_question,ambiguous,Pick up my cup.,4,True,2,102.881363,True,none
+1460,scene_035,mixed,first_question,ambiguous,Pick up my cup.,4,True,2,110.289126,True,none
+1461,scene_035,mixed,first_question,partial,Pick up the red cup.,1,False,0,2.982938,False,gd_missing_target_candidate
+1462,scene_035,mixed,first_question,partial,Pick up the left cup.,1,False,0,15.423132,True,none
+1463,scene_035,mixed,random_question,partial,Pick up the left cup.,1,False,0,11.66356,True,none
+1464,scene_035,mixed,random_question,partial,Pick up the red cup.,1,False,0,21.457774,False,gd_missing_target_candidate
+1465,scene_035,mixed,random_question,ambiguous,Pick up my cup.,4,True,2,213.559397,True,none
+1466,scene_035,mixed,vlm_best_question,ambiguous,Pick up my cup.,4,True,2,119.092137,True,none
+1467,scene_035,mixed,vlm_best_question,ambiguous,Pick up my cup.,4,True,3,242.107208,True,none
+1468,scene_035,mixed,vlm_best_question,partial,Pick up the red cup.,1,False,0,106.549433,False,gd_missing_target_candidate
+1469,scene_035,mixed,vlm_best_question,partial,Pick up the right cup.,1,False,0,24.329564,True,none
+1470,scene_035,mixed,proposed_efe,partial,Pick up the right cup.,1,False,0,12.286874,True,none
+1471,scene_035,mixed,proposed_efe,partial,Pick up the red cup.,4,True,2,270.141914,True,none
+1472,scene_035,mixed,proposed_efe,ambiguous,Pick up my cup.,4,True,2,107.672415,True,none
+1473,scene_035,mixed,proposed_efe,ambiguous,Pick up my cup.,4,True,2,214.163056,True,none
+1474,scene_036,mixed,top_score,clear,Pick up the green bottle.,1,False,0,2.650853,True,none
+1475,scene_036,mixed,random_candidate,clear,Pick up the red bottle.,1,False,0,3.231992,True,none
+1476,scene_036,mixed,random_candidate,clear,Pick up the center bottle.,1,False,0,3.085505,True,none
+1477,scene_036,mixed,vlm_direct,clear,Pick up the right bottle.,2,False,0,35.034853,True,none
+1478,scene_036,mixed,vlm_direct,clear,Pick up the right cup.,1,False,0,5.166465,True,none
+1479,scene_036,mixed,first_question,clear,Pick up the orange spoon.,1,False,0,2.959634,True,none
+1480,scene_036,mixed,first_question,clear,Pick up the pink spoon.,1,False,0,5.196147,True,none
+1481,scene_036,mixed,random_question,clear,Pick up the yellow fork.,1,False,0,2.229359,True,none
+1482,scene_036,mixed,vlm_best_question,clear,Pick up the yellow fork.,1,False,0,4.557635,True,none
+1483,scene_036,mixed,vlm_best_question,clear,Pick up the yellow fork.,1,False,0,2.15032,True,none
+1484,scene_036,mixed,proposed_efe,clear,Pick up the yellow fork.,1,False,0,1.624768,True,none
+1485,scene_036,mixed,proposed_efe,clear,Pick up the yellow fork.,1,False,0,1.449683,True,none
+1486,scene_036,mixed,top_score,partial,Pick up the center cup.,1,False,0,3.519228,True,none
+1487,scene_036,mixed,top_score,ambiguous,Pick up my cup.,4,False,0,5.700422,False,ambiguity_not_solved
+1488,scene_036,mixed,top_score,ambiguous,Pick up my cup.,4,False,0,2.082666,True,none
+1489,scene_036,mixed,random_candidate,ambiguous,Pick up my cup.,4,False,0,5.247024,False,ambiguity_not_solved
+1490,scene_036,mixed,random_candidate,ambiguous,Pick up my cup.,4,False,0,2.646525,False,ambiguity_not_solved
+1491,scene_036,mixed,random_candidate,partial,Pick up the left cup.,1,False,0,2.552456,True,none
+1492,scene_036,mixed,random_candidate,partial,Pick up the right bottle.,2,False,0,3.789956,False,wrong
+1493,scene_036,mixed,vlm_direct,partial,Pick up the right bottle.,2,False,0,52.029025,True,none
+1494,scene_036,mixed,vlm_direct,partial,Pick up the center cup.,1,False,0,73.714811,True,none
+1495,scene_036,mixed,vlm_direct,ambiguous,Pick up my cup.,4,False,0,53.756751,True,none
+1496,scene_036,mixed,vlm_direct,ambiguous,Pick up my cup.,4,False,0,55.579138,False,wrong
+1497,scene_036,mixed,first_question,ambiguous,Pick up my cup.,4,True,2,114.067299,True,none
+1498,scene_036,mixed,first_question,ambiguous,Pick up my cup.,4,True,3,247.55278,True,none
+1499,scene_036,mixed,first_question,partial,Pick up the red cup.,1,False,0,68.509341,False,gd_missing_target_candidate
+1500,scene_036,mixed,first_question,partial,Pick up the right bottle.,2,True,1,70.535754,True,none
+1501,scene_036,mixed,random_question,partial,Pick up the right bottle.,2,True,1,137.882691,True,none
+1502,scene_036,mixed,random_question,partial,Pick up the red cup.,1,False,0,47.752505,False,gd_missing_target_candidate
+1503,scene_036,mixed,random_question,ambiguous,Pick up my cup.,4,True,2,163.039533,True,none
+1504,scene_036,mixed,random_question,ambiguous,Pick up my cup.,4,True,3,258.351772,True,none
+1505,scene_036,mixed,vlm_best_question,ambiguous,Pick up my cup.,4,True,2,124.574195,True,none
+1506,scene_036,mixed,vlm_best_question,ambiguous,Pick up my cup.,4,True,2,50.629022,True,none
+1507,scene_036,mixed,vlm_best_question,partial,Pick up the right bottle.,2,True,1,62.545848,True,none
+1508,scene_036,mixed,vlm_best_question,partial,Pick up the red cup.,1,False,0,45.097097,False,gd_missing_target_candidate
+1509,scene_036,mixed,proposed_efe,partial,Pick up the red cup.,1,False,0,36.144756,False,gd_missing_target_candidate
+1510,scene_036,mixed,proposed_efe,partial,Pick up the right bottle.,2,True,1,87.250362,True,none
+1511,scene_036,mixed,proposed_efe,ambiguous,Pick up my cup.,4,True,2,154.002468,True,none
+1512,scene_036,mixed,proposed_efe,ambiguous,Pick up my cup.,4,True,2,187.285011,True,none

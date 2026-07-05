@@ -1,0 +1,27 @@
+{
+  "first_question": {
+    "file": "policies/first_question_role_instruction.txt",
+    "role_instruction": "Generate valid candidate-grounded yes/no clarification proposals. The system uses the first valid runtime proposal. If additional question slots are included, keep them legal and compatible with the same candidate state.",
+    "policy_label": "First VLM question"
+  },
+  "random_question": {
+    "file": "policies/random_question_role_instruction.txt",
+    "role_instruction": "Generate valid candidate-grounded yes/no clarification proposals. The system samples one valid runtime proposal uniformly. Do not output a final grasp decision unless the current candidate state contains exactly one plausible candidate.",
+    "policy_label": "Random VLM question"
+  },
+  "vlm_best_question": {
+    "file": "policies/vlm_best_question_role_instruction.txt",
+    "role_instruction": "Generate valid candidate-grounded yes/no clarification proposals and mark the proposal judged most useful by the VLM as Question id=1. Put alternate valid proposals in the remaining question slots. Do not output a final grasp decision unless the current candidate state contains exactly one plausible candidate.",
+    "policy_label": "VLM self-selected question"
+  },
+  "proposed_efe": {
+    "file": "policies/proposed_efe_role_instruction.txt",
+    "role_instruction": "Generate valid candidate-grounded yes/no clarification proposals without receiving the EFE objective. The system computes the deployed expected-free-energy score externally and selects the lowest-scoring valid candidate partition. Do not output a final grasp decision unless the current candidate state contains exactly one plausible candidate.",
+    "policy_label": "ActivAsk"
+  },
+  "vlm_direct": {
+    "file": "policies/vlm_direct_role_instruction.txt",
+    "role_instruction": "Use the same observation and candidate metadata but output a direct target choice rather than a yes/no clarification partition. Do not propose clarification questions. Target.name must be a candidate_id from Candidates.",
+    "policy_label": "Direct VLM decision"
+  }
+}

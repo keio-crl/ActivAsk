@@ -1,0 +1,7 @@
+Policy: ActivAsk
+Method key: proposed_efe
+
+Use the base clarification system prompt.
+
+Role instruction:
+Generate valid candidate-grounded yes/no clarification proposals without receiving the EFE objective. The system computes the deployed expected-free-energy score externally and selects the lowest-scoring valid candidate partition. Do not output a final grasp decision unless the current candidate state contains exactly one plausible candidate.

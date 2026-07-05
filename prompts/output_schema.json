@@ -1,0 +1,259 @@
+{
+  "vlm_start_input": {
+    "description": "Initial VLM input for a fresh target-resolution trial.",
+    "schema": {
+      "Head": "start",
+      "Task_ID": "<integer copied through the whole trial>",
+      "Round": 1,
+      "Image": "<image identifier or overlay reference>",
+      "Target_Instruction": "<natural-language grasp instruction>",
+      "Instruction_Type": "<clear | ambiguous | partial>",
+      "Question_Mode": "<proposed_efe | vlm_best_question | first_question | random_question | vlm_direct>",
+      "Candidate_State": {
+        "plausible": [
+          "<candidate_id still possible>"
+        ],
+        "eliminated": [
+          "<candidate_id already ruled out>"
+        ],
+        "last_removed": [
+          "<candidate_id removed in the previous update>"
+        ]
+      },
+      "Candidates": {
+        "<candidate_id>": {
+          "display_id": "<human-visible overlay number>",
+          "visual_tag": "<same tag as display_id>",
+          "label": "<detector class label>",
+          "bbox": "<[x_min, y_min, x_max, y_max]>",
+          "bbox_center": "<[x_center, y_center]>",
+          "left_to_right_rank": "<integer rank>",
+          "top_to_bottom_rank": "<integer rank>",
+          "score": "<detector score>"
+        }
+      }
+    }
+  },
+  "vlm_probose_output": {
+    "description": "VLM output after start when multiple candidates remain and clarification is needed.",
+    "schema": {
+      "Head": "probose",
+      "Task_ID": "<same Task_ID as input>",
+      "Round": 1,
+      "Target_Instruction": "<copied target instruction>",
+      "Candidate_State": {
+        "plausible": [
+          "<candidate_id still possible>"
+        ],
+        "eliminated": [
+          "<candidate_id ruled out>"
+        ]
+      },
+      "Question": [
+        {
+          "id": "<question rank id>",
+          "text": "<short human-facing yes/no question about visible properties>",
+          "count": {
+            "total": "<number of currently plausible candidates>",
+            "y": "<number remaining if answer is yes>",
+            "n": "<number remaining if answer is no>"
+          },
+          "yes_candidates": [
+            "<candidate_id consistent with yes>"
+          ],
+          "no_candidates": [
+            "<candidate_id consistent with no>"
+          ]
+        }
+      ]
+    }
+  },
+  "vlm_answer_input": {
+    "description": "VLM input after the human answers clarification questions.",
+    "schema": {
+      "Head": "answer",
+      "Task_ID": "<same Task_ID as input>",
+      "Round": "<current round index>",
+      "Image": "<same image identifier or overlay reference>",
+      "Target_Instruction": "<natural-language grasp instruction>",
+      "Instruction_Type": "<clear | ambiguous | partial>",
+      "Candidate_State": {
+        "plausible": [
+          "<candidate_id still possible before processing this answer>"
+        ],
+        "eliminated": [
+          "<candidate_id already ruled out>"
+        ],
+        "last_removed": [
+          "<candidate_id removed in the previous update>"
+        ]
+      },
+      "Asked": {
+        "Round <r>": [
+          {
+            "id": "<question id>",
+            "text": "<question text shown to the human>",
+            "answer": "<y | n>"
+          }
+        ]
+      },
+      "Candidates": {
+        "<candidate_id>": {
+          "display_id": "<human-visible overlay number>",
+          "label": "<detector class label>",
+          "bbox": "<[x_min, y_min, x_max, y_max]>",
+          "score": "<detector score>"
+        }
+      }
+    }
+  },
+  "vlm_decision_grasp_yes": {
+    "description": "Final protocol object when exactly one candidate remains.",
+    "schema": {
+      "Head": "decision",
+      "Task_ID": "<same Task_ID as input>",
+      "Round": "<round where the target is resolved>",
+      "Grasp": "yes",
+      "Candidate_State": {
+        "plausible": [
+          "<selected candidate_id>"
+        ],
+        "eliminated": [
+          "<candidate_id ruled out>"
+        ]
+      },
+      "Target": {
+        "name": "<selected candidate_id>",
+        "label": "<detector class label>",
+        "bbox": "<selected bbox>",
+        "score": "<selected score>"
+      }
+    }
+  },
+  "vlm_decision_continue": {
+    "description": "Protocol object when more clarification is still required.",
+    "schema": {
+      "Head": "decision",
+      "Task_ID": "<same Task_ID as input>",
+      "Round": "<next round index>",
+      "Grasp": "no",
+      "Candidate_State": {
+        "plausible": [
+          "<candidate_id still possible>"
+        ],
+        "eliminated": [
+          "<candidate_id ruled out>"
+        ]
+      },
+      "Question": [
+        {
+          "id": "<question rank id>",
+          "text": "<next human-facing yes/no question>",
+          "count": {
+            "total": "<number of currently plausible candidates>",
+            "y": "<number remaining if answer is yes>",
+            "n": "<number remaining if answer is no>"
+          },
+          "yes_candidates": [
+            "<candidate_id consistent with yes>"
+          ],
+          "no_candidates": [
+            "<candidate_id consistent with no>"
+          ]
+        }
+      ]
+    }
+  },
+  "partial_object_recall_decision": {
+    "description": "Special partial-instruction protocol object requesting broader detector recall before asking questions.",
+    "schema": {
+      "Head": "decision",
+      "Task_ID": "<same Task_ID as input>",
+      "Round": 1,
+      "Grasp": "no",
+      "Need_Object_Recall": true,
+      "Recall_Target": "<broad object noun to re-detect, e.g. cup>",
+      "Candidate_State": {
+        "plausible": [
+          "<current candidate_id>"
+        ],
+        "eliminated": [
+          "<candidate_id ruled out>"
+        ]
+      },
+      "Reason": "<short explanation for why broader recall is needed>"
+    }
+  },
+  "offline_trial_record": {
+    "description": "Offline trial record used for target-resolution analysis.",
+    "schema": {
+      "trial_id": "<integer 1..1512>",
+      "scene_id": "<scene id>",
+      "scene_family": "<scene family>",
+      "method": "<method name>",
+      "instruction_type": "<clear | ambiguous | partial>",
+      "instruction_text": "<natural-language instruction>",
+      "asked": "<boolean>",
+      "question_count": "<integer>",
+      "latency": "<seconds>",
+      "target_correct": "<boolean>",
+      "failure_category": "<category string>"
+    }
+  },
+  "online_trial_record": {
+    "description": "Online trial record used for robot-execution analysis.",
+    "schema": {
+      "trial_id": "<integer 1..228>",
+      "scene_id": "<scene id>",
+      "scene_family": "<scene family>",
+      "method": "<method name>",
+      "instruction_type": "<clear | ambiguous | partial>",
+      "instruction_text": "<natural-language instruction>",
+      "asked": "<boolean>",
+      "question_count": "<integer>",
+      "latency": "<seconds>",
+      "target_correct": "<boolean>",
+      "failure_category": "<category string>",
+      "attempted": "<boolean>",
+      "grasp_success": "<boolean>",
+      "full_task_success": "<boolean>",
+      "wrong_prevented": "<boolean>",
+      "object_category": "<object category>"
+    }
+  },
+  "clarification_interface_fields_table_a3": {
+    "description": "Representative structured fields returned by the clarification interface, matching Table A3.",
+    "fields": [
+      {
+        "field": "Question text",
+        "type": "string",
+        "use": "User-facing yes/no question."
+      },
+      {
+        "field": "Yes candidates",
+        "type": "list",
+        "use": "Candidate identifiers retained after a yes answer."
+      },
+      {
+        "field": "No candidates",
+        "type": "list",
+        "use": "Candidate identifiers retained after a no answer."
+      },
+      {
+        "field": "Count",
+        "type": "object",
+        "use": "Total, yes-branch, and no-branch counts for validation."
+      },
+      {
+        "field": "Chosen index",
+        "type": "integer or null",
+        "use": "VLM self-selected proposal index; unused by ActivAsk."
+      },
+      {
+        "field": "Validity flags",
+        "type": "object",
+        "use": "Exhaustive, disjoint, legal-candidate, and wording checks."
+      }
+    ]
+  }
+}

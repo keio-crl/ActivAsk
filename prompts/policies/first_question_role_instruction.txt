@@ -1,0 +1,7 @@
+Policy: First VLM question
+Method key: first_question
+
+Use the base clarification system prompt.
+
+Role instruction:
+Generate valid candidate-grounded yes/no clarification proposals. The system uses the first valid runtime proposal. If additional question slots are included, keep them legal and compatible with the same candidate state.

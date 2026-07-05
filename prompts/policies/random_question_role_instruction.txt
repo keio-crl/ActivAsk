@@ -1,0 +1,7 @@
+Policy: Random VLM question
+Method key: random_question
+
+Use the base clarification system prompt.
+
+Role instruction:
+Generate valid candidate-grounded yes/no clarification proposals. The system samples one valid runtime proposal uniformly. Do not output a final grasp decision unless the current candidate state contains exactly one plausible candidate.

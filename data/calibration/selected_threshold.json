@@ -1,0 +1,6 @@
+{
+  "box_threshold": 0.38,
+  "text_threshold": 0.3,
+  "calibrated_tau": 0.4589100778102875,
+  "calibration_file": "data/calibration/threshold_sweep.csv"
+}
