@@ -28,7 +28,12 @@ The videos are provided as real-robot execution examples. The CSV analysis and m
 
 The failure videos illustrate representative physical failure modes observed during robot execution:
 
-- `Bottle/Failed/Failed_bottle_01.mp4` and `Bottle/Failed/Failed_bottle_02.mp4`: bottle grasps that failed because the bottle surface was smooth and difficult for the gripper to secure.
-- `Cup/Failed/Failed_cup_01.mp4` and `Cup/Failed/Failed_cup_02.mp4`: cup grasps that failed because the selected grasp point was offset from the actual object contact location.
-- `Utensil/Failed/Failed_utensil_01.mp4`: a fork grasp that failed because the fork head rebounded during contact.
-- `Utensil/Failed/Failed_utensil_02.mp4`: a spoon grasp that failed because the grasp point was too close to the edge of the spoon head.
+- Bottle failures:
+  - `Bottle/Failed/Failed_bottle_01.mp4`: grasp failure caused by the smooth bottle surface.
+  - `Bottle/Failed/Failed_bottle_02.mp4`: grasp failure caused by the smooth bottle surface.
+- Cup failures:
+  - `Cup/Failed/Failed_cup_01.mp4`: grasp failure caused by an offset between the selected grasp point and the actual object contact location.
+  - `Cup/Failed/Failed_cup_02.mp4`: grasp failure caused by an offset between the selected grasp point and the actual object contact location.
+- Utensil failures:
+  - `Utensil/Failed/Failed_utensil_01.mp4`: fork grasp failure caused by rebound at the fork head during contact.
+  - `Utensil/Failed/Failed_utensil_02.mp4`: spoon grasp failure caused by a grasp point too close to the edge of the spoon head.
