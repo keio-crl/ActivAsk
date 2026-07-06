@@ -91,15 +91,3 @@ Download the model weights from the upstream projects and connect them through l
 ## Licenses
 
 Code is released under the MIT License. Data, scene images, calibration tables, and videos are released under CC BY 4.0; see `DATA_LICENSE`.
-
-## BibTeX
-
-```bibtex
-@article{yang2026activask,
-  title     = {ActivAsk: Free-Energy-Guided Clarification for Robotic Grasping under Ambiguous Instructions},
-  author    = {Yang, Haoandong and Haddon-Hill, Gabriel W. and Zielinska, Teresa and Murata, Shingo},
-  journal   = {Robotics},
-  year      = {2026},
-  doi       = {TBA}
-}
-```
