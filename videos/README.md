@@ -22,7 +22,7 @@ Success_cup_01.mp4
 Failed_utensil_02.mp4
 ```
 
-The videos are provided as real-robot execution examples. The CSV analysis and minimal examples do not require the video files.
+The videos are provided as real-robot execution examples. They are shown at normal playback speed and are not sped up. The CSV analysis and minimal examples do not require the video files.
 
 ## Failure Case Notes
 
