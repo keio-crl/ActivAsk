@@ -3,74 +3,74 @@ trial_id,scene_id,scene_family,method,instruction_type,instruction_text,candidat
 2,scene_02,cup_only,top_score,clear,Pick up the yellow cup.,1,False,0,3.375725,True,none,True,True,True,False,cup
 3,scene_03,cup_only,top_score,clear,Pick up the white cup.,1,False,0,4.278463,True,none,True,True,True,False,cup
 4,scene_04,cup_only,top_score,clear,Pick up the brown cup.,1,False,0,3.890923,True,none,True,True,True,False,cup
-5,scene_04,cup_only,top_score,clear,Pick up the green cup.,1,False,0,4.46608,True,none,True,True,True,False,cup
+5,scene_05,cup_only,top_score,clear,Pick up the green cup.,1,False,0,4.46608,True,none,True,True,True,False,cup
 6,scene_06,bottle_only,top_score,clear,Pick up the black bottle.,1,False,0,5.002746,True,none,True,True,True,False,bottle
-7,scene_07,cup_only,top_score,clear,Pick up the green cup.,1,False,0,4.884531,True,none,True,True,True,False,cup
-8,scene_08,cup_only,top_score,clear,Pick up the green bottle.,1,False,0,13.981654,True,none,True,True,True,False,bottle
-9,scene_09,cup_only,top_score,clear,Pick up the left bottle.,1,False,0,7.566142,True,none,True,True,True,False,bottle
+7,scene_07,bottle_only,top_score,clear,Pick up the green cup.,1,False,0,4.884531,True,none,True,True,True,False,cup
+8,scene_08,bottle_only,top_score,clear,Pick up the green bottle.,1,False,0,13.981654,True,none,True,True,True,False,bottle
+9,scene_09,bottle_only,top_score,clear,Pick up the left bottle.,1,False,0,7.566142,True,none,True,True,True,False,bottle
 10,scene_10,bottle_only,top_score,clear,Pick up the red bottle.,1,False,0,11.399784,True,none,True,True,True,False,bottle
-11,scene_11,utensil_only,top_score,clear,Pick up the yellow fork.,1,False,0,5.412047,True,none,True,True,True,False,utensil
-12,scene_12,utensil_only,top_score,clear,Pick up the green fork.,1,False,0,6.117685,True,none,True,True,True,False,utensil
-13,scene_13,utensil_only,top_score,clear,Pick up the pink spoon.,1,False,0,4.170258,True,none,True,True,True,False,utensil
-14,scene_14,utensil_only,top_score,clear,Pick up the blue fork.,1,False,0,3.156631,True,grasp_failed,True,False,False,False,utensil
-15,scene_15,utensil_only,top_score,clear,Pick up the center fork.,1,False,0,7.515432,True,none,True,True,True,False,utensil
-16,scene_17,mixed,top_score,clear,Pick up the green bottle.,1,False,0,9.707787,True,none,True,True,True,False,bottle
-17,scene_18,mixed,top_score,clear,Pick up the blue cup.,1,False,0,5.824586,True,none,True,True,True,False,cup
-18,scene_19,mixed,top_score,clear,Pick up the green cup.,1,False,0,4.565356,True,none,True,True,True,False,cup
-19,scene_19,mixed,top_score,clear,Pick up the blue cup.,1,False,0,16.492573,True,none,True,True,True,False,cup
+11,scene_11,utensil_only,top_score,clear,Pick up the yellow fork.,1,False,0,5.412047,True,none,True,True,True,False,fork
+12,scene_12,utensil_only,top_score,clear,Pick up the green fork.,1,False,0,6.117685,True,none,True,True,True,False,fork
+13,scene_13,utensil_only,top_score,clear,Pick up the pink spoon.,1,False,0,4.170258,True,none,True,True,True,False,spoon
+14,scene_14,utensil_only,top_score,clear,Pick up the blue fork.,1,False,0,3.156631,True,grasp_failed,True,False,False,False,fork
+15,scene_15,utensil_only,top_score,clear,Pick up the center fork.,1,False,0,7.515432,True,none,True,True,True,False,fork
+16,scene_16,mixed,top_score,clear,Picky up the red bottle.,1,False,0,5.080414,True,none,True,True,True,False,bottle
+17,scene_17,mixed,top_score,clear,Pick up the green bottle.,1,False,0,9.707787,True,none,True,True,True,False,bottle
+18,scene_18,mixed,top_score,clear,Pick up the blue cup.,1,False,0,5.824586,True,none,True,True,True,False,cup
+19,scene_19,mixed,top_score,clear,Pick up the green cup.,1,False,0,4.565356,True,none,True,True,True,False,cup
 20,scene_01,cup_only,top_score,ambiguous,Pick up my cup.,6,False,0,2.753253,False,wrong_target,False,False,False,True,cup
 21,scene_02,cup_only,top_score,ambiguous,Pick up my cup.,6,False,0,9.130602,False,wrong_target,False,False,False,True,cup
 22,scene_03,cup_only,top_score,ambiguous,Pick up my cup.,6,False,0,3.278881,False,wrong_target,False,False,False,True,cup
-23,scene_04,cup_only,top_score,ambiguous,Pick up the cup.,6,False,0,37.64556,True,none,True,True,True,False,cup
-24,scene_04,cup_only,top_score,ambiguous,Pick up my cup.,6,False,0,6.77508,False,wrong_target,False,False,False,True,cup
-25,scene_06,bottle_only,top_score,ambiguous,Pick up my bottle.,3,False,0,7.877233,False,wrong_target,False,False,False,True,bottle
-26,scene_07,cup_only,top_score,ambiguous,Pick up my bottle.,3,False,0,24.829555,False,wrong_target,False,False,False,True,bottle
-27,scene_08,cup_only,top_score,ambiguous,Pick up my bottle.,3,False,0,20.565488,True,none,True,True,True,False,bottle
-28,scene_09,cup_only,top_score,ambiguous,Pick up my bottle.,3,False,0,3.947759,True,none,True,True,True,False,bottle
-29,scene_10,bottle_only,top_score,ambiguous,Pick up my bottle.,3,False,0,9.387682,True,none,True,True,True,False,bottle
-30,scene_11,utensil_only,top_score,ambiguous,Pick up my fork.,1,False,0,4.35767,False,wrong_target,False,False,False,True,utensil
-31,scene_12,utensil_only,top_score,ambiguous,Pick up my fork.,1,False,0,5.468424,False,wrong_target,False,False,False,True,utensil
-32,scene_13,utensil_only,top_score,ambiguous,Pick up my spoon.,4,False,0,5.196379,False,wrong_target,False,False,False,True,utensil
-33,scene_14,utensil_only,top_score,ambiguous,Pick up my fork.,2,False,0,32.145086,False,wrong_target,False,False,False,True,utensil
-34,scene_15,utensil_only,top_score,ambiguous,Pick up my spoon.,2,False,0,6.095426,False,wrong_target,False,False,False,True,utensil
-35,scene_16,mixed,top_score,ambiguous,Pick up my cup.,4,False,0,8.16983,False,wrong_target,False,False,False,True,cup
-36,scene_17,mixed,top_score,ambiguous,Pick up my cup.,4,False,0,33.769771,False,wrong_target,False,False,False,True,cup
-37,scene_18,mixed,top_score,ambiguous,Pick up my fork.,3,False,0,20.248999,False,wrong_target,False,False,False,True,utensil
-38,scene_20,mixed,top_score,ambiguous,Pick up my spoon.,4,False,0,8.726235,False,wrong_target,False,False,False,True,utensil
+23,scene_05,cup_only,top_score,ambiguous,Pick up my cup.,6,False,0,6.77508,False,wrong_target,False,False,False,True,cup
+24,scene_06,bottle_only,top_score,ambiguous,Pick up my bottle.,3,False,0,7.877233,False,wrong_target,False,False,False,True,bottle
+25,scene_07,bottle_only,top_score,ambiguous,Pick up my bottle.,3,False,0,24.829555,False,wrong_target,False,False,False,True,bottle
+26,scene_08,bottle_only,top_score,ambiguous,Pick up my bottle.,3,False,0,20.565488,True,none,True,True,True,False,bottle
+27,scene_09,bottle_only,top_score,ambiguous,Pick up my bottle.,3,False,0,3.947759,True,none,True,True,True,False,bottle
+28,scene_10,bottle_only,top_score,ambiguous,Pick up my bottle.,3,False,0,9.387682,True,none,True,True,True,False,bottle
+29,scene_11,utensil_only,top_score,ambiguous,Pick up my fork.,1,False,0,4.35767,False,wrong_target,False,False,False,True,fork
+30,scene_12,utensil_only,top_score,ambiguous,Pick up my fork.,1,False,0,5.468424,False,wrong_target,False,False,False,True,fork
+31,scene_13,utensil_only,top_score,ambiguous,Pick up my spoon.,4,False,0,5.196379,False,wrong_target,False,False,False,True,spoon
+32,scene_14,utensil_only,top_score,ambiguous,Pick up my fork.,2,False,0,32.145086,False,wrong_target,False,False,False,True,fork
+33,scene_15,utensil_only,top_score,ambiguous,Pick up my spoon.,2,False,0,6.095426,False,wrong_target,False,False,False,True,spoon
+34,scene_16,mixed,top_score,ambiguous,Pick up my cup.,4,False,0,8.16983,False,wrong_target,False,False,False,True,cup
+35,scene_17,mixed,top_score,ambiguous,Pick up my cup.,4,False,0,33.769771,False,wrong_target,False,False,False,True,cup
+36,scene_18,mixed,top_score,ambiguous,Pick up my fork.,3,False,0,20.248999,False,wrong_target,False,False,False,True,fork
+37,scene_19,mixed,top_score,ambiguous,Pick up my spoon.,3,False,0,9.225636,True,none,True,True,True,False,spoon
+38,scene_20,mixed,top_score,ambiguous,Pick up my spoon.,4,False,0,8.726235,False,wrong_target,False,False,False,True,spoon
 39,scene_01,cup_only,top_score,partial,Pick up the right cup.,1,False,0,6.954455,False,wrong_target,False,False,False,True,cup
 40,scene_02,cup_only,top_score,partial,Pick up the center cup.,2,False,0,9.770889,True,none,True,True,True,False,cup
 41,scene_03,cup_only,top_score,partial,Pick up the orange cup.,1,False,0,6.211481,False,wrong_target,False,False,False,True,cup
 42,scene_04,cup_only,top_score,partial,Pick up red cup.,1,False,0,6.07368,False,wrong_target,False,False,False,True,cup
-43,scene_04,cup_only,top_score,partial,Pick up the red cup.,1,False,0,7.564125,True,none,True,True,True,False,cup
+43,scene_05,cup_only,top_score,partial,Pick up the red cup.,1,False,0,7.564125,True,none,True,True,True,False,cup
 44,scene_06,bottle_only,top_score,partial,Pick up the right bottle.,1,False,0,3.819903,True,grasp_failed,True,False,False,False,bottle
-45,scene_07,cup_only,top_score,partial,Pick up the right bottle.,1,False,0,4.530167,True,grasp_failed,True,False,False,False,bottle
-46,scene_08,cup_only,top_score,partial,Pick up the right bottle.,2,False,0,16.09817,True,none,True,True,True,False,bottle
-47,scene_09,cup_only,top_score,partial,Pick up the right bottle.,1,False,0,3.537953,True,none,True,True,True,False,bottle
+45,scene_07,bottle_only,top_score,partial,Pick up the right bottle.,1,False,0,4.530167,True,grasp_failed,True,False,False,False,bottle
+46,scene_08,bottle_only,top_score,partial,Pick up the right bottle.,2,False,0,16.09817,True,none,True,True,True,False,bottle
+47,scene_09,bottle_only,top_score,partial,Pick up the right bottle.,1,False,0,3.537953,True,none,True,True,True,False,bottle
 48,scene_10,bottle_only,top_score,partial,Pick up the right bottle.,1,False,0,3.467733,True,none,True,True,True,False,bottle
-49,scene_11,utensil_only,top_score,partial,Pick up the blue fork.,1,False,0,5.331513,True,none,True,True,True,False,utensil
-50,scene_12,utensil_only,top_score,partial,Pick up the center fork.,1,False,0,3.302358,False,wrong_target,False,False,False,True,utensil
-51,scene_13,utensil_only,top_score,partial,Pick up the right spoon.,1,False,0,17.943755,True,none,True,True,True,False,utensil
-52,scene_14,utensil_only,top_score,partial,Pick up the blue fork.,1,False,0,4.489549,True,grasp_failed,True,False,False,False,utensil
-53,scene_15,utensil_only,top_score,partial,Pick up the red fork.,1,False,0,7.59858,False,wrong_target,False,False,False,True,utensil
-54,scene_16,mixed,top_score,partial,Pick up the green cup.,2,False,0,15.9606,True,none,True,True,True,False,cup
-55,scene_17,mixed,top_score,partial,Pick up the green cup.,1,False,0,4.870002,False,wrong_target,False,False,False,True,cup
+49,scene_11,utensil_only,top_score,partial,Pick up the blue fork.,1,False,0,5.331513,True,none,True,True,True,False,fork
+50,scene_12,utensil_only,top_score,partial,Pick up the center fork.,1,False,0,3.302358,False,wrong_target,False,False,False,True,fork
+51,scene_13,utensil_only,top_score,partial,Pick up the right spoon.,1,False,0,17.943755,True,none,True,True,True,False,spoon
+52,scene_14,utensil_only,top_score,partial,Pick up the blue fork.,1,False,0,4.489549,True,grasp_failed,True,False,False,False,fork
+53,scene_15,utensil_only,top_score,partial,Pick up the red fork.,1,False,0,7.59858,False,wrong_target,False,False,False,True,fork
+54,scene_17,mixed,top_score,partial,Pick up the green cup.,1,False,0,4.870002,False,wrong_target,False,False,False,True,cup
+55,scene_18,mixed,top_score,partial,Pick up the red spoon.,1,False,0,4.701182,True,none,True,True,True,False,spoon
 56,scene_19,mixed,top_score,partial,Pick up the right bottle.,1,False,0,9.718835,False,wrong_target,False,False,False,True,bottle
-57,scene_20,mixed,top_score,partial,Pick up the blue fork.,1,False,0,6.510002,False,wrong_target,False,False,False,True,utensil
+57,scene_20,mixed,top_score,partial,Pick up the blue fork.,1,False,0,6.510002,False,wrong_target,False,False,False,True,fork
 58,scene_01,cup_only,random_candidate,clear,Pick up the metal cup.,1,False,0,15.844153,True,none,True,True,True,False,cup
-59,scene_03,cup_only,random_candidate,clear,Pick up the blue cup.,1,False,0,4.676,True,grasp_failed,True,False,False,False,cup
-60,scene_04,cup_only,random_candidate,clear,Pick up the white cup.,1,False,0,32.955838,True,none,True,True,True,False,cup
-61,scene_04,cup_only,random_candidate,clear,Pick up the brown cup.,1,False,0,9.654486,True,none,True,True,True,False,cup
-62,scene_06,bottle_only,random_candidate,clear,Pick up the left bottle.,1,False,0,6.007458,True,none,True,True,True,False,bottle
-63,scene_07,cup_only,random_candidate,clear,Pick up the center bottle.,3,False,0,12.700586,True,grasp_failed,True,False,False,False,bottle
-64,scene_08,cup_only,random_candidate,clear,Pick up the red bottle.,1,False,0,15.579495,True,none,True,True,True,False,bottle
-65,scene_09,cup_only,random_candidate,clear,Pick up the left bottle.,1,False,0,3.589108,True,none,True,True,True,False,bottle
-66,scene_10,bottle_only,random_candidate,clear,Pick up the red bottle.,1,False,0,5.188492,True,none,True,True,True,False,bottle
-67,scene_11,utensil_only,random_candidate,clear,Pick up the blue fork.,1,False,0,8.828335,True,none,True,True,True,False,utensil
-68,scene_12,utensil_only,random_candidate,clear,Pick up the yellow fork.,1,False,0,5.071137,True,none,True,True,True,False,utensil
-69,scene_13,utensil_only,random_candidate,clear,Pick up the blue spoon.,1,False,0,4.843498,True,grasp_failed,True,False,False,False,utensil
-70,scene_14,utensil_only,random_candidate,clear,Pick up the blue fork.,1,False,0,10.40277,True,none,True,True,True,False,utensil
-71,scene_15,utensil_only,random_candidate,clear,Pick up the blue fork.,1,False,0,5.444168,True,none,True,True,True,False,utensil
-72,scene_16,mixed,random_candidate,clear,Pick up the green bottle.,1,False,0,11.700317,True,none,True,True,True,False,bottle
+59,scene_02,cup_only,random_candidate,clear,Pick up the yellow cup.,1,False,0,4.496052,True,none,True,True,True,False,cup
+60,scene_03,cup_only,random_candidate,clear,Pick up the blue cup.,1,False,0,4.676,True,grasp_failed,True,False,False,False,cup
+61,scene_04,cup_only,random_candidate,clear,Pick up the white cup.,1,False,0,32.955838,True,none,True,True,True,False,cup
+62,scene_05,cup_only,random_candidate,clear,Pick up the brown cup.,1,False,0,9.654486,True,none,True,True,True,False,cup
+63,scene_06,bottle_only,random_candidate,clear,Pick up the left bottle.,1,False,0,6.007458,True,none,True,True,True,False,bottle
+64,scene_07,bottle_only,random_candidate,clear,Pick up the center bottle.,3,False,0,12.700586,True,grasp_failed,True,False,False,False,bottle
+65,scene_08,bottle_only,random_candidate,clear,Pick up the red bottle.,1,False,0,15.579495,True,none,True,True,True,False,bottle
+66,scene_09,bottle_only,random_candidate,clear,Pick up the left bottle.,1,False,0,3.589108,True,none,True,True,True,False,bottle
+67,scene_10,bottle_only,random_candidate,clear,Pick up the red bottle.,1,False,0,5.188492,True,none,True,True,True,False,bottle
+68,scene_11,utensil_only,random_candidate,clear,Pick up the blue fork.,1,False,0,8.828335,True,none,True,True,True,False,fork
+69,scene_12,utensil_only,random_candidate,clear,Pick up the yellow fork.,1,False,0,5.071137,True,none,True,True,True,False,fork
+70,scene_13,utensil_only,random_candidate,clear,Pick up the blue spoon.,1,False,0,4.843498,True,grasp_failed,True,False,False,False,spoon
+71,scene_14,utensil_only,random_candidate,clear,Pick up the blue fork.,1,False,0,10.40277,True,none,True,True,True,False,fork
+72,scene_15,utensil_only,random_candidate,clear,Pick up the blue fork.,1,False,0,5.444168,True,none,True,True,True,False,fork
 73,scene_17,mixed,random_candidate,clear,Pick up the red bottle.,1,False,0,4.97412,True,none,True,True,True,False,bottle
 74,scene_18,mixed,random_candidate,clear,Pick up the red bottle.,1,False,0,5.275456,True,none,True,True,True,False,bottle
 75,scene_19,mixed,random_candidate,clear,Pick up the red bottle.,1,False,0,6.196388,True,none,True,True,True,False,bottle
@@ -79,151 +79,151 @@ trial_id,scene_id,scene_family,method,instruction_type,instruction_text,candidat
 78,scene_02,cup_only,random_candidate,ambiguous,Pick up my cup.,6,False,0,11.37422,True,none,True,True,True,False,cup
 79,scene_03,cup_only,random_candidate,ambiguous,Pick up my cup.,6,False,0,17.040451,False,wrong_target,False,False,False,True,cup
 80,scene_04,cup_only,random_candidate,ambiguous,Pick up the cup.,6,False,0,8.518043,True,none,True,True,True,False,cup
-81,scene_04,cup_only,random_candidate,ambiguous,Pick up my cup.,6,False,0,11.57214,False,wrong_target,False,False,False,True,cup
+81,scene_05,cup_only,random_candidate,ambiguous,Pick up my cup.,6,False,0,11.57214,False,wrong_target,False,False,False,True,cup
 82,scene_06,bottle_only,random_candidate,ambiguous,Pick up my bottle.,3,False,0,2.574478,False,wrong_target,False,False,False,True,bottle
-83,scene_07,cup_only,random_candidate,ambiguous,Pick up my bottle.,3,False,0,5.416085,True,none,True,True,True,False,bottle
-84,scene_08,cup_only,random_candidate,ambiguous,Pick up my bottle.,3,False,0,16.593779,False,wrong_target,False,False,False,True,bottle
-85,scene_09,cup_only,random_candidate,ambiguous,Pick up my bottle.,3,False,0,8.469398,True,none,True,True,True,False,bottle
+83,scene_07,bottle_only,random_candidate,ambiguous,Pick up my bottle.,3,False,0,5.416085,True,none,True,True,True,False,bottle
+84,scene_08,bottle_only,random_candidate,ambiguous,Pick up my bottle.,3,False,0,16.593779,False,wrong_target,False,False,False,True,bottle
+85,scene_09,bottle_only,random_candidate,ambiguous,Pick up my bottle.,3,False,0,8.469398,True,none,True,True,True,False,bottle
 86,scene_10,bottle_only,random_candidate,ambiguous,Pick up my bottle.,3,False,0,6.221966,False,wrong_target,False,False,False,True,bottle
-87,scene_11,utensil_only,random_candidate,ambiguous,Pick up my fork.,4,False,0,9.447333,True,none,True,True,True,False,utensil
-88,scene_12,utensil_only,random_candidate,ambiguous,Pick up my fork.,1,False,0,2.919318,True,grasp_failed,True,False,False,False,utensil
-89,scene_13,utensil_only,random_candidate,ambiguous,Pick up my spoon.,4,False,0,6.921046,False,wrong_target,False,False,False,True,utensil
-90,scene_14,utensil_only,random_candidate,ambiguous,Pick up my fork.,2,False,0,5.971976,False,wrong_target,False,False,False,True,utensil
-91,scene_15,utensil_only,random_candidate,ambiguous,Pick up my spoon.,3,False,0,9.34552,False,wrong_target,False,False,False,True,utensil
-92,scene_16,mixed,random_candidate,ambiguous,Pick up my cup.,4,False,0,51.587853,False,wrong_target,False,False,False,True,cup
-93,scene_17,mixed,random_candidate,ambiguous,Pick up my cup.,4,False,0,27.712329,True,none,True,True,True,False,cup
-94,scene_18,mixed,random_candidate,ambiguous,Pick up my fork.,3,False,0,52.867097,True,none,True,True,True,False,utensil
-95,scene_19,mixed,random_candidate,ambiguous,Pick up my spoon.,2,False,0,11.069319,False,wrong_target,False,False,False,True,utensil
+87,scene_11,utensil_only,random_candidate,ambiguous,Pick up my fork.,4,False,0,9.447333,True,none,True,True,True,False,fork
+88,scene_13,utensil_only,random_candidate,ambiguous,Pick up my spoon.,4,False,0,6.921046,False,wrong_target,False,False,False,True,spoon
+89,scene_14,utensil_only,random_candidate,ambiguous,Pick up my fork.,2,False,0,5.971976,False,wrong_target,False,False,False,True,fork
+90,scene_15,utensil_only,random_candidate,ambiguous,Pick up my spoon.,3,False,0,9.34552,False,wrong_target,False,False,False,True,spoon
+91,scene_16,mixed,random_candidate,ambiguous,Pick up my cup.,4,False,0,51.587853,False,wrong_target,False,False,False,True,cup
+92,scene_17,mixed,random_candidate,ambiguous,Pick up my cup.,4,False,0,27.712329,True,none,True,True,True,False,cup
+93,scene_18,mixed,random_candidate,ambiguous,Pick up my fork.,3,False,0,52.867097,True,none,True,True,True,False,fork
+94,scene_19,mixed,random_candidate,ambiguous,Pick up my spoon.,2,False,0,11.069319,False,wrong_target,False,False,False,True,spoon
+95,scene_20,mixed,random_candidate,ambiguous,Pick up my spoon.,4,False,0,29.728858,False,wrong_target,False,False,False,True,spoon
 96,scene_01,cup_only,random_candidate,partial,Pick up the left cup.,1,False,0,18.658437,False,wrong_target,False,False,False,True,cup
 97,scene_02,cup_only,random_candidate,partial,Pick up the center cup.,1,False,0,30.32815,False,wrong_target,False,False,False,True,cup
 98,scene_03,cup_only,random_candidate,partial,Pick up the orange cup.,1,False,0,22.345106,False,wrong_target,False,False,False,True,cup
 99,scene_04,cup_only,random_candidate,partial,Pick up red cup.,1,False,0,12.349778,False,wrong_target,False,False,False,True,cup
-100,scene_04,cup_only,random_candidate,partial,Pick up the right cup.,1,False,0,6.551462,True,none,True,True,True,False,cup
+100,scene_05,cup_only,random_candidate,partial,Pick up the right cup.,1,False,0,6.551462,True,none,True,True,True,False,cup
 101,scene_06,bottle_only,random_candidate,partial,Pick up the right bottle.,1,False,0,13.099135,True,grasp_failed,True,False,False,False,bottle
-102,scene_07,cup_only,random_candidate,partial,Pick up the right bottle.,1,False,0,4.997983,True,none,True,True,True,False,bottle
-103,scene_08,cup_only,random_candidate,partial,Pick up the right bottle.,1,False,0,8.219384,True,grasp_failed,True,False,False,False,bottle
-104,scene_09,cup_only,random_candidate,partial,Pick up the right bottle.,1,False,0,5.374887,True,none,True,True,True,False,bottle
+102,scene_07,bottle_only,random_candidate,partial,Pick up the right bottle.,1,False,0,4.997983,True,none,True,True,True,False,bottle
+103,scene_08,bottle_only,random_candidate,partial,Pick up the right bottle.,1,False,0,8.219384,True,grasp_failed,True,False,False,False,bottle
+104,scene_09,bottle_only,random_candidate,partial,Pick up the right bottle.,1,False,0,5.374887,True,none,True,True,True,False,bottle
 105,scene_10,bottle_only,random_candidate,partial,Pick up the right bottle.,1,False,0,7.082451,True,none,True,True,True,False,bottle
-106,scene_11,utensil_only,random_candidate,partial,Pick up the blue fork.,2,False,0,8.606982,True,none,True,True,True,False,utensil
-107,scene_12,utensil_only,random_candidate,partial,Pick up the center fork.,1,False,0,5.961298,False,wrong_target,False,False,False,True,utensil
-108,scene_14,utensil_only,random_candidate,partial,Pick up the red fork.,1,False,0,10.83649,False,wrong_target,False,False,False,True,utensil
-109,scene_15,utensil_only,random_candidate,partial,Pick up the red fork.,1,False,0,14.137301,False,wrong_target,False,False,False,True,utensil
-110,scene_16,mixed,random_candidate,partial,Pick up the green cup.,1,False,0,4.746897,False,wrong_target,False,False,False,True,cup
+106,scene_11,utensil_only,random_candidate,partial,Pick up the blue fork.,2,False,0,8.606982,True,none,True,True,True,False,fork
+107,scene_12,utensil_only,random_candidate,partial,Pick up the center fork.,1,False,0,5.961298,False,wrong_target,False,False,False,True,fork
+108,scene_13,utensil_only,random_candidate,partial,Pick up the right spoon.,2,False,0,4.684667,True,grasp_failed,True,False,False,False,spoon
+109,scene_14,utensil_only,random_candidate,partial,Pick up the red fork.,1,False,0,10.83649,False,wrong_target,False,False,False,True,fork
+110,scene_15,utensil_only,random_candidate,partial,Pick up the red fork.,1,False,0,14.137301,False,wrong_target,False,False,False,True,fork
 111,scene_17,mixed,random_candidate,partial,Pick up the green cup.,1,False,0,5.838258,False,wrong_target,False,False,False,True,cup
-112,scene_18,mixed,random_candidate,partial,Pick up the red spoon.,1,False,0,16.133342,True,none,True,True,True,False,utensil
+112,scene_18,mixed,random_candidate,partial,Pick up the red spoon.,1,False,0,16.133342,True,none,True,True,True,False,spoon
 113,scene_19,mixed,random_candidate,partial,Pick up the right bottle.,1,False,0,51.510371,False,wrong_target,False,False,False,True,bottle
-114,scene_20,mixed,random_candidate,partial,Pick up the blue fork.,1,False,0,7.393168,False,wrong_target,False,False,False,True,utensil
+114,scene_20,mixed,random_candidate,partial,Pick up the blue fork.,1,False,0,7.393168,False,wrong_target,False,False,False,True,fork
 115,scene_01,cup_only,vlm_best_question,clear,Pick up the blue cup.,1,False,0,2.836765,True,none,True,True,True,False,cup
 116,scene_02,cup_only,vlm_best_question,clear,Pick up the yellow cup.,1,False,0,3.42266,True,none,True,True,True,False,cup
 117,scene_03,cup_only,vlm_best_question,clear,Pick up the brown cup.,1,False,0,4.951425,True,none,True,True,True,False,cup
 118,scene_04,cup_only,vlm_best_question,clear,Pick up the front red cup.,1,False,0,9.042767,True,none,True,True,True,False,cup
-119,scene_04,cup_only,vlm_best_question,clear,Pick up the right red cup.,1,False,0,4.355197,True,grasp_failed,True,False,False,False,cup
-120,scene_06,bottle_only,vlm_best_question,clear,Pick up the green bottle.,1,False,0,2.815256,True,none,True,True,True,False,bottle
-121,scene_07,cup_only,vlm_best_question,clear,Pick up the left cup.,1,False,0,4.585656,True,none,True,True,True,False,cup
-122,scene_08,cup_only,vlm_best_question,clear,Pick up the black bottle.,1,False,0,45.78607,True,none,True,True,True,False,bottle
-123,scene_09,cup_only,vlm_best_question,clear,Pick up the green bottle.,1,False,0,5.719207,True,none,True,True,True,False,bottle
+119,scene_05,cup_only,vlm_best_question,clear,Pick up the right red cup.,1,False,0,4.355197,True,grasp_failed,True,False,False,False,cup
+120,scene_06,bottle_only,vlm_best_question,clear,Pick up the green bottle.,1,False,0,43.448809,True,none,True,True,True,False,bottle
+121,scene_07,bottle_only,vlm_best_question,clear,Pick up the left cup.,1,False,0,4.585656,True,none,True,True,True,False,cup
+122,scene_08,bottle_only,vlm_best_question,clear,Pick up the black bottle.,1,False,0,45.78607,True,none,True,True,True,False,bottle
+123,scene_09,bottle_only,vlm_best_question,clear,Pick up the green bottle.,1,False,0,5.719207,True,none,True,True,True,False,bottle
 124,scene_10,bottle_only,vlm_best_question,clear,Pick up the tall bottle.,1,False,0,11.052293,True,none,True,True,True,False,bottle
-125,scene_11,utensil_only,vlm_best_question,clear,Pick up the green fork.,1,False,0,2.77146,True,none,True,True,True,False,utensil
-126,scene_12,utensil_only,vlm_best_question,clear,Pick up the blue fork.,1,False,0,3.576174,True,none,True,True,True,False,utensil
-127,scene_13,utensil_only,vlm_best_question,clear,Pick up the orange spoon.,1,False,0,4.918912,True,grasp_failed,True,False,False,False,utensil
-128,scene_14,utensil_only,vlm_best_question,clear,Pick up the blue fork.,1,False,0,4.21146,True,none,True,True,True,False,utensil
-129,scene_15,utensil_only,vlm_best_question,clear,Pick up the left fork.,1,False,0,45.389786,False,wrong_target,False,False,False,True,utensil
+125,scene_11,utensil_only,vlm_best_question,clear,Pick up the green fork.,1,False,0,2.77146,True,none,True,True,True,False,fork
+126,scene_12,utensil_only,vlm_best_question,clear,Pick up the blue fork.,1,False,0,3.576174,True,none,True,True,True,False,fork
+127,scene_13,utensil_only,vlm_best_question,clear,Pick up the orange spoon.,1,False,0,4.918912,True,grasp_failed,True,False,False,False,spoon
+128,scene_14,utensil_only,vlm_best_question,clear,Pick up the blue fork.,1,False,0,4.21146,True,none,True,True,True,False,fork
+129,scene_15,utensil_only,vlm_best_question,clear,Pick up the left fork.,1,False,0,45.389786,False,wrong_target,False,False,False,True,fork
 130,scene_16,mixed,vlm_best_question,clear,Picky up the red cup.,1,False,0,4.93425,True,none,True,True,True,False,cup
 131,scene_17,mixed,vlm_best_question,clear,Pick up the green bottle.,1,False,0,67.581798,True,none,True,True,True,False,bottle
 132,scene_18,mixed,vlm_best_question,clear,Pick up the green cup.,1,False,0,9.191128,True,none,True,True,True,False,cup
-133,scene_19,mixed,vlm_best_question,clear,Pick up the blue cup.,1,False,0,6.68386,True,none,True,True,True,False,cup
+133,scene_19,mixed,vlm_best_question,clear,Pick up the blue spoon.,1,False,0,27.017533,True,none,True,True,True,False,spoon
 134,scene_01,cup_only,vlm_best_question,ambiguous,Pick up my cup.,5,True,4,171.651552,True,none,True,True,True,False,cup
 135,scene_02,cup_only,vlm_best_question,ambiguous,Pick up my cup.,6,True,4,145.200794,True,none,True,True,True,False,cup
 136,scene_03,cup_only,vlm_best_question,ambiguous,Pick up my cup.,6,True,4,176.269124,True,none,True,True,True,False,cup
 137,scene_04,cup_only,vlm_best_question,ambiguous,Pick up the cup.,6,True,2,150.768159,True,none,True,True,True,False,cup
-138,scene_04,cup_only,vlm_best_question,ambiguous,Pick up my cup.,6,True,4,282.528665,True,none,True,True,True,False,cup
-139,scene_07,cup_only,vlm_best_question,ambiguous,Pick up my bottle.,3,True,2,73.461162,True,none,True,True,True,False,bottle
-140,scene_08,cup_only,vlm_best_question,ambiguous,Pick up my bottle.,3,True,2,91.84548,True,none,True,True,True,False,bottle
-141,scene_09,cup_only,vlm_best_question,ambiguous,Pick up my bottle.,3,True,2,87.803561,True,none,True,True,True,False,bottle
+138,scene_05,cup_only,vlm_best_question,ambiguous,Pick up my cup.,6,True,4,282.528665,True,none,True,True,True,False,cup
+139,scene_07,bottle_only,vlm_best_question,ambiguous,Pick up my bottle.,3,True,2,73.461162,True,none,True,True,True,False,bottle
+140,scene_08,bottle_only,vlm_best_question,ambiguous,Pick up my bottle.,3,True,2,91.84548,True,none,True,True,True,False,bottle
+141,scene_09,bottle_only,vlm_best_question,ambiguous,Pick up my bottle.,3,True,2,87.803561,True,none,True,True,True,False,bottle
 142,scene_10,bottle_only,vlm_best_question,ambiguous,Pick up my bottle.,3,True,2,108.171188,True,none,True,True,True,False,bottle
-143,scene_11,utensil_only,vlm_best_question,ambiguous,Pick up my fork.,1,False,0,5.011025,False,wrong_target,False,False,False,True,utensil
-144,scene_12,utensil_only,vlm_best_question,ambiguous,Pick up my fork.,2,True,1,13.708551,True,grasp_failed,True,False,False,False,utensil
-145,scene_13,utensil_only,vlm_best_question,ambiguous,Pick up my spoon.,4,True,2,66.96319,True,none,True,True,True,False,utensil
-146,scene_14,utensil_only,vlm_best_question,ambiguous,Pick up my spoon.,3,True,2,18.430447,True,none,True,True,True,False,utensil
-147,scene_15,utensil_only,vlm_best_question,ambiguous,Pick up my spoon.,2,True,1,49.419725,True,none,True,True,True,False,utensil
+143,scene_11,utensil_only,vlm_best_question,ambiguous,Pick up my fork.,1,False,0,5.011025,False,wrong_target,False,False,False,True,fork
+144,scene_12,utensil_only,vlm_best_question,ambiguous,Pick up my fork.,2,True,1,13.708551,True,grasp_failed,True,False,False,False,fork
+145,scene_13,utensil_only,vlm_best_question,ambiguous,Pick up my spoon.,4,True,2,66.96319,True,none,True,True,True,False,spoon
+146,scene_14,utensil_only,vlm_best_question,ambiguous,Pick up my spoon.,3,True,2,18.430447,True,none,True,True,True,False,spoon
+147,scene_15,utensil_only,vlm_best_question,ambiguous,Pick up my spoon.,2,True,1,49.419725,True,none,True,True,True,False,spoon
 148,scene_16,mixed,vlm_best_question,ambiguous,Pick up my cup.,4,True,3,180.895376,True,none,True,True,True,False,cup
 149,scene_17,mixed,vlm_best_question,ambiguous,Pick up my cup.,4,True,2,162.308873,True,none,True,True,True,False,cup
-150,scene_18,mixed,vlm_best_question,ambiguous,Pick up my fork.,2,True,1,49.585734,True,grasp_failed,True,False,False,False,utensil
-151,scene_19,mixed,vlm_best_question,ambiguous,Pick up my spoon.,3,True,2,98.74406,True,none,True,True,True,False,utensil
-152,scene_20,mixed,vlm_best_question,ambiguous,Pick up my spoon.,4,True,3,109.694328,False,wrong_target,False,False,False,True,utensil
+150,scene_18,mixed,vlm_best_question,ambiguous,Pick up my fork.,2,True,1,49.585734,True,grasp_failed,True,False,False,False,fork
+151,scene_19,mixed,vlm_best_question,ambiguous,Pick up my spoon.,3,True,2,98.74406,True,none,True,True,True,False,spoon
+152,scene_20,mixed,vlm_best_question,ambiguous,Pick up my spoon.,4,True,3,154.019853,True,none,True,True,True,False,spoon
 153,scene_01,cup_only,vlm_best_question,partial,Pick up the green cup.,1,False,0,31.110198,True,none,True,True,True,False,cup
 154,scene_02,cup_only,vlm_best_question,partial,Pick up the center cup.,2,True,1,57.281338,True,none,True,True,True,False,cup
 155,scene_03,cup_only,vlm_best_question,partial,Pick up the orange cup.,1,False,0,13.807296,False,wrong_target,False,False,False,True,cup
 156,scene_04,cup_only,vlm_best_question,partial,Pick up center cup.,1,False,0,22.133059,True,none,True,True,True,False,cup
-157,scene_04,cup_only,vlm_best_question,partial,Pick up the center cup.,1,False,0,31.581461,True,none,True,True,True,False,cup
+157,scene_05,cup_only,vlm_best_question,partial,Pick up the center cup.,1,False,0,31.581461,True,none,True,True,True,False,cup
 158,scene_06,bottle_only,vlm_best_question,partial,Pick up the right bottle.,1,False,0,24.5739,True,grasp_failed,True,False,False,False,bottle
-159,scene_07,cup_only,vlm_best_question,partial,Pick up the center bottle.,1,False,0,32.806579,True,none,True,True,True,False,bottle
-160,scene_08,cup_only,vlm_best_question,partial,Pick up the right bottle.,1,False,0,20.519735,True,grasp_failed,True,False,False,False,bottle
-161,scene_09,cup_only,vlm_best_question,partial,Pick up the right bottle.,1,False,0,44.705144,True,none,True,True,True,False,bottle
+159,scene_07,bottle_only,vlm_best_question,partial,Pick up the center bottle.,1,False,0,32.806579,True,none,True,True,True,False,bottle
+160,scene_08,bottle_only,vlm_best_question,partial,Pick up the right bottle.,1,False,0,20.519735,True,grasp_failed,True,False,False,False,bottle
+161,scene_09,bottle_only,vlm_best_question,partial,Pick up the right bottle.,1,False,0,44.705144,True,none,True,True,True,False,bottle
 162,scene_10,bottle_only,vlm_best_question,partial,Pick up the right bottle.,1,False,0,32.496403,True,none,True,True,True,False,bottle
-163,scene_11,utensil_only,vlm_best_question,partial,Pick up the blue fork.,1,False,0,3.954256,True,none,True,True,True,False,utensil
-164,scene_12,utensil_only,vlm_best_question,partial,Pick up the center fork.,1,False,0,7.379363,False,wrong_target,False,False,False,True,utensil
-165,scene_13,utensil_only,vlm_best_question,partial,Pick up the center spoon.,1,False,0,4.391603,True,none,True,True,True,False,utensil
-166,scene_14,utensil_only,vlm_best_question,partial,Pick up the blue spoon.,1,False,0,31.675872,True,none,True,True,True,False,utensil
-167,scene_15,utensil_only,vlm_best_question,partial,Pick up the right spoon.,1,False,0,37.881796,True,none,True,True,True,False,utensil
+163,scene_11,utensil_only,vlm_best_question,partial,Pick up the blue fork.,1,False,0,3.954256,True,none,True,True,True,False,fork
+164,scene_12,utensil_only,vlm_best_question,partial,Pick up the center fork.,1,False,0,7.379363,False,wrong_target,False,False,False,True,fork
+165,scene_13,utensil_only,vlm_best_question,partial,Pick up the center spoon.,1,False,0,4.391603,True,none,True,True,True,False,spoon
+166,scene_14,utensil_only,vlm_best_question,partial,Pick up the blue spoon.,1,False,0,31.675872,True,none,True,True,True,False,spoon
+167,scene_15,utensil_only,vlm_best_question,partial,Pick up the right spoon.,1,False,0,37.881796,True,none,True,True,True,False,spoon
 168,scene_16,mixed,vlm_best_question,partial,Pick up the green cup.,2,True,1,79.528222,True,none,True,True,True,False,cup
-169,scene_17,mixed,vlm_best_question,partial,Pick up the green cup.,1,False,0,73.485537,True,none,True,True,True,False,cup
-170,scene_18,mixed,vlm_best_question,partial,Pick up the red spoon.,1,False,0,46.039483,True,none,True,True,True,False,utensil
-171,scene_19,mixed,vlm_best_question,partial,Pick up the center bottle.,1,False,0,17.080277,True,none,True,True,True,False,bottle
+169,scene_18,mixed,vlm_best_question,partial,Pick up the red spoon.,1,False,0,46.039483,True,none,True,True,True,False,spoon
+170,scene_19,mixed,vlm_best_question,partial,Pick up the center bottle.,1,False,0,17.080277,True,none,True,True,True,False,bottle
+171,scene_20,mixed,vlm_best_question,partial,Pick up the right spoon.,1,False,0,70.146663,False,wrong_target,False,False,False,True,spoon
 172,scene_01,cup_only,proposed_efe,clear,Pick up the red cup.,1,False,0,2.735121,True,none,True,True,True,False,cup
 173,scene_02,cup_only,proposed_efe,clear,Pick up the yellow cup.,1,False,0,4.684473,True,none,True,True,True,False,cup
 174,scene_03,cup_only,proposed_efe,clear,Pick up the brown cup.,1,False,0,6.16284,True,none,True,True,True,False,cup
 175,scene_04,cup_only,proposed_efe,clear,Pick up the small red cup.,1,False,0,7.120259,True,none,True,True,True,False,cup
-176,scene_04,cup_only,proposed_efe,clear,Pick up the smallest red cup.,1,False,0,4.821004,True,none,True,True,True,False,cup
+176,scene_05,cup_only,proposed_efe,clear,Pick up the smallest red cup.,1,False,0,4.821004,True,none,True,True,True,False,cup
 177,scene_06,bottle_only,proposed_efe,clear,Pick up the red bottle.,1,False,0,8.681771,True,none,True,True,True,False,bottle
-178,scene_07,cup_only,proposed_efe,clear,Pick up the red cup.,1,False,0,6.113077,True,none,True,True,True,False,cup
-179,scene_08,cup_only,proposed_efe,clear,Pick up the right bottle.,1,False,0,3.760489,True,none,True,True,True,False,bottle
-180,scene_09,cup_only,proposed_efe,clear,Pick up the right bottle.,1,False,0,3.180905,True,none,True,True,True,False,bottle
+178,scene_07,bottle_only,proposed_efe,clear,Pick up the red cup.,1,False,0,6.113077,True,none,True,True,True,False,cup
+179,scene_08,bottle_only,proposed_efe,clear,Pick up the right bottle.,1,False,0,3.760489,True,none,True,True,True,False,bottle
+180,scene_09,bottle_only,proposed_efe,clear,Pick up the right bottle.,1,False,0,13.517661,True,none,True,True,True,False,bottle
 181,scene_10,bottle_only,proposed_efe,clear,Pick up the green bottle.,1,False,0,23.37393,True,none,True,True,True,False,bottle
-182,scene_11,utensil_only,proposed_efe,clear,Pick up the red fork.,1,False,0,2.743405,True,none,True,True,True,False,utensil
-183,scene_12,utensil_only,proposed_efe,clear,Pick up the red fork.,1,False,0,3.350622,True,none,True,True,True,False,utensil
-184,scene_13,utensil_only,proposed_efe,clear,Pick up the green spoon.,1,False,0,13.156144,True,none,True,True,True,False,utensil
-185,scene_14,utensil_only,proposed_efe,clear,Pick up the blue fork.,1,False,0,3.825226,True,none,True,True,True,False,utensil
-186,scene_15,utensil_only,proposed_efe,clear,Pick up the right spoon.,1,False,0,28.048275,True,none,True,True,True,False,utensil
+182,scene_11,utensil_only,proposed_efe,clear,Pick up the red fork.,1,False,0,2.743405,True,none,True,True,True,False,fork
+183,scene_12,utensil_only,proposed_efe,clear,Pick up the red fork.,1,False,0,3.350622,True,none,True,True,True,False,fork
+184,scene_13,utensil_only,proposed_efe,clear,Pick up the green spoon.,1,False,0,13.156144,True,none,True,True,True,False,spoon
+185,scene_14,utensil_only,proposed_efe,clear,Pick up the blue fork.,1,False,0,3.825226,True,none,True,True,True,False,fork
+186,scene_15,utensil_only,proposed_efe,clear,Pick up the right spoon.,1,False,0,28.048275,True,none,True,True,True,False,spoon
 187,scene_16,mixed,proposed_efe,clear,Picky up the blue cup.,1,False,0,5.807715,True,none,True,True,True,False,cup
 188,scene_17,mixed,proposed_efe,clear,Pick up the green bottle.,1,False,0,24.498031,True,none,True,True,True,False,bottle
 189,scene_18,mixed,proposed_efe,clear,Pick up the green bottle.,1,False,0,4.822444,True,none,True,True,True,False,bottle
-190,scene_19,mixed,proposed_efe,clear,Pick up the blue fork.,1,False,0,5.848029,True,grasp_failed,True,False,False,False,utensil
+190,scene_19,mixed,proposed_efe,clear,Pick up the blue fork.,2,True,1,57.969878,True,grasp_failed,True,False,False,False,fork
 191,scene_01,cup_only,proposed_efe,ambiguous,Pick up my cup.,6,True,2,111.523498,True,none,True,True,True,False,cup
 192,scene_02,cup_only,proposed_efe,ambiguous,Pick up my cup.,6,True,3,205.647899,True,none,True,True,True,False,cup
 193,scene_03,cup_only,proposed_efe,ambiguous,Pick up my cup.,6,True,4,207.472651,True,none,True,True,True,False,cup
 194,scene_04,cup_only,proposed_efe,ambiguous,Pick up the cup.,6,True,3,174.828936,True,none,True,True,True,False,cup
-195,scene_04,cup_only,proposed_efe,ambiguous,Pick up my cup.,6,True,2,156.200951,True,none,True,True,True,False,cup
-196,scene_06,bottle_only,proposed_efe,ambiguous,Pick up my bottle.,3,True,2,89.866713,True,grasp_failed,True,False,False,False,bottle
-197,scene_06,bottle_only,proposed_efe,ambiguous,Pick up my bottle.,3,True,2,92.13507,True,grasp_failed,True,False,False,False,bottle
-198,scene_07,cup_only,proposed_efe,ambiguous,Pick up my bottle.,3,True,2,85.59129,True,none,True,True,True,False,bottle
-199,scene_08,cup_only,proposed_efe,ambiguous,Pick up my bottle.,3,True,1,57.877597,True,none,True,True,True,False,bottle
-200,scene_09,cup_only,proposed_efe,ambiguous,Pick up my bottle.,3,True,1,107.746333,True,none,True,True,True,False,bottle
-201,scene_10,bottle_only,proposed_efe,ambiguous,Pick up my bottle.,3,True,2,81.31302,True,none,True,True,True,False,bottle
-202,scene_11,utensil_only,proposed_efe,ambiguous,Pick up my fork.,1,False,0,17.379874,False,wrong_target,False,False,False,True,utensil
-203,scene_13,utensil_only,proposed_efe,ambiguous,Pick up my spoon.,4,True,2,12.93049,True,none,True,True,True,False,utensil
-204,scene_15,utensil_only,proposed_efe,ambiguous,Pick up my spoon.,2,True,1,43.993839,True,none,True,True,True,False,utensil
-205,scene_16,mixed,proposed_efe,ambiguous,Pick up my cup.,4,True,2,77.842996,True,none,True,True,True,False,cup
-206,scene_17,mixed,proposed_efe,ambiguous,Pick up my cup.,4,True,2,84.587752,True,none,True,True,True,False,cup
-207,scene_18,mixed,proposed_efe,ambiguous,Pick up my fork.,2,True,1,52.04797,True,none,True,True,True,False,utensil
-208,scene_19,mixed,proposed_efe,ambiguous,Pick up my spoon.,2,True,1,42.168037,True,none,True,True,True,False,utensil
-209,scene_20,mixed,proposed_efe,ambiguous,Pick up my spoon.,4,True,1,60.879976,True,none,True,True,True,False,utensil
-210,scene_01,cup_only,proposed_efe,partial,Pick up the green cup.,1,False,0,47.437474,True,none,True,True,True,False,cup
-211,scene_02,cup_only,proposed_efe,partial,Pick up the center cup.,2,True,1,58.663487,True,none,True,True,True,False,cup
-212,scene_02,cup_only,proposed_efe,partial,Pick up the center cup.,1,False,0,34.398352,True,none,True,True,True,False,cup
-213,scene_03,cup_only,proposed_efe,partial,Pick up the orange cup.,1,False,0,17.249167,False,wrong_target,False,False,False,True,cup
-214,scene_04,cup_only,proposed_efe,partial,Pick up the right cup.,1,False,0,34.426125,True,none,True,True,True,False,cup
-215,scene_04,cup_only,proposed_efe,partial,Pick up the center cup.,1,False,0,17.723058,True,none,True,True,True,False,cup
-216,scene_06,bottle_only,proposed_efe,partial,Pick up the right bottle.,1,False,0,15.091256,True,none,True,True,True,False,bottle
-217,scene_07,cup_only,proposed_efe,partial,Pick up the center bottle.,1,False,0,40.748262,True,none,True,True,True,False,bottle
-218,scene_09,cup_only,proposed_efe,partial,Pick up the right bottle.,1,False,0,20.876544,True,none,True,True,True,False,bottle
-219,scene_10,bottle_only,proposed_efe,partial,Pick up the right bottle.,1,False,0,16.733187,True,none,True,True,True,False,bottle
-220,scene_11,utensil_only,proposed_efe,partial,Pick up the blue fork.,2,True,1,9.860812,True,none,True,True,True,False,utensil
-221,scene_12,utensil_only,proposed_efe,partial,Pick up the center fork.,1,False,0,2.287653,False,wrong_target,False,False,False,True,utensil
-222,scene_13,utensil_only,proposed_efe,partial,Pick up the center spoon.,1,False,0,4.00688,True,none,True,True,True,False,utensil
-223,scene_14,utensil_only,proposed_efe,partial,Pick up the blue spoon.,1,False,0,12.529239,True,none,True,True,True,False,utensil
+195,scene_05,cup_only,proposed_efe,ambiguous,Pick up my cup.,6,True,2,156.200951,True,none,True,True,True,False,cup
+196,scene_06,bottle_only,proposed_efe,ambiguous,Pick up my bottle.,3,True,2,92.13507,True,grasp_failed,True,False,False,False,bottle
+197,scene_07,bottle_only,proposed_efe,ambiguous,Pick up my bottle.,3,True,2,85.59129,True,none,True,True,True,False,bottle
+198,scene_08,bottle_only,proposed_efe,ambiguous,Pick up my bottle.,3,True,1,57.877597,True,none,True,True,True,False,bottle
+199,scene_09,bottle_only,proposed_efe,ambiguous,Pick up my bottle.,3,True,1,107.746333,True,none,True,True,True,False,bottle
+200,scene_10,bottle_only,proposed_efe,ambiguous,Pick up my bottle.,3,True,2,81.31302,True,none,True,True,True,False,bottle
+201,scene_11,utensil_only,proposed_efe,ambiguous,Pick up my fork.,1,False,0,17.379874,False,wrong_target,False,False,False,True,fork
+202,scene_12,utensil_only,proposed_efe,ambiguous,Pick up my fork.,1,False,0,8.229378,True,none,True,True,True,False,fork
+203,scene_13,utensil_only,proposed_efe,ambiguous,Pick up my spoon.,4,True,2,12.93049,True,none,True,True,True,False,spoon
+204,scene_14,utensil_only,proposed_efe,ambiguous,Pick up my spoon.,3,True,2,20.110902,True,none,True,True,True,False,spoon
+205,scene_15,utensil_only,proposed_efe,ambiguous,Pick up my spoon.,2,True,1,43.993839,True,none,True,True,True,False,spoon
+206,scene_16,mixed,proposed_efe,ambiguous,Pick up my cup.,4,True,2,77.842996,True,none,True,True,True,False,cup
+207,scene_17,mixed,proposed_efe,ambiguous,Pick up my cup.,4,True,2,84.587752,True,none,True,True,True,False,cup
+208,scene_18,mixed,proposed_efe,ambiguous,Pick up my fork.,2,True,1,52.04797,True,none,True,True,True,False,fork
+209,scene_19,mixed,proposed_efe,ambiguous,Pick up my spoon.,2,True,1,42.168037,True,none,True,True,True,False,spoon
+210,scene_02,cup_only,proposed_efe,partial,Pick up the center cup.,1,False,0,34.398352,True,none,True,True,True,False,cup
+211,scene_03,cup_only,proposed_efe,partial,Pick up the orange cup.,1,False,0,17.249167,False,wrong_target,False,False,False,True,cup
+212,scene_04,cup_only,proposed_efe,partial,Pick up the right cup.,1,False,0,34.426125,True,none,True,True,True,False,cup
+213,scene_05,cup_only,proposed_efe,partial,Pick up the center cup.,1,False,0,17.723058,True,none,True,True,True,False,cup
+214,scene_06,bottle_only,proposed_efe,partial,Pick up the right bottle.,1,False,0,15.091256,True,none,True,True,True,False,bottle
+215,scene_07,bottle_only,proposed_efe,partial,Pick up the center bottle.,1,False,0,40.748262,True,none,True,True,True,False,bottle
+216,scene_08,bottle_only,proposed_efe,partial,Pick up the right bottle.,1,False,0,16.402392,True,grasp_failed,True,False,False,False,bottle
+217,scene_09,bottle_only,proposed_efe,partial,Pick up the right bottle.,1,False,0,20.876544,True,none,True,True,True,False,bottle
+218,scene_10,bottle_only,proposed_efe,partial,Pick up the right bottle.,1,False,0,16.733187,True,none,True,True,True,False,bottle
+219,scene_11,utensil_only,proposed_efe,partial,Pick up the blue fork.,2,True,1,9.860812,True,none,True,True,True,False,fork
+220,scene_12,utensil_only,proposed_efe,partial,Pick up the center fork.,1,False,0,2.287653,False,wrong_target,False,False,False,True,fork
+221,scene_13,utensil_only,proposed_efe,partial,Pick up the center spoon.,1,False,0,4.00688,True,none,True,True,True,False,spoon
+222,scene_14,utensil_only,proposed_efe,partial,Pick up the blue spoon.,1,False,0,12.529239,True,none,True,True,True,False,spoon
+223,scene_15,utensil_only,proposed_efe,partial,Pick up the blue spoon.,1,False,0,21.117655,True,none,True,True,True,False,spoon
 224,scene_16,mixed,proposed_efe,partial,Pick up the green cup.,1,False,0,40.114196,True,none,True,True,True,False,cup
 225,scene_17,mixed,proposed_efe,partial,Pick up the green cup.,1,False,0,49.196608,True,none,True,True,True,False,cup
-226,scene_18,mixed,proposed_efe,partial,Pick up the red spoon.,1,False,0,16.047144,True,none,True,True,True,False,utensil
+226,scene_18,mixed,proposed_efe,partial,Pick up the red spoon.,1,False,0,16.047144,True,none,True,True,True,False,spoon
 227,scene_19,mixed,proposed_efe,partial,Pick up the center bottle.,1,False,0,23.388382,True,none,True,True,True,False,bottle
-228,scene_20,mixed,proposed_efe,partial,Pick up the right spoon.,1,False,0,24.95555,False,wrong_target,False,False,False,True,utensil
+228,scene_20,mixed,proposed_efe,partial,Pick up the right spoon.,1,False,0,24.95555,False,wrong_target,False,False,False,True,spoon
