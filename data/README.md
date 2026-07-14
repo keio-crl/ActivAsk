@@ -6,6 +6,6 @@
 
 `instruction_pools/` stores per-scene instruction pools grouped by instruction type. Each entry contains only an index and instruction text.
 
-`scenes/` stores observation images available for the released scenes. The online observation image for `scene_05` is unavailable; its trial-level records and instruction pool are retained in `online_trials.csv` and `instruction_pools/online_instruction_pool.json`.
+`scenes/` stores observation images available for the released scenes. The online observation images for `scene_05` and `scene_20` are unavailable; their trial-level records and instruction pools are retained in `online_trials.csv` and `instruction_pools/online_instruction_pool.json`.
 
 `calibration/threshold_sweep.csv` stores detector threshold sweep points used to recreate the calibration figure.
